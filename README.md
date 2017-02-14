@@ -22,5 +22,6 @@ Then point your browser to the file you want to preview <http://localhost:6419/s
 
 ## Resources
 
+- [How to spec](/doc/how-to-spec.md) Guide on how to write functional specifications
 - [Markdown style guide](http://www.cirosantilli.com/markdown-style-guide/)
   Markdown styleguide to help you produce better markdown files
