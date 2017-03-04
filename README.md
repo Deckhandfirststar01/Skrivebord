@@ -23,5 +23,6 @@ Then point your browser to the file you want to preview <http://localhost:6419/s
 ## Resources
 
 - [How to spec](/doc/how-to-spec.md) Guide on how to write functional specifications
+- [How to setup grip and github on osx](/doc/grip-github-osx.md) Guide on how to setup [grip](https://github.com/joeyespo/grip) and [github](https://github.com) on osx
 - [Markdown style guide](http://www.cirosantilli.com/markdown-style-guide/)
   Markdown styleguide to help you produce better markdown files
