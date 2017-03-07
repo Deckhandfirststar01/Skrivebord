@@ -68,8 +68,6 @@ ENTER
 <img src='/res/doc/grip-github-osx/pre_9.png' />
 
 
-Now send me the content of the public key (
-
 ### SSH public key
 
 Copy the content of the key to paste it on <https://github.com>
