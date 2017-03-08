@@ -50,8 +50,6 @@ Whitelist tab
 1. [Add whitelisted domain error message](#add-whitelisted-domain-error-message)
 1. [Empty Whitelist placeholder](#empty-whitelist-placeholder)
 
-***TODO***: Number don't match.
-
 #### Whitelist tab headline
 
 Headline for the [Whitelist tab](#whitelist-tab) `Whitelisted websites`
