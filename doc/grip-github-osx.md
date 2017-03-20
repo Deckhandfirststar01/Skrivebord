@@ -120,9 +120,12 @@ The url of the repository is shown after you click the *Clone or download* link 
 If you have the url go back to your terminal and clone the repository:
 
 ```
-cd ~/Desktop/
-git clone git@github.com:wvspee/spec.git
+$ cd ~/Desktop/
+$ git clone git@github.com:wvspee/spec.git
+yes
 ```
+
+(NOTE: type yes and press ENTER if git asks you whether you want to continue connecting)
 
 ![git clone output](/res/doc/grip-github-osx/clone_1.png)
 
