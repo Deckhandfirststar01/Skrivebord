@@ -35,6 +35,16 @@ brew install textmate
 <img src='/res/doc/grip-github-osx/pre_6.png' />
 <img src='/res/doc/grip-github-osx/pre_7.png' />
 
+### Setup git name/email
+
+Set up the user name and email address so commits you make have the correct author.
+
+(NOTE: Replace Jon Doe/johndoe@example.com with your name and email. Remember to keep the quotes for the user name because it will contain a space)
+
+`git config --global user.name "John Doe"`
+
+`git config --global user.email johndoe@example.com`
+
 ### Setup EDITOR
 
 The default *EDITOR* for OSX is vi/vim, if you are comfortable with vim you can skip this step.
