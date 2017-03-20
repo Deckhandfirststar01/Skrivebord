@@ -152,11 +152,11 @@ Advanced tab
 <!-- XXX: don't use html -->
 <img src='/res/abp/options-page/advanced-default.jpg' width='888px' />
 
-***TODO***: This is the default view, it has more than the default subscriptions
-
 1. [Advanced tab headline](#advanced-tab-headline)
 1. [Advanced tab description](#advanced-tab-description)
-1. [Advanced tab: Custom filter empty](#advanced-tab-custom-filter-empty)
+1. [Customize section](#customize-section)
+1. [Filter lists section](#filter-lists-section)
+1. [Create custom filter section](#create-custom-filter-section)
 
 
 #### Advanced tab: Headline
@@ -165,9 +165,18 @@ Headline for the [Advanced tab](#advanced-tab): `Advanced`
 
 #### Advanced tab: Description
 
-Description for the [Advanced tab](#advanced-tab): `Customize your ad blocker, create your own filter lists`
+Description for the [Advanced tab](#advanced-tab): `Customize Adblock Plus, add or remove filter lists, create and maintain your own filter lists`
 
-#### Customize section headline
+#### Customize section
+
+<img src='/res/abp/options-page/advanced-default-customize.jpg' width='888px' />
+
+1. [Customize section header](#customize-section-header)
+1. [Customize: block elements](#customize-block-elements)
+1. [Customize: ABP panel](#customize-adblock-plus-panel)
+1. [Customize: turn off notifications](#turn-off-notifications)
+
+#### Customize section header
 
 `CUSTOMIZE ON-PAGE ACTIONS`
 
@@ -177,7 +186,8 @@ Checkbox to en-/disable [Block Element Context Menu Entry](#TBA).
 
 `Show 'Block Element’ right - click menu item`
 
-***TODO***: Define tooltip
+#####Tooltip: 
+`Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
 
 #### Customize Adblock Plus panel
 
@@ -185,7 +195,8 @@ Checkbox to en-/disable [Adblock Plus Developer Tools Panel](#TBA).
 
 `Show 'Adblock Plus' panel in developer tools`
 
-***TODO***: Define tooltip
+#####Tooltip: 
+`View blocked and whitelisted items from your browser's developer tools panel.`
 
 #### Turn off notifications
 
@@ -193,28 +204,44 @@ Checkbox to en-/disable [Notifications](#TBA).
 
 `Turn off notifications`
 
-#### Filter list section headliner
+#####Tooltip: 
+`Turn off all notifications from Adblock Plus.`
+
+#### Filter lists section
+
+<img src='/res/abp/options-page/advanced-default-filter-lists.jpg' width='888px' />
+
+1. [Filter list section header](#filter-list-section-header)
+1. [Filter list section description](#filter-list-section-description)
+1. [List of filter list subscriptions](#list-of-filter-list-subscriptions)
+1. [Add filter list button](#add-filter-list-button)
+1. [Update filter lists button](#update-filter-lists-button)
+
+
+
+#### Filter list section header
 
 `FILTER LISTS`
 
 #### Filter list section description
 
 ```
-Specify what content Adblock Plus allows or blocks by adding filters created
-and maintained by our trusted community. [Learn more](#TBA)
+Each Adblock Plus setting functions because of a filter list. Below are the corresponding filter lists to all your Adblock Plus settings. You can also add additional filters created and maintained by our trusted community. Learn more. [Learn more](#TBA)
 ```
 
 #### List of filter list subscriptions
 
-- ***XXX***: You can not see which subscriptions are enabled
 - ***XXX***: You cannot see if the download was successful since the last 5 minutes
 
-List headline: `Filter lists added`
+Active/ disabled filter lists: `Status`
+
+List headline: `Filter lists`
 
 Update column title: `Last updated`
 
 List all filter list subsriptions. For each subscription show the following:
 
+ - Status of the filter list i.e. Active/ Disabled
  - Name of the filter list
  - Date/Time of last update
    - Show `Just now` if less then 5 minutes ago
@@ -243,15 +270,26 @@ Updates all filters lists.
 
 Allows to add a subscription.
 
-#### Custom filter section headline
+#### Create custom filter section
 
-`CREATE / EDIT YOUR FILTER LIST`
+<img src='/res/abp/options-page/advanced-default-custom-filter.jpg' width='888px' />
+
+1. [Custom filter section header](#custom-filter-section-header)
+1. [Custom filter section description](#custom-filter-section-description)
+1. [Custom filter title](#custom-filter-title)
+1. [Custom filter list placeholder](#custom-filter-list-placeholder)
+1. [Create custom filter list button](#create-custom-filter-list-button)
+1. [Create custom filter list link](#create-custom-filter-list-link)
+
+#### Custom filter section header
+
+`CREATE AND EDIT YOUR FILTER LIST`
 
 #### Custom filter section description
 
-`TBA`
+`Write your own custom filters to further control what content Adblock PLus allows or blocks.`
 
-#### Custom filter list title 
+#### Custom filter title 
 
 `My filter list`
 
@@ -259,6 +297,18 @@ Allows to add a subscription.
 
 
 `Filters you create will show up here.`
+
+#### Create custom filter list button
+
+
+`Start writing my filter list`
+
+Opens [Advanced tab: Edit custom filter empty](#advanced-tab-edit-custom-filter-empty)
+
+#### Create custom filter list link
+
+
+[Learn how to write filter lists.](https://adblockplus.org/filters)
 
 
 -------------------------------------------------------------------------------
