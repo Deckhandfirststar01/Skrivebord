@@ -18,7 +18,7 @@ Open a terminal and paste the following command to install [homebrew](https://br
 ### Install grip
 
 ```
-brew install grip
+sudo brew install grip
 ```
 
 <img src='/res/doc/grip-github-osx/pre_4.png' />
@@ -30,7 +30,7 @@ brew install grip
 Textmate is a popular textedior for MacOSX. It is not required for editing the spec, if you already have a favourite texteditor feel free to use that instead, as long as it has syntax highlighting every texteditor should be fine.
 
 ```
-brew install textmate
+sudo brew install textmate
 ```
 <img src='/res/doc/grip-github-osx/pre_6.png' />
 <img src='/res/doc/grip-github-osx/pre_7.png' />
