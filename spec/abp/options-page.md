@@ -375,7 +375,9 @@ Will revert all changes. If no custom filter switch to [Advanced tab: Custom fil
 
 Will open [Advanced tab: Edit custom filter edit](#advanced-tab-edit-custom-filter-edit)
 
-***TODO***: Add hover layout
+###Advanced tab: Hover behaviour
+
+<img src='/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg' width='888px' />
 
 ### Advanced tab: Edit custom filter edit
 
@@ -427,7 +429,17 @@ Popup to add a filter list from a selection.
 <!-- XXX: don't use html -->
 <img src='/res/abp/options-page/advanced-add-filter-list-popup.jpg' width='888px' />
 
-***TODO***: Add aria requirements
+1. [Add filter list popup title](#add-filter-list-popup-title)
+1. [Close filter list popup X](#close-filter-list-popup-X)
+1. [List of available subscriptions](#list-of-available-subscriptions)
+1. [Filter list description](#filter-list-description)
+1. [Scroll bar](#scroll-bar)
+1. [Focussed filter list](#Focussed-filter-list)
+1. [Language filter list title](#language-filter-list-title)
+1. [Language filter lists](#language-filter-lists)
+1. [Installed filter list](#installed-filter-list)
+1. [Add custom subscription link](#add-custom-subscription-link)
+
 
 ### Add filter list popup title
 
@@ -441,11 +453,40 @@ Closes the [Add filter list popup](#add-filter-list-popup).
 
 ***TODO***: Add description of available subscriptions list.
 
+Filter list subscriptions here: https://adblockplus.org/subscriptions
+
+### Filter list descriptions
+
+See above for filter list subscriptions and corresponding descriptions. 
+
+### Scroll bar
+
+The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
+
+### Focussed filter list
+
+When a filter list is focussed on the whole row should be highlighted.
+
+### Language filter list title
+
+`Languages`
+
+All language filter lists will be grouped separately beneath the title.
+
+### Language filter lists
+
+***TODO***: Add list and description of available language subscriptions list.
+
+
+### Installed filter list
+
+Installed filter lists will appear in the menu, but should be disabled.
+
 ### Add custom subscription link
 
 Closes the [Add filter list popup](#add-filter-list-popup) and opens the [Add custom subscription popup](#add-custom-subscription-popup)
 
-`+Add a filter list via URL`
+`+ Add a filter list via URL`
 
 
 Add custom subscription popup
@@ -454,6 +495,14 @@ Add custom subscription popup
 ### Add custom subscription popup: Initial
 <!-- XXX: don't use html -->
 <img src='/res/abp/options-page/add-custom-subscription-popup.jpg' width='888px' />
+
+1. [Custom subscription popup title](#custom-subscription-popup-title)
+1. [Close custom subscription popup X](#close-custom-subscription-popup-X)
+1. [Custom subscription popup subscription title input](#custom-subscription-popup-subscription-title-input)
+1. [Custom subscription popup subscription url input](#custom-subscription-popup-subscription-url-input)
+1. [Custom subscription popup cancel button](#custom-subscription-popup-cancel-button)
+1. [Custom subscription popup add button](#custom-subscription-popup-add-button)
+
 
 #### Custom subscription popup title
 
