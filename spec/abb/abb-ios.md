@@ -9,32 +9,32 @@ The purpose of this document is to fully explain how each and every core feature
 TABLE OF CONTENTS
 -----------------
 
-[A: Basic User Interface] (#a-basic-user-interface)
+[A: Basic User Interface](#a-basic-user-interface)
 
-[B: Dashboard] (#b-dashboard)
+[B: Dashboard](#b-dashboard)
 
-[C: Navigation Bar] (#c-navigation-bar)
+[C: Navigation Bar](#c-navigation-bar)
 
-[D: Control Menu] (#d-control-menu)
+[D: Control Menu](#d-control-menu)
 
-[E: Recent History] (#e-recent-history)
+[E: Recent History](#e-recent-history)
 
-[F: New Tabs] (#f-new-tabs)
+[F: New Tabs](#f-new-tabs)
 
-[G: Ghost Mode] (#g-ghost-mode)
+[G: Ghost Mode](#g-ghost-mode)
 
-[H: Bookmarked Pages] (#h-bookmarked-pages)
+[H: Bookmarked Pages](#h-bookmarked-pages)
 
-[I: Settings] (#i-settings)
+[I: Settings](#i-settings)
 
-[J: Conditional States] (#j-conditional-states)
+[J: Conditional States](#j-conditional-states)
 
 ***
 
 A: BASIC USER INTERFACE
 -----------------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Launching Adblock Browser**
 
