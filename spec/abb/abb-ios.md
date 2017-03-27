@@ -1,33 +1,98 @@
 Functional Specifications for Adblock Browser 2.0 on iOS
 ========================================================
 
-Adblock Browser is a standalone application for iOS devices that allows users to browse and manage content on the mobile web, but with ad blocking built in. Adblock Browser 2.0 offers many new features that were previously unavailable in prior versions, such as a new private browsing feature called Ghost Mode, better bookmarked page management, and ungraded controls throughout.
+**Adblock Browser™ for iOS is a standalone application** that allows users to browse the mobile web without annoying, intrusive advertising. Adblock Browser 2.0 offers many new features that were previously unavailable in prior versions, such as a new private browsing feature called Ghost Mode, better management of bookmarked pages, and ungraded controls throughout.
 
-The purpose of this document is to fully explain how each and every core feature of Adblock Browser 2.0 on iOS is intended to function from the user’s perspective. This document is NOT intended to describe technical or visual requirements (those will be provided separately).
+The purpose of this document is to fully explain how each and every core feature of Adblock Browser 2.0 on iOS is intended to function from the user’s perspective. This document is NOT intended to describe any technical or visual requirements.
 
+***
 
 TABLE OF CONTENTS
 -----------------
 
-[A: Basic User Interface](#a-basic-user-interface)
+[**A: Basic User Interface**](#a-basic-user-interface)
 
-[B: Dashboard](#b-dashboard)
+- [Launching Adblock Browser](#launching-adblock-browser)
 
-[C: Navigation Bar](#c-navigation-bar)
+- [Primary User Interface](#primary-user-interface)
 
-[D: Control Menu](#d-control-menu)
+[**B: Dashboard**](#b-dashboard)
 
-[E: Recent History](#e-recent-history)
+- [Dashboard default view](#dashboard-default-view)
 
-[F: New Tabs](#f-new-tabs)
+- [Editing a Dashboard shortcut](#editing-a-dashboard-shortcut)
 
-[G: Ghost Mode](#g-ghost-mode)
+[**C: Navigation Bar**](#c-navigation-bar)
 
-[H: Bookmarked Pages](#h-bookmarked-pages)
+- [Entering search terms](#entering-search-terms)
 
-[I: Settings](#i-settings)
+- [Searching for text on page](#searching-for-text-on-page)
 
-[J: Conditional States](#j-conditional-states)
+- [Entering a URL](#entering-a-url)
+
+[**D: Control menu**](#d-control-menu)
+
+- [Control menu default view](#control-menu-default-view)
+
+- [Bookmarking pages](#bookmarking-pages)
+
+- [Disabling ad blocking](#disabling-ad-blocking)
+
+[**E: Recent History**](#e-recent-history)
+
+- [Recent History default view](#recent-history-default-view)
+
+- [Delete confirmation view](#delete-confirmation-view)
+
+[**F: New Tabs**](#f-new-tabs)
+
+- [New Tabs default view](#new-tabs-default-view)
+
+- [Deleting a Tab](#deleting-a-tab)
+
+[**G: Ghost Mode**](#g-ghost-mode)
+
+- [Ghost Mode default view](#ghost-mode-default-view)
+
+- [Managing New Tabs in Ghost Mode](#managing-new-tabs-in-ghost-mode)
+
+- [Quitting Ghost Mode](#quitting-ghost-mode)
+
+[**H: Bookmarked Pages**](#h-bookmarked-pages)
+
+- [Bookmarked Pages default view](#bookmarked-pages-default-view)
+
+- [Editing Bookmarked Pages](#editing-bookmarked-pages)
+
+- [Deleting a Bookmarked Page](#deleting-a-bookmarked-page)
+
+[**I: Settings**](#i-settings)
+
+- [Settings default view](#settings-default-view)
+
+- [Ad blocking options](#ad-blocking-options)
+
+- [Clear Data options](#clear-data-options)
+
+- [Clear Data confirmation message](#clear-data-confirmation-message)
+
+- [Language options](#language-options)
+
+- [Search Engine options](#search-engine-options)
+
+[**J: Conditional States**](#j-conditional-states)
+
+- [First run - Dashboard](#first-run---dashboard)
+
+- [First run - Navigation bar](#first-run---navigation-bar)
+
+- [Critical error](#critical-error)
+
+[**K: References**](#k-references)
+
+- [eyeo Hub Projects](#eyeo-hub-projects)
+
+- [Contributors](#contributors)
 
 ***
 
@@ -38,70 +103,74 @@ A: BASIC USER INTERFACE
 
 ### **Launching Adblock Browser**
 
-![Splash Screen](/res/abb/abb-ios/01A - Splash screen.png)
+![Splash Screen](/res/abb/abb-ios/01A-Splash-screen.png)
 
+**OVERVIEW:** When launching Adblock Browser 2.0, the user should always see a start up screen while the application loads. The purpose of this screen is to inform or remind them that they are using _this_ application, and not some other ad blocking browser.
 
-When launching Adblock Browser 2.0, the user should always see a start up screen while the application loads. The purpose of this screen is to inform / remind them that they are using _this_ application, and not some other ad blocking browser.
+**A1 - Splash screen:** After tapping the application icon on their Apple device, the user will see one of two splash screens while Adblock Browser loads in the background. In this case, everything is loading properly and the user sees a prominent logo with the message, 
+> from the makers of **Adblock Plus**
 
-**A1 - Splash screen:** After tapping the application icon on their Apple device, the user will see one of two splash screens while Adblock Browser loads in the background. In this case, everything is loading properly and the user sees a prominent logo and message, `from the makers of Adblock Plus`. To see what happens when things go wrong, [click here] (#critical-error).
+To see what happens when things go wrong, [click here](#critical-error).
 
 ### **Primary User Interface**
 
-<IMAGE> 01B - Basic elements.png </IMAGE>
+![Basic Elements](/res/abb/abb-ios/01B-Basic-elements.png)
 
-Once loaded, Adblock Browser 2.0 was specifically designed to offer users one-tap access to all primary features through a single User Interface. Any secondary features are confined to temporary states. This way users can focus on the content (not the browser), stay on task, and avoid confusion. The interactions and visual presentation of elements are also intended to be simple, intuitive, and easy to understand. As a result, users should always feel completely in control of their browsing experience.
+**OVERVIEW:** Once loaded, Adblock Browser 2.0 was specifically designed to offer users one-tap access to all the primary features through a single User Interface. Any secondary features are confined to temporary states. This way users can focus on the content (not the browser), stay on task, and avoid confusion. The interactions and visual presentation of elements are also intended to be simple, intuitive, and easy to understand. As a result, users should always feel completely in control of their browsing experience.
 
-**A2 - Navigation bar:** When a user launches the app, the first thing they probably want to do is enter either a web address or search terms. To facilitate these primary actions, a large search field is displayed above the content area. When viewing a webpage the user will see the primary domain (e.g. adblockplus.org), a star icon on the left (Bookmark Page/Remove Bookmark), and a Refresh Page icon on the right.
+**A2 - Navigation bar:** When a user launches the app, the first thing they probably want to do is enter either a web address or search term. To facilitate these primary actions, a large search field is displayed above the content area. When viewing a webpage the user will see the primary domain (e.g. adblockplus.org), a star icon on the left (Bookmark Page/Remove Bookmark), and a Refresh Page icon on the right.
 
 **A3 - Control menu:** After navigating to a Web page, a user then may want to access page-level functions, such as bookmarking or sharing content. These controls are available by tapping the Control icon in the Navigation bar.
 
-**A4 - Content area:** This is where any and all content will be displayed to the user, whether it is a webpage or a Settings menu.
+**A4 - Content area:** This is where all content will be displayed, whether it is a webpage or a Settings menu.
 
-**A5 - Tap bar:** From here, the user can view the next or previous page, create and manage New Tabs, switch between browsing modes, or access their bookmarks with a single tap.
+**A5 - Tap bar:** From here, the user can view the next or previous page (if applicable), create and manage New Tabs, switch between browsing modes, or access their bookmarks with a single tap.
 
 ***
 
 B: DASHBOARD
 ------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Dashboard default view**
 
-<IMAGE> 02A - Dashboard view.png </IMAGE>
+![Dashboard view](/res/abb/abb-ios/02A-Dashboard-view.png)
 
-Whenever a user opens a New Tab, or launches the Adblock Browser for the first time, they will see shortcuts to their most popular destinations on the web until a URL or search term has been entered in the Navigation bar. At first they will only see shortcuts to adblockplus.org and acceptableads.com until there are sites from their actual browsing history to show.
+**OVERVIEW:** Whenever a user opens a New Tab, or launches the Adblock Browser for the first time, they will see shortcuts to their most popular destinations on the web until a URL or search term has been entered in the Navigation bar. At first they will only see shortcuts to [adblockplus.com](https://adblockplus.org/) and [acceptableads.com](https://acceptableads.com/) until there are sites from their actual browsing history to show.
 
-A blank Navigation bar should always display prompt text that says, `Search or enter address…`.
+A blank Navigation bar should always display prompt text that says,
+> Search or enter address…
 
-**B1:** Each shortcut is represented by a capital letter in a square with a label beneath. Each icon should reflect the first letter of the base URL (e.g. “A” for **A**cceptableads.com) and, if known, the primary brand color. Otherwise, a color will be assigned randomly. The label should be the actual title of the website (e.g. “Acceptable Ads”). Tapping an icon will take a user directly to the destination URL homepage.
+**B1:** Each shortcut is represented by a capital letter in a square with a label beneath. Icons should reflect the first letter of the base URL (e.g. “A” for **A**cceptableads.com) and, if known, the primary brand color. Otherwise, a color will be assigned randomly. The label should be the actual title of the website (e.g. “Acceptable Ads”). Tapping an icon will take a user directly to the destination URL homepage.
 
-**B2:** A “TIP” icon and message should appear below the icons, stating `Tap and hold any icon to edit or remove`.
+**B2:** A “TIP” icon and message should appear below the icons, stating 
+> Tap and hold any icon to edit or remove.
 
 ### **Editing a Dashboard shortcut**
 
-<IMAGE> 02B - Dashboard edit.png </IMAGE>
+![Dashboard edit](/res/abb/abb-ios/02B-Dashboard-edit.png)
 
-**B3:** Tap and holding an icon will display tooltip controls above it. Tapping `Edit` will load the actual URL in the Navigation bar and launch a standard iOS keyboard, allowing the user to edit the website or webpage entered. Tapping `“Remove”` will delete the shortcut from the user’s Dashboard, and all other icons that were to the right (or below) should slide into their new positions accordingly.
+**B3:** Tap and holding an icon will display tooltip controls above it. Tapping `Edit` will load the actual URL in the Navigation bar and launch a standard iOS keyboard, allowing the user to edit the website or webpage entered. Tapping `Remove` will delete the shortcut from the user’s Dashboard, and all other icons that were to the right, and/or below, should slide into their new positions accordingly.
 
 ***
 
 C: NAVIGATION BAR
 -----------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Entering search terms**
 
-<IMAGE> 03A - URL bar search.png </IMAGE>
+![URL bar search](/res/abb/abb-ios/03A-URL-bar-search.png)
 
-Tapping the Navigation bar activates the field and launches the iOS system keyboard. The start icon (Bookmark Page) disappears and the Refresh Page icon is replaced with an Delete (“X”) icon. As the user types into the field, search term or URL suggestions will appear in a list below. Tapping the X icon clears the Navigation bar field.
+**OVERVIEW:** Tapping the Navigation bar activates the field and launches the iOS system keyboard. The star icon (Bookmark Page) disappears and the Refresh Page icon is replaced with an Delete (“X”) icon. As the user types into the field, search term or URL suggestions will appear in a list below. Tapping the X icon clears the Navigation bar field.
 
 **C1:** The user should always have full editing capabilities for text, including the ability to select segments of a term or URL.
 
 **C2:** Tapping the `Cancel` button disregards the text entered, hides the keyboard, and restores the previous view.
 
-**C3:** If applicable, the very first option in the list of suggested search terms below should be to search for the text entered on the page they are viewing, stated as `Find <term> on page`.
+**C3:** If applicable, the very first option in the list below will be to search for text on a page the user is currently viewing, and should be labeled as `Find <term> on page`, with `<term>` being the exact text entered in the Navigation bar.
 
 **C4:** All other suggested search terms will depend on the Search Engine the user has enabled.
 
@@ -109,11 +178,11 @@ Tapping the Navigation bar activates the field and launches the iOS system keybo
 
 ### **Searching for text on page**
 
-<IMAGE> 03B - Page search.png </IMAGE>
+![Page search](/res/abb/abb-ios/03B-Page-search.png)
 
 **C6:** If the user choose to search for text on a content page, then the search term entered will appear in the Navigation bar.
 
-**C7:** All instances of the term used will highlighted in yellow.
+**C7:** All instances of the term on the page in view will highlighted in yellow.
 
 **C8:** Tapping the Done button restores the previous Navigation bar and Tap bar states.
 
@@ -121,13 +190,13 @@ Tapping the Navigation bar activates the field and launches the iOS system keybo
 
 ### **Entering a URL**
 
-<IMAGE> 03C - Swipe to previous page.png </IMAGE>
+![Swipe to previous page](/res/abb/abb-ios/03C-Swipe-to-previous-page.png)
 
 **C10:** Tapping an gray star icon in the Navigation bar will bookmark the current page in view. Tapping a blue star icon will remove the bookmark from the page.
 
 **C11:** Tapping the Refresh Page icon will reload and the contents recache the page in view.
 
-**C12:** A user may swipe left or right at any time to view the next or previous page (if applicable). The corresponding domain URL should appear in the Navigation bar above.
+**C12:** If applicable, a user may swipe left or right at any time to view the next or previous page. The corresponding domain URL should appear in the Navigation bar above.
 
 **C13:** Alternatively, the user may also tap the Previous Page (“<“) or Next Page (“>”) buttons in the Tap bar.  The corresponding domain URL should appear in the Navigation bar above.
 
@@ -136,13 +205,13 @@ Tapping the Navigation bar activates the field and launches the iOS system keybo
 D: CONTROL MENU
 ---------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Control menu default view**
 
-<IMAGE> 04A - Control menu default.png </IMAGE>
+![Control menu default](/res/abb/abb-ios/04A-Control-menu-default.png)
 
-The user can access the Control menu from the primary User Interface at any time. From this menu, a user may disable ad blocking on the website in view, open a New Tab, Bookmark pages, share a webpage, access their recent browsing history, or view the application Settings.
+**OVERVIEW:** The user can access the Control menu from the primary User Interface at any time. From this menu, a user may disable ad blocking on the current domain, open a New Tab, Bookmark pages, Share a webpage, view their Recent History, or vgo to the application Settings.
 
 **D1:** Tapping the Control menu icon will show a list of options below. Tapping the icon again will close the menu.
 
@@ -162,15 +231,15 @@ The user can access the Control menu from the primary User Interface at any time
 
 ### **Bookmarking pages**
 
-<IMAGE> 04B - Bookmark this page.png </IMAGE>
+![Bookmark this page](/res/abb/abb-ios/04B-Bookmark-this-page.png)
 
-**D9:** If the page in view has been bookmarked, the star icon in the Navigation bar will appear in solid blue. Tapping this icon will remove the bookmark from the page.
+**D9:** If the page in view has been bookmarked, the star icon in the Navigation bar will appear solid blue. Tapping this icon will remove this bookmark from the page.
 
 **D10:** When viewing the Control menu for a Bookmarked Page, the list option will say `Remove Bookmark` and the icon will appear in solid gray. Tapping the icon or list row will remove the bookmark from the page in view, revert to the default list row state, and change the star icon in the Navigation bar to a gray outline.
 
 ### **Disabling ad blocking**
 
-<IMAGE> 04C Disable ad blocking.png </IMAGE>
+![Disable ad blocking](/res/abb/abb-ios/04C-Disable-ad-blocking.png)
 
 **D11:** The toggle is gray whenever ad blocking has been disabled. Tapping the toggle will enable ad blocking on the website in view and remove the domain from the user’s Whitelisted Websites.
 
@@ -179,13 +248,13 @@ The user can access the Control menu from the primary User Interface at any time
 E: RECENT HISTORY
 -----------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Recent History default view**
 
-<IMAGE> 05A - History.png </IMAGE>
+![History](/res/abb/abb-ios/05A-History.png)
 
-After tapping `History` from the Control Menu, the user is taken to a dedicated list view of their `Recent History`. This list should be shown in reverse-chronological order, the the most recent webpage visited at the top of the list.
+**OVERVIEW:** After tapping `History` from the Control Menu, the user is taken to a dedicated list view of their `Recent History`. This list should be shown in reverse-chronological order, with the the most recent webpage visited at the top of the list.
 
 **E1:** Tapping the `Done` button returns the user to the previous page they were using before accessing the Control menu.
 
@@ -197,9 +266,10 @@ After tapping `History` from the Control Menu, the user is taken to a dedicated 
 
 ### **Delete confirmation view**
 
-<IMAGE> 05B - Delete History.png </IMAGE>
+![Delete History](/res/abb/abb-ios/05B-Delete-History.png)
 
-**E5:** After tapping the Delete button, a message window and dark layover appear over Recent History list. The message title is `Delete Recent History?`, and the text is `“This action cannot be undone. Are you sure you want to continue?`.
+**E5:** After tapping the Delete button, a message window and dark layover appear over the Recent History list. The message title is `Delete Recent History?`, and the text is 
+> This action cannot be undone. Are you sure you want to continue?
 
 **E6:** Tapping the `Cancel` button dismisses the message and restores the Recent History list view.
 
@@ -210,48 +280,52 @@ After tapping `History` from the Control Menu, the user is taken to a dedicated 
 F: NEW TABS
 -----------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **New Tabs default view**
 
-<IMAGE> 06A - New Tabs default.png </IMAGE>
+![New Tabs default](/res/abb/abb-ios/06A-New-Tabs-default.png)
 
-Tapping the New Tab icon in the Tap bar takes the user to a dedicated page which allows them to add or delete individual Tabs.
+**OVERVIEW:** Tapping the New Tab icon in the Tap bar takes the user to a dedicated page which allows them to add or delete individual Tabs.
 
 **F1:** Tapping the `Add New Tab` button generates an empty Tab that appears directly beneath (but above the most recently created or viewed New Tab).
 
-**F2:** An empty New Tab will show a blank thumbnail image and the label `New Tab (X)`, with “X” representing the corresponding Tab number. Tapping an empty New Tab will launch the Dashboard view and default Navigation bar.
+**F2:** An empty New Tab will show a blank thumbnail image and the label `New Tab (X)`, with `(X)` representing the corresponding Tab number. Tapping an empty New Tab will launch the Dashboard view and default Navigation bar.
 
-**F3:** Once a New Tab has been launched, and a destination URL has been entered, a Tab will then display a thumbnail of the last page the user had viewed, along with the webpage title, favicon, and domain address. Tapping a loaded Tab will launch the webpage currently in view.
+**F3:** If previously a New Tab has been launched and a destination URL has been entered, a Tab will subsequently display a thumbnail of the last page the user had viewed, along with the webpage title, favicon, and domain address. Tapping a loaded Tab should launch the webpage last viewed on that domain.
 
-**F4:** A `TIP` icon and message should appear below the icons, stating `Swipe tabs left to close them.`
+**F4:** A `TIP` icon and message should appear below the icons, stating
+> Swipe tabs left to close them.
 
 **F5:** Tapping the center New Tab icon will always return a user to the New Tabs view, regardless of what they where viewing previously. The number of open Tabs should always display in the center, even if that number is 0 or 99 (maximum).
 
-### **Deleting a tab**
+### **Deleting a Tab**
 
-<IMAGE> 06B - Delete.png </IMAGE>
+![Delete New Tab](/res/abb/abb-ios/06B-Delete.png)
 
 **F6:** Swipe left to delete a Tab. As the user swipes, white text that says `Close` appears on a red background. If the user does not swipe completely to the left edge of the screen, the Tab will slide back into its original position on release.
 
-<IMAGE> 06C - Undo delete.png </IMAGE>
+![Undo delete](/res/abb/abb-ios/06C-Undo-delete.png)
 
-**F7:** The TIP message should disappear once the user has successfully deleted a Tab for the first time.
+**F7:** The `TIP` message should disappear once the user has successfully deleted a Tab for the first time.
 
-**F8:** After successfully deleting a Tab, a message and button appear at the bottom of the New Tab page. Text appears on the left, informing the user `You closed a tab.` On the right, an icon and `UNDO` button appear. Tapping this button immediately restores the previously deleted Tab in its original position.
+**F8:** After successfully deleting a Tab, a message and button appear at the bottom of the New Tab page. Text appears on the left,
+> You closed a tab.
+
+On the right, an `UNDO` button appears. Tapping this button immediately restores the previously deleted Tab in its original position.
 
 ***
 
 G: GHOST MODE
 -------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Ghost Mode default view**
 
-<IMAGE> 07A - Ghost Mode default.png </IMAGE>
+![Ghost Mode default](/res/abb/abb-ios/07A-Ghost-Mode-default.png)
 
-The user can browse the web privately at any time by tapping the ghost icon in the Tap bar. To both inform and educate users, the primary User Interface is black while in Ghost Mode, and all text is white, purple, or light gray. They should therefore never loose track of which mode they are in while viewing a webpage.
+**OVERVIEW:** A user can browse the mobile web privately at any time by tapping the ghost icon in the Tap bar to activate Ghost Mode. To visually distinguish this feature from normal browsing mode, the primary User Interface for Ghost Mode is black with white, purple, or gray text.
 
 **G1:** By default, a user will see an empty Navigation bar and a message (instead of the Dashboard).
 
@@ -266,19 +340,19 @@ This message appears until the user has entered a search term or URL in the Navi
 
 ### **Managing New Tabs in Ghost Mode**
 
-<IMAGE> 07B - Ghost Mode New Tabs.png </IMAGE>
+![Ghost Mode New Tabs](/res/abb/abb-ios/07B-Ghost-Mode-New-Tabs.png)
 
 **G5:** When in New Tabs view for Ghost Mode, a `TIP` icon and message should appear below any open Tabs, stating 
 > Tabs are not stored in your history and will be closed when you quit Ghost Mode. 
 This message appears until the user has entered a search term or URL in the Navigation bar above.
 
-**G6:** Tapping the center New Tab icon anytime while browsing privately will always return a user to the New Tabs view for Ghost Mode. The number of open Tabs should always display in the center, even if that number is 0 or 99 (maximum).
+**G6:** Tapping the center New Tab icon anytime while browsing privately will return a user to the New Tabs view for Ghost Mode. The number of open Tabs should always display in the center, even if that number is 0 or 99 (maximum).
 
 **G7:** Tapping the ghost icon anytime while in Ghost Mode will show a message window asking the user whether or not they would like to end their current private browsing session.
 
 ### **Quitting Ghost Mode**
 
-<IMAGE> 07C - Quit Ghost Mode.png </IMAGE>
+![Quit Ghost Mode](/res/abb/abb-ios/07C-Quit-Ghost-Mode.png)
 
 **G8:** The message title is `Quit Ghost Mode?`, and the text is 
 > Your history will not be stored and all active tabs will be closed.
@@ -293,13 +367,13 @@ The Navigation bar and Control menu are not accessible in this view.
 H: BOOKMARKED PAGES
 -------------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Bookmarked Pages default view**
 
-<IMAGE> 08A - Bookmarked Pages.png </IMAGE>
+![Bookmarked Pages default](/res/abb/abb-ios/08A-Bookmarked-Pages.png)
 
-The user can quickly view a list of their `Bookmarked Pages` by tapping the right-most icon in the Tap bar. Any pages bookmarked by tapping the star icon, either in the Navigation bar or from the Control menu, will show in this list.
+**OVERVIEW:** The user can quickly view a list of their `Bookmarked Pages` by tapping the right-most icon in the Tap bar. Any pages bookmarked by tapping the star icon, either in the Navigation bar or from the Control menu, will show in this list.
 
 **H1:** Tapping the `Edit` button shows the user new controls allowing them to delete and reorder their Bookmarked Pages.
 
@@ -309,7 +383,7 @@ The user can quickly view a list of their `Bookmarked Pages` by tapping the righ
 
 ### **Editing Bookmarked Pages**
 
-<IMAGE> 08B - Edit Bookmarks.png </IMAGE>
+![Edit Bookmarks](/res/abb/abb-ios/08B-Edit-Bookmarks.png)
 
 **H4:** Tapping the `Done` button restores the default state of the Bookmarked Pages list.
 
@@ -319,11 +393,11 @@ The user can quickly view a list of their `Bookmarked Pages` by tapping the righ
 
 ### **Deleting a Bookmarked Page**
 
-<IMAGE> 08C - Delete Bookmark.png </IMAGE>
+![Delete Bookmark](/res/abb/abb-ios/08C-Delete-Bookmark.png)
 
 **H7:** Tapping the `Cancel` button returns the user to the list of their Bookmarked Pages.
 
-**H8:** A Bookmarked Page may display on the user’s Dashboard (depending on the recency and frequency of page views) by default. This is indicated by a green toggle. Tapping the toggle will disable this feature, and the Bookmarked Page will never show on the user’s Dashboard.
+**H8:** A Bookmarked Page may display on the user’s Dashboard (depending on the recency and frequency of page views) by default. This is indicated by a green toggle. Tapping the toggle will disable this feature and remove the shortcut from the Dashboard (if show), and prevent it from displaying in the future (until the user taps the toggle again to enable).
 
 **H9:** Tapping the `Delete Bookmark` button returns the user to the list of their Bookmarked Pages and remove the list item.
 
@@ -332,13 +406,13 @@ The user can quickly view a list of their `Bookmarked Pages` by tapping the righ
 I: SETTINGS
 -----------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
-### **Default view**
+### **Settings default view**
 
-<IMAGE> 09A - Settings.png </IMAGE>
+![Settings default](/res/abb/abb-ios/09A-Settings.png)
 
-Tapping the Settings icon or list row from the Control menu will launch the `Settings` view. Any further controls not shown on this page are always just 1-2 taps away. All options are grouped by category.
+**OVERVIEW:** Tapping the Settings icon or list row from the Control menu will launch the `Settings` view. Any further controls not shown on this page are always just 1-2 taps away. All options are grouped by category.
 
 + The first category is `ADBLOCK BROWSER`.
 
@@ -362,17 +436,17 @@ Tapping the Settings icon or list row from the Control menu will launch the `Set
 
 ### **Ad blocking options**
 
-<IMAGE> 09B - Ad blocking.png </IMAGE>
+![Settings ad blocking](/res/abb/abb-ios/09B-Ad-blocking.png)
 
 After tapping the option `Ad blocking`, a user will see more options. All options are grouped by category.
 
 + The first category is `ACCEPTABLE ADS`. The text reads:
-> Choose whether to include nonintrusive, non-animated ads that adhere to strict criteria. [Learn more] (https://acceptableads.com/en/about/criteria).
+> Choose whether to include nonintrusive, non-animated ads that adhere to strict criteria. [Learn more](https://acceptableads.com/en/about/criteria).
 
 + The second category is `WHITELISTED WEBSITES`. The text reads:
 > You have turned off ad blocking on these websites and will see ads on them.
 
-**I8:** Tapping the `Settings` button returns the user to the previous view (main Settings page).
+**I8:** Tapping the `Settings` button returns the user to the previous default Settings view.
 
 **I9:** The user may choose one of three ad blocking options.
 
@@ -386,22 +460,36 @@ After tapping the option `Ad blocking`, a user will see more options. All option
 
 ### **Clear Data options**
 
-<IMAGE> 09C - Clear Data.png </IMAGE>
+![Clear Data](/res/abb/abb-ios/09C-Clear-Data.png)
 
-After tapping the option “Clear Data”, a user will see more options.
+After tapping the option `Clear Data`, a user will see more options.
 
 + `Clear History`
+
 + `Clear Cache`
+
 + `Clear Cookies and Site Data`
+
 + `Clear Everything`
 
 **I11:** Tapping any of the options will show a message window asking the user to confirm the action.
 
-### **Confirmation message**
+### **Clear data confirmation message**
 
-<IMAGE> 09D - Clear Data confirmation.png </IMAGE>
+![Clear Data confirmation message](/res/abb/abb-ios/09D-Clear-Data-confirm.png)
 
-**I12:** The message title is`Clear History?` (or corresponding option), and the text is `This action cannot be undone. Are you sure you want to continue?`.
+**I12:** The message title should correspond to the option selected, such as
+
++ `Clear History?`
+
++ `Clear Cache?`
+
++ `Clear Cookies and Site Data?`
+
++ `Clear Everything?`
+
+and the text for each is
+> This action cannot be undone. Are you sure you want to continue?`
 
 **I13:** Tapping the `Cancel` button dismisses the message and restores the previous view.
 
@@ -409,58 +497,67 @@ After tapping the option “Clear Data”, a user will see more options.
 
 ### **Language options**
 
-<IMAGE> 09E - Languages.png </IMAGE>
+![Settings Languages](/res/abb/abb-ios/09E-Languages.png)
 
-After tapping the option “Languages”, a user will see more options. All options are grouped by category.
+After tapping the option `Languages`, a user will see more options. All options are grouped by category.
 
 + The first category is `BLOCK ADS FOR WEBSITES IN`
+
 + The second category is `OTHER LANGUAGES`
 
-**I15:** The default language enabled by default is determined by the users location, and is indicated by a green toggle. Tapping the toggle will disable ad blocking in this language.
+**I15:** The language enabled by default is determined by the user's location, and is indicated by a green toggle. Tapping the toggle will disable ad blocking in that language.
 
 **I16:** All other languages supported are turned off by default, and are indicated by gray toggles. Tapping a toggle will enable ad blocking for the corresponding language.
 
-### Search Engine options
+### **Search Engine options**
 
-<IMAGE> 09F - Search Engine.png </IMAGE>
+![Settings Search Engine](/res/abb/abb-ios/09F-Search-Engine.png)
 
-After tapping the option “Search Engine”, a user will see a list of options.
+After tapping the option `Search Engine`, a user will see a list of options.
 
-**I17:** The first option, `Private search`, is selected by default. Tapping another list item row will change the default Search Engine used by the application to the corresponding provider.
+**I17:** The first option, `Private search` `*`, is selected by default. Tapping another list item `**` will change the default Search Engine used by the application to the corresponding provider.
+
+`*` _Although customized for Adblock Browser users, Private search is developed and maintained by a separate company. [Click here](http://hub.eyeo.com/issues/153) for more information._
+
+`**` _Actual secondary Search Engine providers will be provided separately, and should be approved by an eyeo Legal Representative before final implimention._
 
 ***
 
 J: CONDITIONAL STATES
 ---------------------
 
-[Table of Contents] (#table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **First run - Dashboard**
 
-<IMAGE> 10A - Dashboard first run 1.png </IMAGE>
+![Dashboard first run 1](/res/abb/abb-ios/10A-Dashboard-first-run-1.png)
 
-After launching the application for the very first time, a user will see a series of messages before they can start browsing the web. These message will inform them about important options available to them at all times.
+**OVERVIEW:** After launching the application for the very first time, a user will see a series of messages before they can start browsing the web. These message will inform them about important options available to them at all times.
 
-**J1:** The first message title is `Allow “Adblock Browser” to access your location while using the app?`, and the text is:
+**J1:** The title of the first message is `Allow “Adblock Browser” to access your location while using the app?`, and the text is:
 > We only give websites (e.g. Google Maps) access to your location if you give permission. Adblock Browser does not use your location for any other purposes.
 
 **J2:** Tapping the `Don’t allow` button dismisses the message and shows the Dashboard view, but location detection will be disabled when searching the web.
 
 **J3:** Tapping the `Allow` button dismisses the message, shows the Dashboard view, and enables location detection when searching the web.
 
-<IMAGE> 10B - Dashboard first run 2.png </IMAGE>
+![Dashboard first run 2](/res/abb/abb-ios/10B-Dashboard-first-run-2.png)
 
 **J4:** The second message title is `You’re always in control!`, and the text is:
-> Annoying ads are always blocked, while nonintrusive ads are allowed by default. To change this setting anytime, go to: **Control menu > Settings > Ad blocking**
+> Annoying ads are always blocked, while nonintrusive ads are allowed by default. To change this setting anytime, go to: 
 
-**J5:** Tapping the `Got` button dismisses the message and shows the Dashboard view.
+>**Control menu > Settings > Ad blocking**
+
+**J5:** Tapping the `Got it` button dismisses the message and shows the Dashboard view.
 
 ### **First run - Navigation bar**
 
-<IMAGE> 10C - Search first run.png </IMAGE>
+![Search first run](/res/abb/abb-ios/10C-Search-first-run.png)
 
-**J6:** After tapping the Navigation bar for the very first time, a user will see a message and buttons. The message title is `URL Search Suggestions?`, and the text is:
-> Tap Yes if you want to see web search results. To change this setting at anytime, go to: **Control menu > Settings > Search Suggestions**
+**J6:** After tapping the Navigation bar for the very first time, the user will see a message and two buttons. The message title is `URL Search Suggestions?`, and the text is:
+> Tap Yes if you want to see web search results. To change this setting at anytime, go to: 
+
+> **Control menu > Settings > Search Suggestions**
 
 **J7:** Tapping the `No` button dismisses the message. No search suggestions will show when the users types a term or URL into the Navigation bar.
 
@@ -468,7 +565,7 @@ After launching the application for the very first time, a user will see a serie
 
 ### **Critical error**
 
-<IMAGE> 10D - Splash Error screen.png </IMAGE>
+![Splash Error](/res/abb/abb-ios/10D-Splash-Error-screen.png)
 
 Occasionally something will go wrong and the application either crashes or closes improperly. Whenever this happens, the user will see a special slash screen the next time they launch Adblock Browser.
 
@@ -478,11 +575,49 @@ Occasionally something will go wrong and the application either crashes or close
 
 + H2: `Something went wrong.`
 
-+ Text: `A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.`
++ Text:
+> A critical error prevented Adblock Browser from starting. Follow the steps below to quit the app and try again.
 
-+ Step 1: `Double-tap the Home button.`
++ Step 1:
+> Double-tap the Home button.
 
-+ Step 2: `Swipe up on Adblock Browser to quit the app.`
++ Step 2:
+> Swipe up on Adblock Browser to quit the app.
 
-+ Step 3: `Restart Adblock Browser.`
++ Step 3:
+> Restart Adblock Browser.
 
+***
+
+K: REFERENCES
+---------------------
+
+[Table of Contents](#table-of-contents)
+
+### **eyeo Hub Projects**
+
++ **META** Product Request 151: [**New UI + Ghost Mode**](http://hub.eyeo.com/issues/151)
+
++ Related Product Request 153: [**New search results page**](http://hub.eyeo.com/issues/153)
+
+### **Contributors**
+
++ **Felix Dahlke**, Chief Technology Officer
+
++ **Aaron Thornburgh**, Product Manager (owner of this document)
+
++ **Mario König**, Technical Project Manager
+
++ **Martin Velchevski**, Product Designer
+
++ **Lisa Bielik**, Content Manager
+
++ **Tamara Blasco**, Translations Manager
+
++ **Julian Doucette**, Prototype Developer
+
++ **Philip Hill**, Quality Assurance Manager
+
+***
+
+_**Adblock Browser™**, **Adblock Plus™**, and **Acceptable Ads™** are registered trademarks of [eyeo GmbH](https://eyeo.com)._
