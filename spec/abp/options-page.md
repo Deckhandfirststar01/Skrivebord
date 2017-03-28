@@ -7,6 +7,7 @@ The options page is used to change various options of the ABP browser extension.
 
 1. [Whitelist tab](#whitelist-tab)
 1. [Advanced tab](#advanced-tab)
+1. [Additional subscriptions](#additional-subscriptions)
 
 ## General requirements
 
@@ -231,17 +232,16 @@ Each Adblock Plus setting functions because of a filter list. Below are the corr
 
 #### List of filter list subscriptions
 
-- ***XXX***: You cannot see if the download was successful since the last 5 minutes
+Status column title: `Status`
 
-Active/ disabled filter lists: `Status`
-
-List headline: `Filter lists`
+Filter List column title: `Filter lists`
 
 Update column title: `Last updated`
 
 List all filter list subsriptions. For each subscription show the following:
 
- - Status of the filter list i.e. Active/ Disabled
+ - A *radio slider* that indicates whether or not the filter list subscription is active.
+ - `Active`/`Disabled` depending on whether or not the filter list subscription is active.
  - Name of the filter list
  - Date/Time of last update
    - Show `Just now` if less then 5 minutes ago
@@ -251,12 +251,14 @@ List all filter list subsriptions. For each subscription show the following:
    - Show `Download fail` when there is a problem downloading the filter list
  - A Gear Icon that opens the [Edit filter list popup](#edit-filter-list-popup)
 
+***TODO***: Add description of small ? sign next to Filter list column title.
+
 
 #### Add filter list button
 
 Opens [Add filter list popup](#add-filter-list-popup).
 
-`+ Add filter lists`
+`+ Add a new filter list`
 
 #### Update filter lists button
 
@@ -413,8 +415,10 @@ Link to the filter list file.
 ### Remove filter list link
 
 Removes the filter list subscription.
+[Additional subscriptions](#additional-subscriptions) cannot be removed and the [Remove filter list link](#remove-filter-list-link) should be disabled in this case.
 
 `Remove`
+
 
 
 Add filter list popup
@@ -634,9 +638,12 @@ Label `Filter list location`.
 
 Placeholder `https://website.com/filterlist.txt`
 
-Validates as you type:
+Validates as you type against:
 
-***TODO***: Add actual validation criterias.
+<!-- This is to technical, find a better way to describe it -->
+```javascript
+/^https?:/i
+```
 
 
 ### Add custom subscription popup: Invalid
@@ -667,4 +674,7 @@ See [Advanced tab added filter list](#advanced-tab-added-filter-list)
 
 `Add filter list`
 
+Additional subscriptions
+------------------------
 
+[Additional subscriptions](#additional-subscriptions) are subscriptions that are added through group policies and cannot be removed See <https://issues.adblockplus.org/ticket/3801>
