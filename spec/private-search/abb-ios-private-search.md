@@ -91,7 +91,7 @@ B: IMAGE SEARCH RESULTS
 
 ![Images default view](/res/abb/abb-ios-private-search/B01-Images-default.png)
 
-**B1:** Tapping the `IMAGES`category button shows only image search results.
+**B1:** Tapping the `IMAGES` category button shows only image search results.
 
 **B2:** Related sorting options are displayed below the category selected.
 
