@@ -137,12 +137,12 @@ B: DASHBOARD
 
 ![Dashboard view](/res/abb/abb-ios/02A-Dashboard-view.png)
 
-**OVERVIEW:** Whenever a user opens a New Tab, or launches the Adblock Browser for the first time, they will see shortcuts to their most popular destinations on the web until a URL or search term has been entered in the Navigation bar. At first they will only see shortcuts to [adblockplus.com](https://adblockplus.org/) and [acceptableads.com](https://acceptableads.com/) until there are sites from their actual browsing history to show.
+**OVERVIEW:** Whenever a user opens a New Tab they will see shortcuts to websites they have visited most recently and frequently until a URL or search term has been entered in the Navigation bar. At first they will only see shortcuts to [adblockplus.com](https://adblockplus.org/) and [acceptableads.com](https://acceptableads.com/) until there are sites to show from their actual browsing history.
 
 A blank Navigation bar should always display prompt text that says,
 > Search or enter address…
 
-**B1:** Each shortcut is represented by a capital letter in a square with a label beneath. Icons should reflect the first letter of the base URL (e.g. “A” for **A**cceptableads.com) and, if known, the primary brand color. Otherwise, a color will be assigned randomly. The label should be the actual title of the website (e.g. “Acceptable Ads”). Tapping an icon will take a user directly to the destination URL homepage.
+**B1:** Each shortcut is represented by a capital letter in a square with a label beneath. Icons should reflect the first letter of the base domain (e.g. “A” for **A**cceptableads.com) and a color will be assigned randomly (actual colors used will be provided separately). The label should be the actual title of the website (e.g. “Acceptable Ads”). Tapping an icon will take a user directly to the destination URL homepage.
 
 **B2:** A “TIP” icon and message should appear below the icons, stating 
 > Tap and hold any icon to edit or remove.
@@ -182,7 +182,7 @@ C: NAVIGATION BAR
 
 **C6:** If the user choose to search for text on a content page, then the search term entered will appear in the Navigation bar.
 
-**C7:** All instances of the term on the page in view will highlighted in yellow.
+**C7:** All instances of the term on the page in view will highlighted in yellow (the actual color will be provided separately).
 
 **C8:** Tapping the Done button restores the previous Navigation bar and Tap bar states.
 
@@ -194,7 +194,7 @@ C: NAVIGATION BAR
 
 **C10:** Tapping an gray star icon in the Navigation bar will bookmark the current page in view. Tapping a blue star icon will remove the bookmark from the page.
 
-**C11:** Tapping the Refresh Page icon will reload and the contents recache the page in view.
+**C11:** Tapping the Refresh Page icon will reload the page in view.
 
 **C12:** If applicable, a user may swipe left or right at any time to view the next or previous page. The corresponding domain URL should appear in the Navigation bar above.
 
@@ -215,11 +215,11 @@ D: CONTROL MENU
 
 **D1:** Tapping the Control menu icon will show a list of options below. Tapping the icon again will close the menu.
 
-**D2:** The first menu item is `Block Ads on this Site` and displays a toggle. By default, the toggle is green to indicate that ad blocking is enabled. Tapping the toggle (or list item row) will disable ad blocking on the website in view and add the domain to the user’s Whitelisted Websites.
+**D2:** The first menu item is `Block Ads on this Site` and displays a toggle. By default, the toggle is green to indicate that ad blocking is enabled. Tapping the toggle (or list item row) will disable ad blocking on the website in view and add the domain to the user’s Whitelisted Websites. A disabled toggle always appears in gray.
 
 **D3:** The second menu item is `Open New Tab`. Tapping this option closes the Control menu and shows a default Navigation bar and Dashboard view in a New Tab.
 
-**D4:** The third menu item is `Add Bookmark`. By default, the icon appears in a gray outline. Tapping this option bookmarks the page in view.
+**D4:** The third menu item is `Add Bookmark`. By default, the icon appears in a gray outline. Tapping this option bookmarks the page in view and changes the menu item to `Remove Bookmark`.
 
 **D5:** The fourth menu item is `Share`. Tapping this option closes the Control menu and displays a standard iOS dialogue menu allowing the user to share the page in view to social media, or email the destination URL.
 
@@ -235,7 +235,7 @@ D: CONTROL MENU
 
 **D9:** If the page in view has been bookmarked, the star icon in the Navigation bar will appear solid blue. Tapping this icon will remove this bookmark from the page.
 
-**D10:** When viewing the Control menu for a Bookmarked Page, the list option will say `Remove Bookmark` and the icon will appear in solid gray. Tapping the icon or list row will remove the bookmark from the page in view, revert to the default list row state, and change the star icon in the Navigation bar to a gray outline.
+**D10:** When viewing the Control menu for a Bookmarked Page, the list option will say `Remove Bookmark` and the icon will appear in solid gray. Tapping the icon or list row will remove the bookmark from the page in view, revert to the default list row state, change the menu item to `Add Bookmark`, and change the star icon in the Navigation bar to a gray outline.
 
 ### **Disabling ad blocking**
 
@@ -260,9 +260,9 @@ E: RECENT HISTORY
 
 **E2:** Tapping the `Delete` button displays a message asking the user to confirm the action.
 
-**E3:** Each item displayed in the Recent History list shows an icon (first letter of the domain in a square), the webpage title, and full URL.
+**E3:** Each item displayed in the Recent History list shows an icon, the webpage title, and full URL. Icons should reflect the first letter of the base domain (e.g. “A” for **A**cceptableads.com) and a color will be assigned randomly (actual colors used will be provided separately).
 
-**E4:** List items are groups by day, are are indicated by a list section header (e.g. MONDAY, JAN 1, 2018)
+**E4:** List items are grouped by day of last visit, are are indicated by a list section header (e.g. MONDAY, JAN 1, 2018)
 
 ### **Delete confirmation view**
 
@@ -377,7 +377,7 @@ H: BOOKMARKED PAGES
 
 **H1:** Tapping the `Edit` button shows the user new controls allowing them to delete and reorder their Bookmarked Pages.
 
-**H1:** Each list item displays a thumbnail of the last page the user had viewed, along with the webpage title, favicon, and domain address. Tapping a loaded Tab will launch the corresponding webpage.
+**H2:** Each list item displays a thumbnail of the last page the user had viewed, along with the webpage title, and URL. Tapping a loaded Tab will launch the corresponding webpage.
 
 **H3:** Tapping the Bookmarked Pages icon anytime while in normal mode will take the user to this view.
 
@@ -387,7 +387,7 @@ H: BOOKMARKED PAGES
 
 **H4:** Tapping the `Done` button restores the default state of the Bookmarked Pages list.
 
-**H5:** Tapping the Delete icon (red circle with white horizontal line) will launch another view with more options.
+**H5:** Tapping the Delete icon (red circle with white horizontal line) will launch another view with more options (shown below).
 
 **H6:** The user can press-and-drag any list item into a new position.
 
@@ -505,7 +505,7 @@ After tapping the option `Languages`, a user will see more options. All options 
 
 + The second category is `OTHER LANGUAGES`
 
-**I15:** The language enabled by default is determined by the user's location, and is indicated by a green toggle. Tapping the toggle will disable ad blocking in that language.
+**I15:** The language enabled by default is determined by the user's locale, and is indicated by a green toggle. Tapping the toggle will disable ad blocking in that language.
 
 **I16:** All other languages supported are turned off by default, and are indicated by gray toggles. Tapping a toggle will enable ad blocking for the corresponding language.
 
@@ -515,11 +515,19 @@ After tapping the option `Languages`, a user will see more options. All options 
 
 After tapping the option `Search Engine`, a user will see a list of options.
 
-**I17:** The first option, `Private search` `*`, is selected by default. Tapping another list item `**` will change the default Search Engine used by the application to the corresponding provider.
++ The first option is `Private search`
+
++ The second option is `Google`
+
++ The third option is `Yahoo`
+
++ The fourth option is `DuckDuckGo`
+
++ The last option is `Wikipedia`
+
+**I17:** `Private search` `*`, is selected by default. Tapping another list item will change the default Search Engine used by the application to the corresponding provider.
 
 `*` _Although customized for Adblock Browser users, Private search is developed and maintained by a separate company. [Click here](http://hub.eyeo.com/issues/153) for more information._
-
-`**` _Actual secondary Search Engine providers will be provided separately, and should be approved by an eyeo Legal Representative before final implimention._
 
 ***
 
