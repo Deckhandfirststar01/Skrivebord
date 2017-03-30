@@ -125,7 +125,7 @@ The [List of whitelisted domains](#list-of-whitelisted-domains) displays all whi
 
 If clicked the corresponding whitelisted domain is removed.
 
-*NOTE: recently added has been ommitted because we don't now the date of when a domain has been whitelisted so we could only show the domains that have been added since the option page has been opened and that doesn't make any sense?!*
+*NOTE: recently added has been ommitted because we don't know the date of when a domain has been whitelisted so we could only show the domains that have been added since the option page has been opened and that doesn't make any sense?!*
 
 ### Whitelisted domain added notification
 
