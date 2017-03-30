@@ -11,17 +11,17 @@ The options page is used to change various options of the ABP browser extension.
 
 ## General requirements
 
-### Bidrirectionailty
+### Bidirectionailty
 
-Any change of state will be immidiately reflected in the options page regardless
+Any change of state will be immediately reflected in the options page regardless
 of where and how the change was made, so that the options page always reflects
 the current state of the extension.
 
 - If the user opens the option page more than once and makes changes to either
   of them, the change will be reflected in any of them and not just the one
   the change was made. 
-- If a change to the state was made throught other means e.g. auto update of
-  filter list subscriptions, it will be reflected immidiatly in every instance
+- If a change to the state was made through other means e.g. auto update of
+  filter list subscriptions, it will be reflected immediately in every instance
   of the options page.
 
 ### WCAG
@@ -238,7 +238,7 @@ Filter List column title: `Filter lists`
 
 Update column title: `Last updated`
 
-List all filter list subsriptions. For each subscription show the following:
+List all filter list subscriptions. For each subscription show the following:
 
  - A *radio slider* that indicates whether or not the filter list subscription is active.
  - `Active`/`Disabled` depending on whether or not the filter list subscription is active.
@@ -355,7 +355,7 @@ See also [Advanced tab: Edit custom filter add](#advanced-tab-edit-custom-filter
 
 `Cancel`
 
-Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#advanced-tab-custom-filter-empty) otherwhise show [Advanced tab: Custom filter](#advanced-tab-custom-filter).
+Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#advanced-tab-custom-filter).
 
 ### Advanced tab: Edit custom filter add
 
@@ -373,7 +373,7 @@ Will revert all changes. If no custom filter switch to [Advanced tab: Custom fil
 
 Will open [Advanced tab: Edit custom filter edit](#advanced-tab-edit-custom-filter-edit)
 
-###Advanced tab: Hover behaviour
+###Advanced tab: Hover behavior
 
 <img src='/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg' width='888px' />
 
@@ -434,7 +434,7 @@ Popup to add a filter list from a selection.
 1. [List of available subscriptions](#list-of-available-subscriptions)
 1. [Filter list description](#filter-list-description)
 1. [Scroll bar](#scroll-bar)
-1. [Focussed filter list](#Focussed-filter-list)
+1. [Focused filter list](#Focussed-filter-list)
 1. [Language filter list title](#language-filter-list-title)
 1. [Language filter lists](#language-filter-lists)
 1. [Installed filter list](#installed-filter-list)
@@ -489,9 +489,9 @@ See above for filter list subscriptions and corresponding descriptions.
 
 The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
 
-### Focussed filter list
+### Focused filter list
 
-When a filter list is focussed on the whole row should be highlighted.
+When a filter list is focused on the whole row should be highlighted.
 
 ### Language filter list title
 
