@@ -12,6 +12,7 @@ Overview
 1. [Comparing branches](#comparing-branches)
 1. [Push branch](#push-branch)
 1. [Pull request](#pull-request)
+1. [How to link to a specific version](#how-to-link-to-a-specific-version)
 
 ### Introduction
 
@@ -453,3 +454,29 @@ Then the pull request has been succfully created. And it's time to open a beer :
 ![github_4.png](/res/doc/git-basics/github_4.png)
 
 <https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration>
+
+## How to link to a specific version
+
+If you share a link to the specification it makes sence to link to current (or a specific version) instead of the most recent version. This way the link will always show the version you were talking about at the time and not change randomly. For example imagine a ticket that tracks the implementation of a certain spec document. If you look at the ticket after a year the spec document will probably have changed and the ticket will no longer make sense.
+
+Most recent version of this document:
+
+<https://github.com/wvspee/spec/blob/master/doc/how-to-spec.md>
+
+Current version of this document:
+
+<https://github.com/wvspee/spec/blob/d587b9223fe8511dab95cbfe10e808a5fff964ed/doc/how-to-spec.md>
+
+Note how the url has changed, instead of *master* it now contains long alphanumeric number (the commit hash). This number is like a version number of the repository and allows you to refer to a specific version of the repository (the whole repository not only a single file).
+
+You can abbreviate the commit hash by trimming it down to 6 characters:
+
+<https://github.com/wvspee/spec/blob/d587b9/doc/how-to-spec.md>
+
+![How to link to a specific version](/res/doc/git-basics/link-to-a-specific-version.gif)
+
+1. Find specific version in history
+1. Click link on the right to view repository at the specific version
+1. Open document
+1. Copy link from address bar
+1. Paste link where ever you need it
