@@ -84,6 +84,8 @@ Textinput to enter domains to be added to the whitelist.
 Button to submit [Textinput A](#textinput-a).
  - Labelled `Add website`
  - Will only be active if [Add whitelisted domain textinput](#add-whitelisted-domain-textinput) is not empty and valid.
+ - Refer to [w3 guidelines for keyboard interaction](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#button)
+
 
 If clicked whitelist domain and show [Whitelisted domain added notification](#whitelisted-domain-added-notification).
 
