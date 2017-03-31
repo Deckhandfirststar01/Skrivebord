@@ -17,12 +17,12 @@ Any change of state will be immediately reflected in the options page regardless
 of where and how the change was made, so that the options page always reflects
 the current state of the extension.
 
-- If the user opens the option page more than once and makes changes to either
-  of them, the change will be reflected in any of them and not just the one
-  the change was made. 
-- If a change to the state was made through other means e.g. auto update of
-  filter list subscriptions, it will be reflected immediately in every instance
-  of the options page.
+- If the user opens the option page more than once and makes changes to either of them, the change will be reflected in any of them and not just the one the change was made. 
+- If a change to the state was made through other means e.g. auto update of filter list subscriptions, it will be reflected immediately in every instance of the options page.
+
+### Style Guide
+
+All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options_page_style_guide.jpg).
 
 ### WCAG
 
@@ -374,7 +374,7 @@ Will revert all changes. If no custom filter switch to [Advanced tab: Custom fil
 
 Will open [Advanced tab: Edit custom filter edit](#advanced-tab-edit-custom-filter-edit)
 
-###Advanced tab: Hover behavior
+### Advanced tab: Hover behavior 
 
 <img src='/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg' width='888px' />
 
