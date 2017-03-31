@@ -234,6 +234,8 @@ Each Adblock Plus setting functions because of a filter list. Below are the corr
 
 #### List of filter list subscriptions
 
+Filter list subsritions are displayed in a grid format. Keyboard interations should follow guidelines as specified by [w3 data: Grids for presenting tabular information](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#dataGrid)
+
 Status column title: `Status`
 
 Filter List column title: `Filter lists`
@@ -252,9 +254,6 @@ List all filter list subscriptions. For each subscription show the following:
    - Show `Updating` while the list is getting updated
    - Show `Download fail` when there is a problem downloading the filter list
  - A Gear Icon that opens the [Edit filter list popup](#edit-filter-list-popup)
-
-***TODO***: Add description of small ? sign next to Filter list column title.
-
 
 #### Add filter list button
 
@@ -453,33 +452,17 @@ Closes the [Add filter list popup](#add-filter-list-popup).
 
 ### List of available subscriptions
 
-- Subscription title `EasyPrivacy`
- - Description `Block tracking`
- - URL: https://easylist-downloads.adblockplus.org/easyprivacy.txt
-- Subscription title `Malware Domains`
- - Description `Block malware`
- - URL: https://easylist-downloads.adblockplus.org/malwaredomains_full.txt
-- Subscription title `Adblock Warning Removal List`
- - Description `Removes anti-adblock warnings and other obtrusive messagesl`
- - URL: https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-- Subscription title `Adware filters`
- - Description `Blocks ads injected by adware`
- - URL: https://easylist-downloads.adblockplus.org/adwarefilters.txt
-- Subscription title `Fanboy's Annoyances`
- - Description `Removes online annoyances (includes Fanboy's Social Blocking List).`
- - URL: https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt
-- Subscription title `Fanboy's Social Blocking List`
- - Description `Removes social media integration.`
- - URL: https://easylist-downloads.adblockplus.org/fanboy-social.txt
-- Subscription title `I don't care about cookies`
- - Description `Filters obtrusive EU cookie law notices.`
- - URL: https://kiboke-studio.hr/i-dont-care-about-cookies/abp
-- Subscription title `Spam404`
- - Description `Block fraudulent websites.`
- - URL: https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt
-- Subscription title `CJX's Annoyance List`
- - Description `Removes self-promotion and privacy protection for EasyList China`
- - URL: https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+| Subscription title | Description | URL |
+|-----------|---------------|---------------|
+| `EasyPrivacy` | `Block tracking` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
+| `Malware Domains` | `Block malware` | https://easylist-downloads.adblockplus.org/malwaredomains_full.txt |
+| `Adblock Warning Removal List` | `Removes anti-adblock warnings and other obtrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
+| `Adware filters` | `Blocks ads injected by adware` | https://easylist-downloads.adblockplus.org/adwarefilters.txt |
+| `Fanboy's Annoyances` | `Removes online annoyances (includes Fanboy's Social Blocking List)` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
+| `Fanboy's Social Blocking List` | `Removes social media integration` | https://easylist-downloads.adblockplus.org/fanboy-social.txt |
+| `I don't care about cookies` | `Filters obtrusive EU cookie law notices` | https://kiboke-studio.hr/i-dont-care-about-cookies/abp |
+| `Spam404` | `Block fraudulent websites` | https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt |
+| `CJX's Annoyance List` | `Removes self-promotion and privacy protection for EasyList China` | https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt |
 
 Filter list subscriptions here: https://adblockplus.org/subscriptions
 
@@ -503,92 +486,32 @@ All language filter lists will be grouped separately beneath the title.
 
 ### Language filter lists
 
-- Subscription title `EasyList`
- - Description `English`
- - URL: https://easylist-downloads.adblockplus.org/easylist.txt
-- Subscription title `ABPindo`
- - Description `Bahasa Indonesia`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/abpindo+easylist.txt
- - URL alone: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
-- Subscription title `Bulgarian list`
- - Description `български`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/bulgarian_list+easylist.txt
- - URL alone: https://stanev.org/abp/adblock_bg.txt
-- Subscription title `EasyList China`
- - Description `中文`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/easylistchina.txt
-- Subscription title `EasyList Czech and Slovak`
- - Description `čeština, slovenčina`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistczechslovak+easylist.txt
- - URL alone: https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt
-- Subscription title `EasyList Dutch`
- - Description `Nederlands`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistdutch+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/easylistdutch.txt
-- Subscription title `EasyList Germany`
- - Description `Deutsch`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistgermany+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/easylistgermany.txt
-- Subscription title `EasyList Hebrew`
- - Description `עברית`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/israellist+easylist.txt
- - URL alone: https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt
-- Subscription title `EasyList Italy`
- - Description `Italiano`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistitaly+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/easylistitaly.txt
-- Subscription title `EasyList Lithuania`
- - Description `lietuvių kalba`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistlithuania+easylist.txt
-- Subscription title `EasyList Latvian`
- - Description `latviešu valoda`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/latvianlist+easylist.txt
- - URL alone: https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt
-- Subscription title `EasyList Spanish`
- - Description `Español`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/easylistspanish+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/easylistspanish.txt
-- Subscription title `EasyList AR`
- - Description `العربية`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/liste_ar+liste_fr+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/Liste_AR.txt
-- Subscription title `EasyList FR`
- - Description `Français`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/liste_fr+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/liste_fr.txt
-- Subscription title `ROList`
- - Description `Românesc`
- - URL + EasyList: https://easylist-downloads.adblockplus.org/rolist+easylist.txt
- - URL alone: https://easylist-downloads.adblockplus.org/advblock.txt
-- Subscription title `Icelandic ABP List`
- - Description `íslenska`
- - URL + EasyList: https://adblock.gardar.net/is.abp.txt
-- Subscription title `void.gr`
- - Description `ελληνικά`
- - URL + EasyList: https://void.gr/kargig/void-gr-filters.txt
-- Subscription title `ABP Japanese Filters`
- - Description `日本語`
- - URL: https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt
-- Subscription title `ABPVN List`
- - Description `Việt`
- - URL: https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
-- Subscription title `Adblock List for Finland`
- - Description `suomi`
- - URL: http://adb.juvander.net/Finland_adb.txt
-- Subscription title `Czech List`
- - Description `čeština`
- - URL: http://adblock.dajbych.net/adblock.txt
-- Subscription title `Eesti saitidele kohandatud filter`
- - Description `Eesti keel`
- - URL: http://adblock.ee/list.php
-- Subscription title `hufilter`
- - Description `magyar`
- - URL: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
-- Subscription title `YousList`
- - Description `한국어`
- - URL: https://raw.githubusercontent.com/yous/YousList/master/youslist.txt
-
+| Subscription title | Description | URL + EasyList | URL | 
+|-----------|---------------|---------------|---------------|
+| `EasyList` | `English` | https://easylist-downloads.adblockplus.org/easylist.txt | |
+| `ABPindo` | `Bahasa Indonesia` | https://easylist-downloads.adblockplus.org/abpindo+easylist.txt | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt |
+| `Bulgarian list` | `български` | https://easylist-downloads.adblockplus.org/bulgarian_list+easylist.txt | https://stanev.org/abp/adblock_bg.txt |
+| `EasyList China` | `中文` | https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | https://easylist-downloads.adblockplus.org/easylistchina.txt |
+| `EasyList Czech and Slovak` | `čeština, slovenčina` | https://easylist-downloads.adblockplus.org/easylistczechslovak+easylist.txt | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt |
+| `EasyList Dutch` | `Nederlands` | https://easylist-downloads.adblockplus.org/easylistdutch+easylist.txt | https://easylist-downloads.adblockplus.org/easylistdutch.txt |
+| `EasyList Germany` | `Deutsch` | https://easylist-downloads.adblockplus.org/easylistgermany+easylist.txt | https://easylist-downloads.adblockplus.org/easylistgermany.txt |
+| `EasyList Hebrew` | `עברית` | https://easylist-downloads.adblockplus.org/israellist+easylist.txt | https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt |
+| `EasyList Italy` | `Italiano` | https://easylist-downloads.adblockplus.org/easylistitaly+easylist.txt | |
+| `EasyList Lithuania` | `lietuvių kalba` | https://easylist-downloads.adblockplus.org/easylistlithuania+easylist.txt | |
+| `EasyList Latvian` | `latviešu valoda` | https://easylist-downloads.adblockplus.org/latvianlist+easylist.txt | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt |
+| `EasyList Spanish` | `Español` | https://easylist-downloads.adblockplus.org/easylistspanish+easylist.txt | https://easylist-downloads.adblockplus.org/easylistspanish.txt |
+| `EasyList AR` | `العربية` | https://easylist-downloads.adblockplus.org/liste_ar+liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/Liste_AR.txt |
+| `EasyList FR` | `Français` | https://easylist-downloads.adblockplus.org/liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/liste_fr.txt |
+| `ROList` | `Românesc` | https://easylist-downloads.adblockplus.org/rolist+easylist.txt | https://easylist-downloads.adblockplus.org/advblock.txt |
+| `Icelandic ABP List` | `íslenska` | https://adblock.gardar.net/is.abp.txt | |
+| `void.gr` | `ελληνικά` | https://void.gr/kargig/void-gr-filters.txt | |
+| `ABP Japanese Filters` | `日本語` | https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt | |
+| `ABPVN List` | `Việt` | https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt | |
+| `Adblock List for Finland` | `suomi` | http://adb.juvander.net/Finland_adb.txt | |
+| `Czech List` | `čeština` | http://adblock.dajbych.net/adblock.txt | |
+| `Eesti saitidele kohandatud filter` | `Eesti keel` |  http://adblock.ee/list.php | |
+| `hufilter` | `magyar` | https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt | |
+| `YousList` | `한국어` | https://raw.githubusercontent.com/yous/YousList/master/youslist.txt | |
   
 ### Installed filter list
 
