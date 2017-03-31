@@ -22,7 +22,7 @@ the current state of the extension.
 
 ### Style Guide
 
-All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options_page_style_guide.jpg).
+All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options_page_style_guide.pdf).
 
 ### WCAG
 
