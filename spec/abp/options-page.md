@@ -4,6 +4,7 @@ Options Page
 Options page for the ABP Browser extension.
 
 The options page is used to change various options of the ABP browser extension.
+<a name="top"></a>
 
 1. [Whitelist tab](#whitelist-tab)
 1. [Advanced tab](#advanced-tab)
@@ -35,8 +36,9 @@ Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/R
 
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
-Whitelist tab
+Whitelist tab 
 -------------
+<a href="#top">Back to top of page</a>
 
 ### Whitelist tab empty
 
@@ -133,7 +135,7 @@ If clicked the corresponding whitelisted domain is removed.
 ### Whitelisted domain added notification
 
 <!-- XXX: don't use html -->
-<img src='/res/abp/options-page/whitelisted-websites-notification.png'
+<img src='/res/abp/options-page/whitelisted-websites-notification.jpg'
   width='888px' />
 
 1. [Whitelisted domain added notification](#add-whitelisted-domain-button)
@@ -150,6 +152,7 @@ clicked or automatically after 2 seconds.
 
 Advanced tab
 ------------
+<a href="#top">Back to top of page</a>
 
 ### Advanced tab: Default
 
@@ -608,7 +611,9 @@ Additional subscriptions
 Assets
 -------------
 
-| Name | Asset |
+<a href="#top">Back to top of page</a>
+
+| Name | Asset | 
 |-----------|---------------|
 | attention.svg | <img src='/res/abp/options-page/assets/attention.svg' width='44px'/> |
 | box-circle.svg | <img src='/res/abp/options-page/assets/box-circle.svg' width='44px'/> |
@@ -624,6 +629,3 @@ Assets
 | tooltip.svg | <img src='/res/abp/options-page/assets/tooltip.svg' width='44px'/> |
 | trash.svg | <img src='/res/abp/options-page/assets/trash.svg' width='44px'/> |
 | twitter.svg | <img src='/res/abp/options-page/assets/twitter.svg' width='44px'/> |
-
-
-
