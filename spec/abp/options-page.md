@@ -8,6 +8,7 @@ The options page is used to change various options of the ABP browser extension.
 1. [Whitelist tab](#whitelist-tab)
 1. [Advanced tab](#advanced-tab)
 1. [Additional subscriptions](#additional-subscriptions)
+1. [Assets](#assets)
 
 ## General requirements
 
@@ -603,3 +604,26 @@ Additional subscriptions
 ------------------------
 
 [Additional subscriptions](#additional-subscriptions) are subscriptions that are added through group policies and cannot be removed See <https://issues.adblockplus.org/ticket/3801>
+
+Assets
+-------------
+
+| Name | Asset |
+|-----------|---------------|
+| attention.svg | <img src='/res/abp/options-page/assets/attention.svg' width='44px'/> |
+| box-circle.svg | <img src='/res/abp/options-page/assets/box-circle.svg' width='44px'/> |
+| checkmark.svg | <img src='/res/abp/options-page/assets/checkmark.svg' width='44px'/> |
+| code.svg | <img src='/res/abp/options-page/assets/code.svg' width='44px'/> |
+| delete.svg | <img src='/res/abp/options-page/assets/delete.svg' width='44px'/> |
+| email.svg | <img src='/res/abp/options-page/assets/email.svg' width='44px'/> |
+| facebook.svg | <img src='/res/abp/options-page/assets/facebook.svg' width='44px'/> |
+| globe.svg | <img src='/res/abp/options-page/assets/globe.svg' width='44px'/> |
+| googleplus.svg | <img src='/res/abp/options-page/assets/googleplus.svg' width='44px'/> |
+| reload.svg | <img src='/res/abp/options-page/assets/reload.svg' width='44px'/> |
+| settings.svg | <img src='/res/abp/options-page/assets/settings.svg' width='44px'/> |
+| tooltip.svg | <img src='/res/abp/options-page/assets/tooltip.svg' width='44px'/> |
+| trash.svg | <img src='/res/abp/options-page/assets/trash.svg' width='44px'/> |
+| twitter.svg | <img src='/res/abp/options-page/assets/twitter.svg' width='44px'/> |
+
+
+
