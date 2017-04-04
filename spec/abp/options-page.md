@@ -6,6 +6,7 @@ Options page for the ABP Browser extension.
 The options page is used to change various options of the ABP browser extension.
 <a name="top"></a>
 
+1. [General tab](#general-tab)
 1. [Whitelist tab](#whitelist-tab)
 1. [Advanced tab](#advanced-tab)
 1. [Additional subscriptions](#additional-subscriptions)
@@ -36,7 +37,236 @@ Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/R
 
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
-Whitelist tab 
+General tab
+-------------
+### General tab default
+
+<img src='/res/abp/options-page/general-tab.jpg' width='888px' />
+
+1. [General tab headline](#general-tab-headline)
+1. [General tab description](#general-tab-description)
+1. [Privacy & Security section](#privacy-&-security-section)
+1. [Acceptable Ads section](#acceptable-ads-section)
+1. [Language section](#language-section)
+1. [More filters section](#more-filters-section)
+
+#### General tab headline
+
+Headline for the [General tab](#general-tab) `General settings`
+
+#### General tab description
+
+Description for the [General tab](#general-tab).
+
+```
+Determine what Adblock Plus shows and hides on websites
+```
+
+### Privacy & Security section
+
+<img src='/res/abp/options-page/general-default-privacy-and-security.jpg' width='888px' />
+
+1. [Privacy section headline](#privacy-tab-headline)
+1. [Recommended filter lists](#recommended-filter-lists)
+1. [Tooltip icon](#tooltip-icon)
+1. [Tooltip pop-up](#tooltip-pop-up)
+
+
+#### Privacy & Security section headline
+
+Headline for the [Privacy & security section](#privacy-&-security-section) `Privacy & Security`
+
+#### Recommended filter lists
+
+Checkbox to en-/disable each filter list.
+
+| Filter list name | Filter list title | Tooltip | Filter list URL |
+|-----------|---------------|---------------|--------------|
+| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites that you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hide these buttons to protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
+| EasyPrivacy | `Turn off tracking` | `Remove all forms of tracking from the Internet including information collectors, thereby protecting your personal data.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
+
+#### Tooltip icon
+
+- Toltip is triggered when a users clicks on the icon. 
+
+#### Tooltip pop-up
+
+Refer to the table in [Recommended filter lists](#recommended-filter-lists)
+ for tooltip descriptions. 
+
+### Acceptable Ads section
+
+<img src='/res/abp/options-page/general-default-acceptable-ads.jpg' width='888px' />
+
+1. [Acceptable Ads section headline](#acceptable-ads-section-headline)
+1. [Acceptable Ads section description](#acceptable-ads-section-description)
+1. [Acceptable Ads table](#acceptable-ads-table)
+
+#### Acceptable Ads section headline
+
+Headline for the [Acceptable Ads section](#acceptable-ads-section) `Acceptable Ads`
+
+#### Acceptable Ads section description
+
+Description for the [Acceptable Ads section](#acceptable-ads-section) 
+
+```Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting free online content, by generating money for website owners.```
+
+#### Acceptable Ads table
+
+- Radio button options.
+- `Show nonintrusive ads` is selected on default. This enables the `Allow non-intrusive advertising` (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
+
+| Title | Description | Action |
+|-----------|---------------|--------------|
+| `Show nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria). **Note:** These ads collect some information about your browsing habits to provide you with more relevant ads.` | Enables `Allow non-intrusive advertising` filter list. |
+| `Show only nonintrusive ads that are privacy friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
+| `Hide all ads` | N/A | Disables `Allow non-intrusive advertising` filter list. |
+
+##### Show nonintrusive ads
+
+The default setting.
+
+##### Show nonintrusive ads that are privacy friendly
+
+- This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
+- Label this setting as `NEW` until a user interacts with the options page. 
+- If a user selects this option, display the below text within the table:
+
+```Note: You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT.](link to official browser instructions for enabling DNT)```
+
+| Browser | DNT URL | 
+|-----------|---------------|
+| Chrome | https://support.google.com/chrome/answer/2790761 |
+| Firefox | https://www.mozilla.org/en-US/firefox/dnt/ |
+| Opera | http://help.opera.com/Windows/12.10/en/notrack.html |
+| Edge | https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy |
+
+
+<img src='/res/abp/options-page/general-default-acceptable-ads-dnt.jpg' width='888px' />
+
+### Language section
+
+<img src='/res/abp/options-page/general-default-language.jpg' width='888px' />
+
+1. [Language section headline](#language-section-headline)
+1. [Language section description](#language-section-description)
+1. [Default language](#default-language)
+1. [Edit language](#edit-language)
+1. [Add language](#add-language)
+1. [Language tip](#language-tip)
+
+#### Language section headline
+
+Headline for the [Language section](#language-section) `Language`
+
+#### Language section description
+
+Description for the [Language section](#language-section) 
+
+```Optimize Adblock Plus for the language(s) you typically browse websites in. [Learn more](#link to Help Centre article (needs to be created still)```
+
+TODO link to language article
+
+#### Default language
+
+- Language filter list selected based on the browser's default language.
+- To see all available language options and corresponding filter lists go to  [Language filter lists](#language-filter-lists).
+
+#### Edit language
+
+- Lablled `Edit`
+- Button to trigger the [language drop-down menu](#language-drop-down-menu).
+
+#### Add language
+
+- Labelled `+ Add language` 
+- Button to trigger the [language drop-down menu](#language-drop-down-menu).
+
+#### Language tip
+
+```**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and therefore your browsing speed. ```
+
+#### Adding / Changing a language
+
+<img src='/res/abp/options-page/general-default-language-drop-down.jpg' width='888px' />
+
+1. [Language list](#language-list)
+1. [Selecting a language](#selecting-a-language)
+1. [Selected language](#selected-language)
+1. [Instruction text](#instruction-text)
+
+#### Language list
+
+- To see all available language options and corresponding filter lists go to  [Language filter lists](#language-filter-lists).
+
+#### Selecting a language
+
+- Hover over and click states are displayed in the same way. 
+- `EDIT` state: Clicking on a language will automatcically close the drop down menu and *add the language the list*. 
+- `+ ADD` state: Clicking on a language will automatcically close the drop down menu and *change the default language*. 
+
+#### Selected language
+
+- Selected language(s) are greyed out and not interactive. 
+- When a user is  changing their default language using the [edit language](#edit-language) feature, there will be no `selected language` state.
+- If another language has already been added as a secondary language, a user will be able to select that language. This will change the language to the default language, and move it to the top of the language list.   
+
+#### Instruction text
+
+- Labelled `Select a language` 
+
+#### Removing a language
+
+<img src='/res/abp/options-page/general-default-language-multiple.jpg' width='888px' />
+
+- To remove a language from the list select `Remove` next to the listed language. 
+
+### More filters section
+
+<img src='/res/abp/options-page/general-default-more-filters.jpg' width='888px' />
+
+1. [More filters section headline](#language-section-headline)
+1. [More filters section description](#language-section-description)
+1. [More filter subscriptions](#more-filter-subscriptions)
+1. [More filters tooltip](#more-filters-tooltip)
+1. [Remove more filters](#remove-more-filters)
+1. [More filters note](#more-filters-note)
+
+#### More filters section headline
+
+Headline for the [More filters section](#more-filters-section) `More filters`
+
+#### Language section description
+
+Description for the [More filters section](#more-filters-section) 
+
+```These are other filters you had previously added to Adblock Plus.```
+
+#### More filter subscriptions
+
+All filter lists that a user subscribes to which are not one of Adblock Plus's recommended filter lists (i.e. not recommended within the `Privacy & Security` and `Language` sections) will be shown here. 
+
+#### More filters tooltips
+
+If no description is available, the tooltip icon is hidden.
+
+| Filter list name | Tooltip description | 
+|-----------|---------------|
+| Adware filters | `Adware is software that is typically obtained without your consent. It displays unwanted ads when you are online and can also track your browsing habits.` |
+| Malware Domains | `Malicious software (or "malware") is software that is intended to gain access to and damage your computer. Computer viruses, worms, spyware and Trojan horses are all forms of malware.` |
+| Spam404 | `Fraudulent websites, or scam websites, may look legit but are filled with adware, malware, spam or other harmful elements.` |
+| Adblock Warning Removal List | `Some websites show messages that ask you to turn off your ad blocker. Access to content will not be limited on sites that require no action from you (i.e. you are not required to turn off Adblock Plus to access the content).` |
+
+#### Remove more filters
+
+You can only remove filters from the panel here, by clicking on the `Remove` button.
+
+#### More filters notes
+
+Description `Please note: These filters are managed by third party authors. Adblock Plus is not responsible for them.`
+
+Whitelist tab
 -------------
 <a href="#top">Back to top of page</a>
 
@@ -44,8 +274,6 @@ Whitelist tab
 
 <!-- XXX: don't use html -->
 <img src='/res/abp/options-page/whitelisted-websites.jpg' width='888px' />
-
-<!-- TODO: make numbers in screenshot match numbered list below -->
 
 1. [Whitelist tab headline](#whitelist-tab-headline)
 1. [Whitelist tab description](#whitelist-tab-description)
@@ -313,6 +541,7 @@ Opens [Advanced tab: Edit custom filter empty](#advanced-tab-edit-custom-filter-
 #### Create custom filter list link
 
 [Learn how to write filter lists.](https://adblockplus.org/filters)
+
 
 ### Advanced tab: Added filter list
 
