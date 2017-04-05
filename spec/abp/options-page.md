@@ -312,19 +312,13 @@ Opens [Advanced tab: Edit custom filter empty](#advanced-tab-edit-custom-filter-
 
 #### Create custom filter list link
 
-
 [Learn how to write filter lists.](https://adblockplus.org/filters)
-
-
--------------------------------------------------------------------------------
 
 ### Advanced tab: Added filter list
 
 <img src='/res/abp/options-page/advanced-added-filter-list.jpg' width='888px' />
 
 Newly added filter lists should be displayed at the top and marked with a dot.
-
--------------------------------------------------------------------------------
 
 ### Advanced tab: Custom filter empty
 
@@ -602,6 +596,20 @@ Adds filter list.
 See [Advanced tab added filter list](#advanced-tab-added-filter-list)
 
 `Add filter list`
+
+### Add custom subscription popup: Predefined
+
+<img src='/res/abp/options-page/add-custom-subscription-popup-predefined.jpg' width='888px' />
+
+- When a user adds a filter list by clicking on a subscribe-link from an external source, it should open the options page and display the above popup.
+- Popup title `Are you sure you want to add this filter list?`
+- Display filter list URL.
+
+| Button label | Behaviour |
+|-----------|---------------|
+| `Cancel` | Cancels action, and closes popup |
+| `Yes, add this filter list` | Adds filter list to the table |
+
 
 Additional subscriptions
 ------------------------
