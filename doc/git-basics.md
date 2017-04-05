@@ -60,6 +60,15 @@ git checkout -b 1337_first_run master
 ```
 ![git_4.png](/res/doc/git-basics/git_4.png)
 
+Make sure your local master branch is up to date (see [Update repository](#update-repository)) or use the following shortcut to create a the feature branch regardless of where you are currently at.
+
+```
+git fetch origin
+git checkout -b 1337_first_run origin/master
+```
+
+![git_4_1.png](/res/doc/git-basics/git_4_1.png)
+
 This creates a new branch named *1337_first_run* from the *master* branch
 
 The new branch *1337_first_run* is a descendent of *master* and as such is on the same state as the *master* branch until you commit a change.
