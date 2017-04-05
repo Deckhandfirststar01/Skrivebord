@@ -13,6 +13,7 @@ Overview
 1. [Push branch](#push-branch)
 1. [Pull request](#pull-request)
 1. [How to link to a specific version](#how-to-link-to-a-specific-version)
+1. [Working with WIP commits](#working-with-wip-commits)
 
 ### Introduction
 
@@ -489,3 +490,18 @@ You can abbreviate the commit hash by trimming it down to 6 characters:
 1. Open document
 1. Copy link from address bar
 1. Paste link where ever you need it
+
+### Working with WIP commits
+
+Sometime while you're working on a bigger feature branch you want to make changes to other parts of the specification without loosing you work in progress but also without committing and pushing you work in progress.
+
+To do that you can create a temporary *WIP commit* you'll later undo so you can continue where you left of.
+
+![Working with WIP commits](/res/doc/git-basics/working-with-wip-commits.gif)
+
+1. Add all changes using `git add -A`
+1. Commit changes to *WIP commit* `git commit -m WIP`
+1. Create and swicth to other branch `git checkout -b 1338_other_thing origin/master`
+1. Do the temporary thing
+1. Switch back to original branch `git checkout 1337_first_run`
+1. Undo *WIP commit* git reset HEAD^
