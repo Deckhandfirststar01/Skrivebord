@@ -704,7 +704,7 @@ The size of the layover menu should correspond to the screen size. The scroll ba
 
 ### Focused filter list
 
-When a filter list is focused on the whole row should be highlighted.
+When a filter list is in focus the whole row should be highlighted.
 
 ### Language filter list title
 
@@ -813,28 +813,29 @@ If [Custom subscription popup subscription url input](#Custom-subscription-popup
 
 #### Custom subscription popup cancel button
 
-Closes the [Add custom subscription popup](#add-custom-subscription-popup)
-
-`Cancel`
+- Closes the [Add custom subscription popup](#add-custom-subscription-popup)
+- Label `Cancel`
 
 #### Custom subscription popup add button
 
-Inactive as long as [Custom subscription popup subscription title input](#custom-subscription-popup-subscription-title-input) and [Custom subscription popup subscription url input](#Custom-subscription-popup-subscription-url-input) don't validate.
-
-Adds filter list.
-
-See [Advanced tab added filter list](#advanced-tab-added-filter-list)
-
-`Add filter list`
+- Adds filter list.
+- Tab focus on the `Add filter list` button before `Cancel`.
+- Inactive as long as [Custom subscription popup subscription title input](#custom-subscription-popup-subscription-title-input) and [Custom subscription popup subscription url input](#Custom-subscription-popup-subscription-url-input) don't validate.
+- See [Advanced tab added filter list](#advanced-tab-added-filter-list)
+- Label `Add filter list`
 
 ### Add custom subscription popup: Predefined
 
 <img src='/res/abp/options-page/add-custom-subscription-popup-predefined.jpg' width='888px' />
 
 - When a user adds a filter list by clicking on a subscribe-link from an external source, it should open the options page and display the above popup.
-- Popup title `Are you sure you want to add this filter list?`
-- Display filter list URL.
-
+- Default dialog action is on the the primary button `Yes, add this filter list`
+- Popup menu title:  `Are you sure you want to add this filter list?`
+- Popup menu text:  
+`Title: <Filter list title>` 
+`URL: <Filter list URL>`
+- If no filter list title is provided, only show the URL link. 	
+	
 | Button label | Behaviour |
 |-----------|---------------|
 | `Cancel` | Cancels action, and closes popup |
