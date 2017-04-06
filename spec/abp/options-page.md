@@ -296,9 +296,10 @@ You’ve turned off ad blocking on these websites. You will see ads on these web
 
 ***TODO***: Add link to Help centre article
 
-#### Add whitelisted domain textinput
+#### Add whitelisted domain text input
 
-Textinput to enter domains to be added to the whitelist.
+ Textinput to enter domains to be added to the whitelist.
+ - Instruction label in text input `e.g. www.example.com`
  - Auto-focus when the [Whitelist tab](#whitelist-tab) is first loaded
  - Validate as you type
 
