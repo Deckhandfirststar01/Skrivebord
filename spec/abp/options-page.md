@@ -45,7 +45,7 @@ General tab
 
 1. [General tab headline](#general-tab-headline)
 1. [General tab description](#general-tab-description)
-1. [Privacy & Security section](#privacy-&-security-section)
+1. [Privacy & Security section](#privacy--security-section)
 1. [Acceptable Ads section](#acceptable-ads-section)
 1. [Language section](#language-section)
 1. [More filters section](#more-filters-section)
