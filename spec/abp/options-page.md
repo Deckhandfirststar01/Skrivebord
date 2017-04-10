@@ -72,7 +72,6 @@ Determine what Adblock Plus shows and hides on websites
 1. [Tooltip icon](#tooltip-icon)
 1. [Tooltip pop-up](#tooltip-pop-up)
 
-
 #### Privacy & Security section headline
 
 Headline for the [Privacy & security section](#privacy-&-security-section) `Privacy & Security`
@@ -102,6 +101,7 @@ Refer to the table in [Recommended filter lists](#recommended-filter-lists)
 1. [Acceptable Ads section headline](#acceptable-ads-section-headline)
 1. [Acceptable Ads section description](#acceptable-ads-section-description)
 1. [Acceptable Ads table](#acceptable-ads-table)
+1. [Acceptable Ads notification](#acceptable-ads-notification)
 
 #### Acceptable Ads section headline
 
@@ -143,8 +143,42 @@ The default setting.
 | Opera | http://help.opera.com/Windows/12.10/en/notrack.html |
 | Edge | https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy |
 
-
 <img src='/res/abp/options-page/general-default-acceptable-ads-dnt.jpg' width='888px' />
+
+#### Acceptable Ads notification
+
+- If a user enables `Turn off tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
+
+<img src='/res/abp/options-page/general-acceptable-ads-notification.jpg' width='888px' />
+
+- Notifcation headline 
+
+`Allow tracking on Acceptable Ads?`
+
+- Notifcation text 
+
+`You are allowing nonintrusive advertising (Acceptable Ads) to show on websites you visit. These ads are respectful and do not interfere with the content you are viewing.` 
+
+`Some of these ads require tracking techniques to show you more relevant ads.` 
+
+`Click *Yes* to see relevant ads that are non-intrusive. Click *No* to disable all tracking`
+- Buttons
+
+| Button label | Behaviour | 
+|-----------|---------------|
+| `Yes, show me relevant ads` | Keeps selection on `Show nonintrusive ads`, and closes window |
+| `No, turn off all tracking` | Switches selection to `Show nonintrusive ads that are privacy friendly`, and closes window |
+
+- If a user had previously subscribed to EasyPrivacy and Acceptable Ads, then display a notification in the main extension menu (as seen below), notifying users of the conflict. 
+- When the user opens the options page, immediately show the [Acceptable Ads notification](#acceptable-ads-notification).
+
+<img src='/res/abp/options-page/general-extension-notification.jpg' width='888px' />
+
+- Notification message: 
+
+`We’ve updated our settings to give you more control of your privacy.`  
+
+`It looks like there’s a conflict with some of your settings. Please take a look to make sure you know exactly what information is being shared and blocked. `
 
 ### Language section
 
