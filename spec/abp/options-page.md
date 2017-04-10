@@ -9,6 +9,7 @@ The options page is used to change various options of the ABP browser extension.
 1. [General tab](#general-tab)
 1. [Whitelist tab](#whitelist-tab)
 1. [Advanced tab](#advanced-tab)
+1. [Help tab](#help-tab)
 1. [Additional subscriptions](#additional-subscriptions)
 1. [Assets](#assets)
 
@@ -841,6 +842,66 @@ If [Custom subscription popup subscription url input](#Custom-subscription-popup
 | `Cancel` | Cancels action, and closes popup |
 | `Yes, add this filter list` | Adds filter list to the table |
 
+
+## Help tab
+
+<a href="#top">Back to top of page</a>
+
+<img src='/res/abp/options-page/help_tab.jpg' width='888px' />
+
+1. [Help tab headline](#help-tab-headline)
+1. [Help tab description](#help-tab-description)
+1. [Support section](#support-section)
+1. [Get in touch section](#get-in-touch-section)
+
+#### Help tab: Headline
+
+Headline for the [Help tab](#help-tab): `Help`
+
+#### Help tab: Description
+
+Description for the [Help tab](#help-tab): `Find help or get in touch with us`
+
+#### Support section
+
+- Title `Support`
+- Bullet list
+
+| Body text | Link text | Link URL |
+|----------------|----------------|-----------------|
+| `Think content or functionality is being incorrectly blocked by us?` | `Report incorrectly blocked items here` |  https://forums.lanik.us/viewforum.php?f=64 |
+| `See an ad that you think shouldn’t be there?` | `Report an ad` |  https://forums.lanik.us/viewforum.php?f=62 |
+| `Found a bug?` | `Send us a bug report` |  https://adblockplus.org/en/bugs#reporting |
+| `Want support from our community?` | `Go to the Forum` |  https://adblockplus.org/forum/ |
+
+Links for `Report an ad` and `Report incorrectly blocked items here` should go to the specified links above, unless the default language is shown below. In these instances both links go to the language specific URL shown below. For languages that are not English and not listed below, both links should go to https://forums.lanik.us/viewforum.php?f=64. 
+
+| Language | Link URL |
+|----------------|----------------|
+| Indonesian | https://forums.lanik.us/viewforum.php?f=94 |
+| Dutch | https://forums.lanik.us/viewforum.php?f=100 |
+| German | https://forums.lanik.us/viewforum.php?f=90 |
+| Italian | https://forums.lanik.us/viewforum.php?f=96 |
+| Spanish | https://forums.lanik.us/viewforum.php?f=103 |
+| Lithuanian | https://forums.lanik.us/viewtopic.php?f=101 |
+| Latvian | https://forums.lanik.us/viewforum.php?f=99 |
+| Arabic | https://forums.lanik.us/viewforum.php?f=98 |
+| French | https://forums.lanik.us/viewforum.php?f=91 |
+| Russian | https://forums.lanik.us/viewforum.php?f=102 |
+
+#### Get in touch section
+
+- Title `Get in touch`
+- Description `Have a question or a new idea? We're here to help.`
+- Social media icons and links
+
+| Social Media | Link URL |
+|----------------|----------------|
+| `Twitter` | https://twitter.com/adblockplus |
+| `Facebook` | https://www.facebook.com/adblockplus |
+| `Google Plus` | https://plus.google.com/+AdblockPlus |
+
+- `Email: support@adblockplus.org`
 
 Additional subscriptions
 ------------------------
