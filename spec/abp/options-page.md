@@ -865,29 +865,27 @@ Description for the [Help tab](#help-tab): `Find help or get in touch with us`
 #### Support section
 
 - Title `Support`
-- Bullet list
+- Bullet list (note: links are specific to language settings)
+	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (Link 1).
+	- `See an ad that you think shouldn’t be there?` `Report an ad` (Link 2).
+	- `Found a bug?`  `Send us a bug report`  (link to https://adblockplus.org/en/bugs#reporting)
+	- `Want support from our community?`  `Go to the Forum`  (link to https://adblockplus.org/forum)
 
-| Body text | Link text | Link URL |
-|----------------|----------------|-----------------|
-| `Think content or functionality is being incorrectly blocked by us?` | `Report incorrectly blocked items here` |  https://forums.lanik.us/viewforum.php?f=64 |
-| `See an ad that you think shouldn’t be there?` | `Report an ad` |  https://forums.lanik.us/viewforum.php?f=62 |
-| `Found a bug?` | `Send us a bug report` |  https://adblockplus.org/en/bugs#reporting |
-| `Want support from our community?` | `Go to the Forum` |  https://adblockplus.org/forum/ |
+| Language | Link 1 | Link 2 |
+|----------------|----------------|----------------|
+| English | https://forums.lanik.us/viewforum.php?f=64 | https://forums.lanik.us/viewforum.php?f=62 |
+| Indonesian | https://forums.lanik.us/viewforum.php?f=94 | same as Link 1 |
+| Dutch | https://forums.lanik.us/viewforum.php?f=100 | same as Link 1 |
+| German | https://forums.lanik.us/viewforum.php?f=90 | same as Link 1 |
+| Italian | https://forums.lanik.us/viewforum.php?f=96 | same as Link 1 |
+| Spanish | https://forums.lanik.us/viewforum.php?f=103 | same as Link 1 |
+| Lithuanian | https://forums.lanik.us/viewtopic.php?f=101 | same as Link 1 |
+| Latvian | https://forums.lanik.us/viewforum.php?f=99 | same as Link 1 |
+| Arabic | https://forums.lanik.us/viewforum.php?f=98 | same as Link 1 |
+| French | https://forums.lanik.us/viewforum.php?f=91 | same as Link 1 |
+| Russian | https://forums.lanik.us/viewforum.php?f=102 | same as Link 1 |
+| All other languages |  https://forums.lanik.us/viewforum.php?f=64 | same as Link 1 |
 
-Links for `Report an ad` and `Report incorrectly blocked items here` should go to the specified links above, unless the default language is shown below. In these instances both links go to the language specific URL shown below. For languages that are not English and not listed below, both links should go to https://forums.lanik.us/viewforum.php?f=64. 
-
-| Language | Link URL |
-|----------------|----------------|
-| Indonesian | https://forums.lanik.us/viewforum.php?f=94 |
-| Dutch | https://forums.lanik.us/viewforum.php?f=100 |
-| German | https://forums.lanik.us/viewforum.php?f=90 |
-| Italian | https://forums.lanik.us/viewforum.php?f=96 |
-| Spanish | https://forums.lanik.us/viewforum.php?f=103 |
-| Lithuanian | https://forums.lanik.us/viewtopic.php?f=101 |
-| Latvian | https://forums.lanik.us/viewforum.php?f=99 |
-| Arabic | https://forums.lanik.us/viewforum.php?f=98 |
-| French | https://forums.lanik.us/viewforum.php?f=91 |
-| Russian | https://forums.lanik.us/viewforum.php?f=102 |
 
 #### Get in touch section
 
