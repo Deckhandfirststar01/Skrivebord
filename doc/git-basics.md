@@ -23,7 +23,7 @@ For more information on git see <https://git-scm.com/book/en/v2/>.
 
 ### Update repository
 
-Open terminal and go to the repository. If you don't have a repository read [How to setup grip and github on osx](/doc/grip-github-osx.md) first.
+Open terminal and go to the repository. If you don't have a repository read [How to setup grip and bitbucket on osx](/doc/grip-bitbucket-osx.md) first.
 
 ```
 cd ~/Desktop/spec
@@ -319,9 +319,9 @@ Note how the prompt is only displayed after pressing *q*.
 
 ### Push branch
 
-Now we publish our changes by pushing them onto the repository on <https://github.com>.
+Now we publish our changes by pushing them onto the repository on <https://bitbucket.org>.
 
-When we cloned the repository git has automatically created a reference to the original reposity called *origin*. So whenever we want to talk to the repository on <https://github.com> we use the remote name *origin*.
+When we cloned the repository git has automatically created a reference to the original reposity called *origin*. So whenever we want to talk to the repository on <https://bitbucket.org> we use the remote name *origin*.
 
 And we have to tell git what we want to push so we also supply our feature branch name `1337_first_run`.
 
@@ -329,7 +329,7 @@ And we have to tell git what we want to push so we also supply our feature branc
 
 ![git_16.png](/res/doc/git-basics/git_16.png)
 
-Now our changes have been pushed to <https://github.com>.
+Now our changes have been pushed to <https://bitbucket.org>.
 
 <https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_pushing_remotes>
 
@@ -439,31 +439,25 @@ This is the responsibility of the maintainer of the repository, for code reposit
 The author of the spec should be the product manager (you) but it probably makes sense for me to handle it at the start and hand it over as you become more comfortable with *git* and *md*.
 
 
-Goto <https://github.com/wspee/spec> to request our changes.
+Goto <https://bitbucket.org/adblockplus/spec> to request our changes.
 
-Then click on *New pull request* (the *compare & pull request* button can be used as a shortcut but will not always be there).
+Then click on *Create pull request* in the *ACTIONS* popup accessible from the icon with th three dots in the top left corner.
 
-![github_1.png](/res/doc/git-basics/github_1.png)
+![bitbucket_1.png](/res/doc/git-basics/bitbucket_1.png)
 
 Then you have to choose which stack you want to put on which stack. In this case we want to put the pink stack *1337_first_run* ontop of the yellow stack *master*. So we choose *master* as the base and compare it to *1337_first_run*.
 
-![github_2.png](/res/doc/git-basics/github_2.png)
-
-Github then allows as to describe the changes, so we put in a meaningfull text describing the change and referencing a ticket if any.
-
-Below github shows the commits that have been added to the pink stack *1337_first_run* (*git log master..1337_first_run*) and also the changes that where made (*git diff master*)
+Bitbucket then allows as to describe the changes, so we put in a meaningfull text describing the change and referencing a ticket if any.
 
 Then we click *Create pull request*.
 
-![github_3.png](/res/doc/git-basics/github_3.png)
+![bitbucket_2.png](/res/doc/git-basics/bitbucket_2.png)
 
 Then the pull request has been succfully created. And it's time to open a beer :).
 
-(Github will notify the maintainer of the repo about the new pull request).
+(Bitbucket will notify the maintainer of the repo about the new pull request).
 
-![github_4.png](/res/doc/git-basics/github_4.png)
-
-<https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration>
+![bitbucket_3.png](/res/doc/git-basics/bitbucket_3.png)
 
 ## How to link to a specific version
 
@@ -471,17 +465,17 @@ If you share a link to the specification it makes sence to link to current (or a
 
 Most recent version of this document:
 
-<https://github.com/wvspee/spec/blob/master/doc/how-to-spec.md>
+<https://bitbucket.org/adblockplus/spec/src/master/doc/how-to-spec.md?at=master&fileviewer=file-view-default>
 
 Current version of this document:
 
-<https://github.com/wvspee/spec/blob/d587b9223fe8511dab95cbfe10e808a5fff964ed/doc/how-to-spec.md>
+<https://bitbucket.org/adblockplus/spec/src/c875a20b62a66b720da3980905a6c8eb2acf7fb3/doc/how-to-spec.md?at=master&fileviewer=file-view-default>
 
 Note how the url has changed, instead of *master* it now contains long alphanumeric number (the commit hash). This number is like a version number of the repository and allows you to refer to a specific version of the repository (the whole repository not only a single file).
 
 You can abbreviate the commit hash by trimming it down to 6 characters:
 
-<https://github.com/wvspee/spec/blob/d587b9/doc/how-to-spec.md>
+<https://bitbucket.org/adblockplus/spec/src/c875a2/doc/how-to-spec.md?at=master&fileviewer=file-view-default>
 
 ![How to link to a specific version](/res/doc/git-basics/link-to-a-specific-version.gif)
 
