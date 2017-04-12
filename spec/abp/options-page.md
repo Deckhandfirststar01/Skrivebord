@@ -42,7 +42,7 @@ General tab
 -------------
 ### General tab default
 
-<img src='/res/abp/options-page/general-tab.jpg' width='888px' />
+![](/res/abp/options-page/general-tab.jpg)
 
 1. [General tab headline](#general-tab-headline)
 1. [General tab description](#general-tab-description)
@@ -65,7 +65,7 @@ Determine what Adblock Plus shows and hides on websites
 
 ### Privacy & Security section
 
-<img src='/res/abp/options-page/general-default-privacy-and-security.jpg' width='888px' />
+![](/res/abp/options-page/general-default-privacy-and-security.jpg)
 
 1. [Privacy section headline](#privacy-tab-headline)
 1. [Recommended filter lists](#recommended-filter-lists)
@@ -96,7 +96,7 @@ Refer to the table in [Recommended filter lists](#recommended-filter-lists)
 
 ### Acceptable Ads section
 
-<img src='/res/abp/options-page/general-default-acceptable-ads.jpg' width='888px' />
+![](/res/abp/options-page/general-default-acceptable-ads.jpg)
 
 1. [Acceptable Ads section headline](#acceptable-ads-section-headline)
 1. [Acceptable Ads section description](#acceptable-ads-section-description)
@@ -143,13 +143,14 @@ The default setting.
 | Opera | http://help.opera.com/Windows/12.10/en/notrack.html |
 | Edge | https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy |
 
-<img src='/res/abp/options-page/general-default-acceptable-ads-dnt.jpg' width='888px' />
+
+![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
 
 #### Acceptable Ads notification
 
 - If a user enables `Turn off tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
 
-<img src='/res/abp/options-page/general-acceptable-ads-notification.jpg' width='888px' />
+![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
 
 - Notifcation headline 
 
@@ -172,7 +173,7 @@ The default setting.
 - If a user had previously subscribed to EasyPrivacy and Acceptable Ads, then display a notification in the main extension menu (as seen below), notifying users of the conflict. 
 - When the user opens the options page, immediately show the [Acceptable Ads notification](#acceptable-ads-notification).
 
-<img src='/res/abp/options-page/general-extension-notification.jpg' width='888px' />
+![](/res/abp/options-page/general-extension-notification.jpg)
 
 - Notification message: 
 
@@ -182,7 +183,7 @@ The default setting.
 
 ### Language section
 
-<img src='/res/abp/options-page/general-default-language.jpg' width='888px' />
+![](/res/abp/options-page/general-default-language.jpg)
 
 1. [Language section headline](#language-section-headline)
 1. [Language section description](#language-section-description)
@@ -224,7 +225,7 @@ TODO link to language article
 
 #### Adding / Changing a language
 
-<img src='/res/abp/options-page/general-default-language-drop-down.jpg' width='888px' />
+![](/res/abp/options-page/general-default-language-drop-down.jpg)
 
 1. [Language list](#language-list)
 1. [Selecting a language](#selecting-a-language)
@@ -253,13 +254,13 @@ TODO link to language article
 
 #### Removing a language
 
-<img src='/res/abp/options-page/general-default-language-multiple.jpg' width='888px' />
+![](/res/abp/options-page/general-default-language-multiple.jpg)
 
 - To remove a language from the list select `Remove` next to the listed language. 
 
 ### More filters section
 
-<img src='/res/abp/options-page/general-default-more-filters.jpg' width='888px' />
+![](/res/abp/options-page/general-default-more-filters.jpg)
 
 1. [More filters section headline](#language-section-headline)
 1. [More filters section description](#language-section-description)
@@ -307,8 +308,7 @@ Whitelist tab
 
 ### Whitelist tab empty
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/whitelisted-websites.jpg' width='888px' />
+![](/res/abp/options-page/whitelisted-websites.jpg)
 
 1. [Whitelist tab headline](#whitelist-tab-headline)
 1. [Whitelist tab description](#whitelist-tab-description)
@@ -373,8 +373,7 @@ Placeholder text shown as long as there are no whitelisted domains.
 
 ### Whitelist tab populated
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/whitelisted-websites-populated.jpg' width='888px' />
+![](/res/abp/options-page/whitelisted-websites-populated.jpg)
 
 1. [List of whitelisted domains](#add-whitelisted-domain-button)
 
@@ -398,8 +397,7 @@ If clicked the corresponding whitelisted domain is removed.
 
 ### Whitelisted domain added notification
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/whitelisted-websites-notification.jpg'
+![](/res/abp/options-page/whitelisted-websites-notification.jpg'
   width='888px' />
 
 1. [Whitelisted domain added notification](#add-whitelisted-domain-button)
@@ -420,8 +418,7 @@ Advanced tab
 
 ### Advanced tab: Default
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/advanced-default.jpg' width='888px' />
+![](/res/abp/options-page/advanced-default.jpg)
 
 1. [Advanced tab headline](#advanced-tab-headline)
 1. [Advanced tab description](#advanced-tab-description)
@@ -440,7 +437,7 @@ Description for the [Advanced tab](#advanced-tab): `Customize Adblock Plus, add 
 
 #### Customize section
 
-<img src='/res/abp/options-page/advanced-default-customize.jpg' width='888px' />
+![](/res/abp/options-page/advanced-default-customize.jpg)
 
 1. [Customize section header](#customize-section-header)
 1. [Customize: block elements](#customize-block-elements)
@@ -480,7 +477,7 @@ Checkbox to en-/disable [Notifications](#TBA).
 
 #### Filter lists section
 
-<img src='/res/abp/options-page/advanced-default-filter-lists.jpg' width='888px' />
+![](/res/abp/options-page/advanced-default-filter-lists.jpg)
 
 1. [Filter list section header](#filter-list-section-header)
 1. [Filter list section description](#filter-list-section-description)
@@ -541,7 +538,7 @@ Allows to add a subscription.
 
 #### Create custom filter section
 
-<img src='/res/abp/options-page/advanced-default-custom-filter.jpg' width='888px' />
+![](/res/abp/options-page/advanced-default-custom-filter.jpg)
 
 1. [Custom filter section header](#custom-filter-section-header)
 1. [Custom filter section description](#custom-filter-section-description)
@@ -581,13 +578,13 @@ Opens [Advanced tab: Edit custom filter empty](#advanced-tab-edit-custom-filter-
 
 ### Advanced tab: Added filter list
 
-<img src='/res/abp/options-page/advanced-added-filter-list.jpg' width='888px' />
+![](/res/abp/options-page/advanced-added-filter-list.jpg)
 
 Newly added filter lists should be displayed at the top and marked with a dot.
 
 ### Advanced tab: Custom filter empty
 
-<img src='/res/abp/options-page/advanced-tab-custom-filter-empty.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-custom-filter-empty.jpg)
 
 #### Advanced tab: Custom filter start button
 
@@ -599,13 +596,13 @@ See also [Advanced tab: Custom filter hover](#advanced-tab-custom-filter-hover).
 
 ### Advanced tab: Custom filter hover
 
-<img src='/res/abp/options-page/advanced-tab-custom-filter-hover.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
 
 [Advanced tab: Custom filter start button](#advanced-tab-custom-filter-start-button) will hover.
 
 ### Advanced tab: Edit custom filter empty
 
-<img src='/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
 
 #### Advanced tab: Custom filter save button
 
@@ -623,11 +620,11 @@ Will revert all changes. If no custom filter switch to [Advanced tab: Custom fil
 
 ### Advanced tab: Edit custom filter add
 
-<img src='/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg)
 
 ### Advanced tab: Custom filter
 
-<img src='/res/abp/options-page/advanced-tab-custom-filter.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
 
 #### Advanced tab: Custom filter edit button
 
@@ -639,19 +636,18 @@ Will open [Advanced tab: Edit custom filter edit](#advanced-tab-edit-custom-filt
 
 ### Advanced tab: Hover behavior 
 
-<img src='/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg)
 
 ### Advanced tab: Edit custom filter edit
 
-<img src='/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg' width='888px' />
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
 
 Edit filter list popup
 ----------------------
 
 Popup to edit a filter list subscription
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/advanced-edit-filter-list-popup.jpg' width='888px' />
+![](/res/abp/options-page/advanced-edit-filter-list-popup.jpg)
 
 1. [Update filter list link](#update-filter-list-link)
 1. [Filter list homepage link](#filter-list-homepage-link)
@@ -690,8 +686,7 @@ Add filter list popup
 
 Popup to add a filter list from a selection.
 
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/advanced-add-filter-list-popup.jpg' width='888px' />
+![](/res/abp/options-page/advanced-add-filter-list-popup.jpg)
 
 1. [Add filter list popup title](#add-filter-list-popup-title)
 1. [Close filter list popup X](#close-filter-list-popup-X)
@@ -791,8 +786,7 @@ Add custom subscription popup
 -----------------------------
 
 ### Add custom subscription popup: Initial
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/add-custom-subscription-popup.jpg' width='888px' />
+![](/res/abp/options-page/add-custom-subscription-popup.jpg)
 
 1. [Custom subscription popup title](#custom-subscription-popup-title)
 1. [Close custom subscription popup X](#close-custom-subscription-popup-X)
@@ -835,14 +829,12 @@ Validates as you type against:
 
 
 ### Add custom subscription popup: Invalid
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/add-custom-subscription-popup-invalid.jpg' width='888px' />
+![](/res/abp/options-page/add-custom-subscription-popup-invalid.jpg)
 
 If [Custom subscription popup subscription url input](#Custom-subscription-popup-subscription-url-input) is invalid show a small red *!*.
 
 ### Add custom subscription popup: Valid
-<!-- XXX: don't use html -->
-<img src='/res/abp/options-page/add-custom-subscription-popup-valid.jpg' width='888px' />
+![](/res/abp/options-page/add-custom-subscription-popup-valid.jpg)
 
 If [Custom subscription popup subscription url input](#Custom-subscription-popup-subscription-url-input) is valid show a green *✓*.
 
@@ -861,7 +853,7 @@ If [Custom subscription popup subscription url input](#Custom-subscription-popup
 
 ### Add custom subscription popup: Predefined
 
-<img src='/res/abp/options-page/add-custom-subscription-popup-predefined.jpg' width='888px' />
+![](/res/abp/options-page/add-custom-subscription-popup-predefined.jpg)
 
 - When a user adds a filter list by clicking on a subscribe-link from an external source, it should open the options page and display the above popup.
 - Default dialog action is on the the primary button `Yes, add this filter list`
@@ -881,7 +873,7 @@ If [Custom subscription popup subscription url input](#Custom-subscription-popup
 
 <a href="#top">Back to top of page</a>
 
-<img src='/res/abp/options-page/help_tab.jpg' width='888px' />
+![](/res/abp/options-page/help_tab.jpg)
 
 1. [Help tab headline](#help-tab-headline)
 1. [Help tab description](#help-tab-description)
@@ -947,17 +939,17 @@ Assets
 
 | Name | Asset | 
 |-----------|---------------|
-| attention.svg | <img src='/res/abp/options-page/assets/attention.svg' width='44px'/> |
-| box-circle.svg | <img src='/res/abp/options-page/assets/box-circle.svg' width='44px'/> |
-| checkmark.svg | <img src='/res/abp/options-page/assets/checkmark.svg' width='44px'/> |
-| code.svg | <img src='/res/abp/options-page/assets/code.svg' width='44px'/> |
-| delete.svg | <img src='/res/abp/options-page/assets/delete.svg' width='44px'/> |
-| email.svg | <img src='/res/abp/options-page/assets/email.svg' width='44px'/> |
-| facebook.svg | <img src='/res/abp/options-page/assets/facebook.svg' width='44px'/> |
-| globe.svg | <img src='/res/abp/options-page/assets/globe.svg' width='44px'/> |
-| googleplus.svg | <img src='/res/abp/options-page/assets/googleplus.svg' width='44px'/> |
-| reload.svg | <img src='/res/abp/options-page/assets/reload.svg' width='44px'/> |
-| settings.svg | <img src='/res/abp/options-page/assets/settings.svg' width='44px'/> |
-| tooltip.svg | <img src='/res/abp/options-page/assets/tooltip.svg' width='44px'/> |
-| trash.svg | <img src='/res/abp/options-page/assets/trash.svg' width='44px'/> |
-| twitter.svg | <img src='/res/abp/options-page/assets/twitter.svg' width='44px'/> |
+| attention.svg | ![](/res/abp/options-page/assets/attention.svg) |
+| box-circle.svg | ![](/res/abp/options-page/assets/box-circle.svg) |
+| checkmark.svg | ![](/res/abp/options-page/assets/checkmark.svg) |
+| code.svg | ![](/res/abp/options-page/assets/code.svg) |
+| delete.svg | ![](/res/abp/options-page/assets/delete.svg) |
+| email.svg | ![](/res/abp/options-page/assets/email.svg) |
+| facebook.svg | ![](/res/abp/options-page/assets/facebook.svg) |
+| globe.svg | ![](/res/abp/options-page/assets/globe.svg) |
+| googleplus.svg | ![](/res/abp/options-page/assets/googleplus.svg) |
+| reload.svg | ![](/res/abp/options-page/assets/reload.svg) |
+| settings.svg | ![](/res/abp/options-page/assets/settings.svg) |
+| tooltip.svg | ![](/res/abp/options-page/assets/tooltip.svg) |
+| trash.svg | ![](/res/abp/options-page/assets/trash.svg) |
+| twitter.svg | ![](/res/abp/options-page/assets/twitter.svg) |
