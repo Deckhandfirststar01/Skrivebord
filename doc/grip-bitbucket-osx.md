@@ -1,4 +1,4 @@
-How to setup grip and github on osx
+How to setup grip and bitbucket on osx
 ===================================
 
 Prequisite
@@ -12,8 +12,8 @@ Open a terminal and paste the following command to install [homebrew](https://br
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-<img src='/res/doc/grip-github-osx/pre_2.png' />
-<img src='/res/doc/grip-github-osx/pre_3.png' />
+![](/res/doc/grip-bitbucket-osx/pre_2.png)
+![](/res/doc/grip-bitbucket-osx/pre_3.png)
 
 ### Install grip
 
@@ -21,8 +21,8 @@ Open a terminal and paste the following command to install [homebrew](https://br
 sudo brew install grip
 ```
 
-<img src='/res/doc/grip-github-osx/pre_4.png' />
-<img src='/res/doc/grip-github-osx/pre_5.png' />
+![](/res/doc/grip-bitbucket-osx/pre_4.png)
+![](/res/doc/grip-bitbucket-osx/pre_5.png)
 
 
 ### Install textmate
@@ -32,8 +32,8 @@ Textmate is a popular textedior for MacOSX. It is not required for editing the s
 ```
 sudo brew install textmate
 ```
-<img src='/res/doc/grip-github-osx/pre_6.png' />
-<img src='/res/doc/grip-github-osx/pre_7.png' />
+![](/res/doc/grip-bitbucket-osx/pre_6.png)
+![](/res/doc/grip-bitbucket-osx/pre_7.png)
 
 ### Setup git name/email
 
@@ -53,11 +53,11 @@ The default *EDITOR* for OSX is vi/vim, if you are comfortable with vim you can 
 echo export EDITOR=`which nano` >> ~/.bash_profile
 ```
 
-![pre_8.png](/res/doc/grip-github-osx/pre_8.png)
+![pre_8.png](/res/doc/grip-bitbucket-osx/pre_8.png)
 
 ### Create SSH key
 
-An ssh key is used to authenticate and identify your identity for access to the git repository on <https://github.com>, think of it as a more secure username/password.
+An ssh key is used to authenticate and identify your identity for access to the git repository on <https://bitbucket.org>, think of it as a more secure username/password.
 
 Create *.ssh* folder
 
@@ -75,37 +75,39 @@ ENTER
 ENTER
 ENTER
 ```
-<img src='/res/doc/grip-github-osx/pre_9.png' />
+![](/res/doc/grip-bitbucket-osx/pre_9.png)
 
 
 ### SSH public key
 
-Copy the content of the key to paste it on <https://github.com>
+Copy the content of the key to paste it on <https://bitbucket.org>
 
 ```
 cat ~/.ssh/id_rsa.pub
 ```
-<img src='/res/doc/grip-github-osx/pre_10.png' />
+![](/res/doc/grip-bitbucket-osx/pre_10.png)
 
 ### Add SSH public key
 
-Go to your github settings [https://github.com/settings/profile](https://github.com/settings/profile) (login if necessary).
+Go to your bitbucket settings <https://bitbucket.org/account/user/USERNAME/> (replace, USERNAME with your actual user name, login if necessary).
 
-![](/res/doc/grip-github-osx/github_1.png)
+![](/res/doc/grip-bitbucket-osx/bitbucket_1.png)
 
 
-Then click on *SSH and GPG keys* and add a new ssh key via *New SSH key*.
+Then click on *SSH keys* and add a new ssh key via *Add key*.
+
+![](/res/doc/grip-bitbucket-osx/bitbucket_2_1.png)
 
 Type in a name for the key (e.g. Jeens Macbook) and then paste the key from [above](#above) in the *key* textarea.
 
-Then click *Add SSH key* to save the new key.
+Then click *Add key* to save the new key.
 
-![](/res/doc/grip-github-osx/github_2.png)
+![](/res/doc/grip-bitbucket-osx/bitbucket_2_2.png)
 
 
-The newly added key should show up on the [keys settings page](https://github.com/settings/keys)
+The newly added key should show up on the *keys settings page* <https://bitbucket.org/account/user/USERNAME/ssh-keys/>
 
-![](/res/doc/grip-github-osx/github_3.png)
+![](/res/doc/grip-bitbucket-osx/bitbucket_3.png)
 
 
 
@@ -115,18 +117,18 @@ After your key has been added you can clone the repository.
 
 The url of the repository is shown after you click the *Clone or download* link on the repository page.
 
-![](/res/doc/grip-github-osx/github_4.png)
+![](/res/doc/grip-bitbucket-osx/bitbucket_4.png)
 
 If you have the url go back to your terminal and clone the repository:
 
 ```
 $ cd ~/Desktop/
-$ git clone git@github.com:wvspee/spec.git
+$ git clone git@bitbucket.org:adblockplus/spec.git
 yes
 ```
 
 (NOTE: type yes and press ENTER if git asks you whether you want to continue connecting)
 
-![git clone output](/res/doc/grip-github-osx/clone_1.png)
+![git clone output](/res/doc/grip-bitbucket-osx/clone_1.png)
 
 The repository is now ready in *~/Desktop/spec/*
