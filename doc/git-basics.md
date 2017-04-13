@@ -14,6 +14,7 @@ Overview
 1. [Pull request](#markdown-header-pull-request)
 1. [How to link to a specific version](#markdown-header-how-to-link-to-a-specific-version)
 1. [Working with WIP commits](#markdown-header-working-with-wip-commits)
+1. [Update remote origin](#markdown-header-update-remote-origin)
 
 ### Introduction
 
@@ -499,3 +500,10 @@ To do that you can create a temporary *WIP commit* you'll later undo so you can 
 1. Do the temporary thing
 1. Switch back to original branch `git checkout 1337_first_run`
 1. Undo *WIP commit* git reset HEAD^
+
+### Update remote origin
+
+![Working with WIP commits](/res/doc/git-basics/update-remote-origin.gif)
+
+1. Remove old origin using `git remote rm origin`
+1. Add new origin using ``git remote add origin git@bitbucket.org:adblockplus/spec.git`
