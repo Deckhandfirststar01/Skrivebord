@@ -10,46 +10,46 @@ The purpose of this document is to fully explain how each and every feature of P
 TABLE OF CONTENTS
 -----------------
 
-[**A: Web search results**](#a-web-search-results)
+[**A: Web search results**](#markdown-header-a-web-search-results)
 
-- [Web default view](#web-default-view)
+- [Web default view](#markdown-header-web-default-view)
 
-- [First run view](#first-run-view)
+- [First run view](#markdown-header-first-run-view)
 
-[**B: Image search results**](#b-image-search-results)
+[**B: Image search results**](#markdown-header-b-image-search-results)
 
-- [Images default view](#images-default-view)
+- [Images default view](#markdown-header-images-default-view)
 
-- [Size - options](#size---options)
+- [Size - options](#markdown-header-size---options)
 
-- [Color - options](#color---options)
+- [Color - options](#markdown-header-color---options)
 
-- [Number of results - options](#number-of-results---options)
+- [Number of results - options](#markdown-header-number-of-results---options)
 
-[**C: Video search results**](#c-video-search-results)
+[**C: Video search results**](#markdown-header-c-video-search-results)
 
-- [Videos default view](#videos-default-view)
+- [Videos default view](#markdown-header-videos-default-view)
 
-- [Duration - options](#duration---options)
+- [Duration - options](#markdown-header-duration---options)
 
-- [Time - options](#time---options)
+- [Time - options](#markdown-header-time---options)
 
-- [Quality - options](#quality---options)
+- [Quality - options](#markdown-header-quality---options)
 
-[**D: Map search results**](#d-map-search-results)
+[**D: Map search results**](#markdown-header-d-map-search-results)
 
-[**E: References**](#e-references)
+[**E: References**](#markdown-header-e-references)
 
-- [eyeo Hub Projects](#eyeo-hub-projects)
+- [eyeo Hub Projects](#markdown-header-eyeo-hub-projects)
 
-- [Contributors](#contributors)
+- [Contributors](#markdown-header-contributors)
 
 ***
 
 A: WEB SEARCH RESULTS
 ---------------------
 
-[Table of Contents](#table-of-contents)
+[Table of Contents](#markdown-header-table-of-contents)
 
 ### **Web default view**
 
@@ -85,7 +85,7 @@ Tapping on a paid search result will reveal the Navigation bar, enter the destin
 B: IMAGE SEARCH RESULTS
 -----------------------
 
-[Table of Contents](#table-of-contents)
+[Table of Contents](#markdown-header-table-of-contents)
 
 ### **Images default view**
 
@@ -161,7 +161,7 @@ B: IMAGE SEARCH RESULTS
 C: VIDEO SEARCH RESULTS
 -----------------------
 
-[Table of Contents](#table-of-contents)
+[Table of Contents](#markdown-header-table-of-contents)
 
 ### **Videos default view**
 
@@ -270,7 +270,7 @@ The sort category name should reflect the option selected.
 D: MAP SEARCH RESULTS
 ---------------------
 
-[Table of Contents](#table-of-contents)
+[Table of Contents](#markdown-header-table-of-contents)
 
 ![Map Search Results](/res/abb/abb-ios-private-search/D01-Maps.png)
 
@@ -283,7 +283,7 @@ D: MAP SEARCH RESULTS
 E: REFERENCES
 ---------------------
 
-[Table of Contents](#table-of-contents)
+[Table of Contents](#markdown-header-table-of-contents)
 
 ### **eyeo Hub Projects**
 
