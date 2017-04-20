@@ -6,6 +6,8 @@ Options page for the ABP Browser extension.
 The options page is used to change various options of the ABP browser extension.
 <a name="top"></a>
 
+1. [Navigation menu](#markdown-navigation-menu)
+1. [About ](#markdown-About)
 1. [General tab](#markdown-header-general-tab)
 1. [Whitelist tab](#markdown-header-whitelist-tab)
 1. [Advanced tab](#markdown-header-advanced-tab)
@@ -38,6 +40,45 @@ Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/R
 
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
+Navigation menu
+-------------
+![](/res/abp/options-page/navigation-menu.jpg)
+
+1. [Logo](#markdown-logo)
+1. [Navigation menu list](#markdown-navigation-menu-list)
+1. [Contribute button](#markdown-contribute-button)
+1. [About link](#markdown-about-link)
+
+### Logo
+- This will appear consistently across all tabs.
+- All elements within the navigation menu are fixed according to the screen height.
+- `Adblock Plus Settings`
+
+### Navigation menu list
+
+Navigation names should match the headlines of each tab.
+1. [General tab headline](#markdown-general-tab-headline)
+1. [Whitelisted tab headline](#markdown-whitelisted-tab-headline)
+1. [Advanced tab headline](#markdown-advanced-tab-headline)
+1. [Help tab headline](#markdown-help-tab-headline)
+
+### Contribute button
+Opens <https://adblockplus.org/contribute> in a new tab.
+
+### About link
+Opens the [About](#markdown-about) overlay.
+
+## About
+
+![](/res/abp/options-page/navigation-about.jpg)
+
+- Title: `About Adblock Plus`
+- Version number of extension added dynamically: `Version number xxx`
+- Text: `Copyright © 2016 Eyeo GmbH.
+Adblock Plus is a registered ® trademark of Eyeo GmbH.`
+- Button to close layover: `Close` 
+- X closes the layover.
+
 General tab
 -------------
 ### General tab default
@@ -53,7 +94,8 @@ General tab
 
 #### General tab headline
 
-Headline for the [General tab](#markdown-header-general-tab) `General settings`
+- Headline for the [General tab](#markdown-header-general-tab) `General`
+- Navigation label will match headline.
 
 #### General tab description
 
@@ -105,7 +147,7 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 
 #### Acceptable Ads section headline
 
-Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) `Acceptable Ads`
+- Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) `Acceptable Ads`
 
 #### Acceptable Ads section description
 
@@ -185,7 +227,7 @@ The default setting.
 
 #### Language section headline
 
-Headline for the [Language section](#markdown-header-language-section) `Language`
+- Headline for the [Language section](#markdown-header-language-section) `Language`
 
 #### Language section description
 
@@ -310,7 +352,8 @@ Whitelist tab
 
 #### Whitelist tab headline
 
-Headline for the [Whitelist tab](#markdown-header-whitelist-tab) `Whitelisted websites`
+- Headline for the [Whitelist tab](#markdown-header-whitelist-tab) `Whitelisted websites`
+- Navigation label will match headline.
 
 #### Whitelist tab description
 
@@ -420,7 +463,9 @@ Advanced tab
 
 #### Advanced tab: Headline
 
-Headline for the [Advanced tab](#markdown-header-advanced-tab): `Advanced`
+- Headline for the [Advanced tab](#markdown-header-advanced-tab): `Advanced`
+- Navigation label will match headline.
+
 
 #### Advanced tab: Description
 
@@ -864,7 +909,7 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 
 <a href="#top">Back to top of page</a>
 
-![](/res/abp/options-page/help_tab.jpg)
+![](/res/abp/options-page/help-tab.jpg)
 
 1. [Help tab headline](#markdown-header-help-tab-headline)
 1. [Help tab description](#markdown-header-help-tab-description)
@@ -873,7 +918,8 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 
 #### Help tab: Headline
 
-Headline for the [Help tab](#markdown-header-help-tab): `Help`
+- Headline for the [Help tab](#markdown-header-help-tab): `Help`
+- Navigation label will match headline.
 
 #### Help tab: Description
 
