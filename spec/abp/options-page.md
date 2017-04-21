@@ -83,11 +83,11 @@ Checkbox to en-/disable each filter list.
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
 | Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites that you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hide these buttons to protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
-| EasyPrivacy | `Turn off tracking` | `Remove all forms of tracking from the Internet including information collectors, thereby protecting your personal data.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
+| EasyPrivacy | `Disable tracking` | `Protect your personal data by removing all forms of tracking from the Internet including information collectors.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
 
 #### Tooltip icon
 
-- Toltip is triggered when a users clicks on the icon. 
+- Tooltip is triggered when a users clicks on the icon. 
 
 #### Tooltip pop-up
 
@@ -111,18 +111,18 @@ Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-sectio
 
 Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) 
 
-```Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting free online content, by generating money for website owners.```
+```Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting online content because they generate revenue for website owners.```
 
 #### Acceptable Ads table
 
 - Radio button options.
-- `Show nonintrusive ads` is selected on default. This enables the `Allow non-intrusive advertising` (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
+- `Show nonintrusive ads` is selected on default. This enables the `Allow nonintrusive advertising` (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
 
 | Title | Description | Action |
 |-----------|---------------|--------------|
-| `Show nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria). **Note:** These ads collect some information about your browsing habits to provide you with more relevant ads.` | Enables `Allow non-intrusive advertising` filter list. |
-| `Show only nonintrusive ads that are privacy friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
-| `Hide all ads` | N/A | Disables `Allow non-intrusive advertising` filter list. |
+| `Show nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria) **Note:** These ads collect some information about your browsing habits to provide you with more relevant ads.` | Enables `Allow non-intrusive advertising` filter list. |
+| `Show only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
+| `Hide all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
 
 ##### Show nonintrusive ads
 
@@ -134,7 +134,7 @@ The default setting.
 - Label this setting as `NEW` until a user interacts with the options page. 
 - If a user selects this option, display the below text within the table:
 
-```Note: You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT.](link to official browser instructions for enabling DNT)```
+```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT](link to official browser instructions for enabling DNT)```
 
 | Browser | DNT URL | 
 |-----------|---------------|
@@ -148,7 +148,7 @@ The default setting.
 
 #### Acceptable Ads notification
 
-- If a user enables `Turn off tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
+- If a user enables `Disable tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
 
 ![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
 
@@ -162,13 +162,13 @@ The default setting.
 
 `Some of these ads require tracking techniques to show you more relevant ads.` 
 
-`Click *Yes* to see relevant ads that are non-intrusive. Click *No* to disable all tracking`
+`Click *Yes* to see relevant ads that are nonintrusive. Click *No* to disable all tracking.`
 - Buttons
 
 | Button label | Behaviour | 
 |-----------|---------------|
 | `Yes, show me relevant ads` | Keeps selection on `Show nonintrusive ads`, and closes window |
-| `No, turn off all tracking` | Switches selection to `Show nonintrusive ads that are privacy friendly`, and closes window |
+| `No, disable all tracking` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
 - If a user had previously subscribed to EasyPrivacy and Acceptable Ads, then display a notification in the main extension menu (as seen below), notifying users of the conflict. 
 - When the user opens the options page, immediately show the [Acceptable Ads notification](#markdown-header-acceptable-ads-notification).
@@ -177,9 +177,9 @@ The default setting.
 
 - Notification message: 
 
-`We’ve updated our settings to give you more control of your privacy.`  
+`We’ve updated our settings to give you more control over your privacy.`  
 
-`It looks like there’s a conflict with some of your settings. Please take a look to make sure you know exactly what information is being shared and blocked. `
+`It looks like there’s a conflict with some of your settings. Please have a look to make sure you know exactly what information is being shared and blocked. `
 
 ### Language section
 
@@ -211,7 +211,7 @@ TODO link to language article
 
 #### Edit language
 
-- Lablled `Edit`
+- Labelled `Edit`
 - Button to trigger the [language drop-down menu](#markdown-header-language-drop-down-menu).
 
 #### Add language
@@ -277,7 +277,7 @@ Headline for the [More filters section](#markdown-header-more-filters-section) `
 
 Description for the [More filters section](#markdown-header-more-filters-section) 
 
-```These are other filters you had previously added to Adblock Plus.```
+```These are additional filters you previously added to Adblock Plus.```
 
 #### More filter subscriptions
 
@@ -300,7 +300,7 @@ You can only remove filters from the panel here, by clicking on the `Remove` but
 
 #### More filters notes
 
-Description `Please note: These filters are managed by third party authors. Adblock Plus is not responsible for them.`
+Description `**Note:** These filters are managed by third party authors. Adblock Plus is not responsible for them.`
 
 Whitelist tab
 -------------
@@ -407,7 +407,7 @@ If clicked the corresponding whitelisted domain is removed.
 The notification should push down page from the top and disappear if the X is
 clicked or automatically after 2 seconds.
 
-`"{}" has been added as a whitelisted website`
+`"{}" has been added as a whitelisted website.`
 
 ***TODO***: Clarification needed
 
@@ -452,7 +452,7 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 
 Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA).
 
-`Show 'Block Element’ right - click menu item`
+`Show 'Block Element’ right-click menu item`
 
 #####Tooltip: 
 `Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
@@ -573,7 +573,7 @@ Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edi
 
 #### Create custom filter list link
 
-[Learn how to write filter lists.](https://adblockplus.org/filters)
+[Learn how to write filter lists](https://adblockplus.org/filters)
 
 
 ### Advanced tab: Added filter list
@@ -712,9 +712,9 @@ Closes the [Add filter list popup](#markdown-header-add-filter-list-popup).
 
 | Subscription title | Description | URL |
 |-----------|---------------|---------------|
-| `EasyPrivacy` | `Block tracking` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
-| `Malware Domains` | `Block malware` | https://easylist-downloads.adblockplus.org/malwaredomains_full.txt |
-| `Adblock Warning Removal List` | `Removes anti-adblock warnings and other obtrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
+| `EasyPrivacy` | `Blocks tracking` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
+| `Malware Domains` | `Blocks malware` | https://easylist-downloads.adblockplus.org/malwaredomains_full.txt |
+| `Adblock Warning Removal List` | `Removes anti-ad block warnings and other obtrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
 | `Adware filters` | `Blocks ads injected by adware` | https://easylist-downloads.adblockplus.org/adwarefilters.txt |
 | `Fanboy's Annoyances` | `Removes online annoyances (includes Fanboy's Social Blocking List)` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
 | `Fanboy's Social Blocking List` | `Removes social media integration` | https://easylist-downloads.adblockplus.org/fanboy-social.txt |
