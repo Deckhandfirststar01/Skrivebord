@@ -959,11 +959,12 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 - Description `Have a question or a new idea? We're here to help.`
 - Social media icons and links
 
-| Social Media | Link URL |
-|----------------|----------------|
-| `Twitter` | https://twitter.com/adblockplus |
-| `Facebook` | https://www.facebook.com/adblockplus |
-| `Google Plus` | https://plus.google.com/+AdblockPlus |
+| Social Media | Link URL | Browser locale |
+|----------------|----------------| ----------------|
+| `Twitter` | https://twitter.com/adblockplus | For all locales except browsers in China |
+| `Facebook` | https://www.facebook.com/adblockplus | For all locales except browsers in China |
+| `Google Plus` | https://plus.google.com/+AdblockPlus | For all locales except browsers in China |
+| `Weibo` | https://weibo.com/adblockplus | Only for browsers in China |
 
 - `Email: support@adblockplus.org`
 
