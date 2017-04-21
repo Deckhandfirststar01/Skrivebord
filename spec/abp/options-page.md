@@ -78,7 +78,7 @@ Headline for the [Privacy & security section](#markdown-header-privacy-&-securit
 
 #### Recommended filter lists
 
-Checkbox to en-/disable each  filter list.
+Checkbox to install/uninstall each filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
