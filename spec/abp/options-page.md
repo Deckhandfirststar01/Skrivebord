@@ -78,7 +78,7 @@ Headline for the [Privacy & security section](#markdown-header-privacy-&-securit
 
 #### Recommended filter lists
 
-Checkbox to en-/disable each filter list.
+Checkbox to en-/disable each  filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
@@ -131,12 +131,13 @@ The default setting.
 ##### Show nonintrusive ads that are privacy friendly
 
 - This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
-- Label this setting as `NEW` until a user interacts with the options page. 
-- If a user selects this option, display the below text within the table:
+- Label this setting as `NEW` during the user's first visit to the new options page. 
+- Detect if the user has DNT enabled - **Please specifiy how to detect DNT**
+- If a user selects this option AND has DNT disabled, display the below text within the table:
 
-```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT](link to official browser instructions for enabling DNT)```
+```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT](link to https://adblockplus.org/redirect and redirect to the official browser instructions for enabling DNT)```
 
-| Browser | DNT URL | 
+| Browser | DNT URL redirect | 
 |-----------|---------------|
 | Chrome | https://support.google.com/chrome/answer/2790761 |
 | Firefox | https://www.mozilla.org/en-US/firefox/dnt/ |
@@ -170,16 +171,6 @@ The default setting.
 | `Yes, show me relevant ads` | Keeps selection on `Show nonintrusive ads`, and closes window |
 | `No, disable all tracking` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
-- If a user had previously subscribed to EasyPrivacy and Acceptable Ads, then display a notification in the main extension menu (as seen below), notifying users of the conflict. 
-- When the user opens the options page, immediately show the [Acceptable Ads notification](#markdown-header-acceptable-ads-notification).
-
-![](/res/abp/options-page/general-extension-notification.jpg)
-
-- Notification message: 
-
-`We’ve updated our settings to give you more control over your privacy.`  
-
-`It looks like there’s a conflict with some of your settings. Please have a look to make sure you know exactly what information is being shared and blocked. `
 
 ### Language section
 
