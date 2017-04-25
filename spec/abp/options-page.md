@@ -120,9 +120,9 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 
 | Title | Description | Action |
 |-----------|---------------|--------------|
-| `Show nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria) **Note:** These ads collect some information about your browsing habits to provide you with more relevant ads.` | Enables `Allow non-intrusive advertising` filter list. |
-| `Show only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
-| `Hide all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
+| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria)` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
+| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
+| `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
 
 ##### Show nonintrusive ads
 
