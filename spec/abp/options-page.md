@@ -961,10 +961,10 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 
 | Social Media | Link URL | Browser locale |
 |----------------|----------------| ----------------|
-| `Twitter` | https://twitter.com/adblockplus | For all locales except browsers in China |
-| `Facebook` | https://www.facebook.com/adblockplus | For all locales except browsers in China |
-| `Google Plus` | https://plus.google.com/+AdblockPlus | For all locales except browsers in China |
-| `Weibo` | https://weibo.com/adblockplus | Only for browsers in China |
+| `Twitter` | https://twitter.com/adblockplus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
+| `Facebook` | https://www.facebook.com/adblockplus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
+| `Google Plus` | https://plus.google.com/+AdblockPlus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
+| `Weibo` | https://weibo.com/adblockplus | Only for the locales zh_CH, zh_SG, zh_HK and zh_TW |
 
 - `Email: support@adblockplus.org`
 
