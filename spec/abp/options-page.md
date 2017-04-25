@@ -565,6 +565,7 @@ Opens [Add filter list popup](#markdown-header-add-filter-list-popup).
 
 `+ Add a new filter list`
 
+
 #### Update filter lists button
 
 Updates all filters lists.
@@ -575,111 +576,6 @@ Updates all filters lists.
 
 Allows to add a subscription.
 
-#### Create custom filter section
-
-![](/res/abp/options-page/advanced-default-custom-filter.jpg)
-
-1. [Custom filter section header](#markdown-header-custom-filter-section-header)
-1. [Custom filter section description](#markdown-header-custom-filter-section-description)
-1. [Custom filter title](#markdown-header-custom-filter-title)
-1. [Custom filter list placeholder](#markdown-header-custom-filter-list-placeholder)
-1. [Create custom filter list button](#markdown-header-create-custom-filter-list-button)
-1. [Create custom filter list link](#markdown-header-create-custom-filter-list-link)
-
-#### Custom filter section header
-
-`CREATE AND EDIT YOUR FILTER LIST`
-
-#### Custom filter section description
-
-`Write your own custom filters to further control what content Adblock PLus allows or blocks.`
-
-#### Custom filter title 
-
-`My filter list`
-
-#### Custom filter list placeholder
-
-
-`Filters you create will show up here.`
-
-#### Create custom filter list button
-
-
-`Start writing my filter list`
-
-Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
-
-#### Create custom filter list link
-
-[Learn how to write filter lists](https://adblockplus.org/filters)
-
-
-### Advanced tab: Added filter list
-
-![](/res/abp/options-page/advanced-added-filter-list.jpg)
-
-Newly added filter lists should be displayed at the top and marked with a dot.
-
-### Advanced tab: Custom filter empty
-
-![](/res/abp/options-page/advanced-tab-custom-filter-empty.jpg)
-
-#### Advanced tab: Custom filter start button
-
-`Start writing my filter list`
-
-Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
-
-See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
-
-### Advanced tab: Custom filter hover
-
-![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
-
-[Advanced tab: Custom filter start button](#markdown-header-advanced-tab-custom-filter-start-button) will hover.
-
-### Advanced tab: Edit custom filter empty
-
-![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
-
-#### Advanced tab: Custom filter save button
-
-`Save`
-
-Will stay inactive as long as as no filter has been added.
-
-See also [Advanced tab: Edit custom filter add](#markdown-header-advanced-tab-edit-custom-filter-add)
-
-#### Advanced tab: Custom filter cancel link
-
-`Cancel`
-
-Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#markdown-header-advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#markdown-header-advanced-tab-custom-filter).
-
-### Advanced tab: Edit custom filter add
-
-![](/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg)
-
-### Advanced tab: Custom filter
-
-![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
-
-#### Advanced tab: Custom filter edit button
-
-`Edit filters`
-
-[Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) will hover.
-
-Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
-
-### Advanced tab: Hover behavior 
-
-![](/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg)
-
-### Advanced tab: Edit custom filter edit
-
-![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
 
 Edit filter list popup
 ----------------------
@@ -907,6 +803,119 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 | `Cancel` | Cancels action, and closes popup |
 | `Yes, add this filter list` | Adds filter list to the table |
 
+### Advanced tab: Added filter list
+
+![](/res/abp/options-page/advanced-added-filter-list.jpg)
+
+Newly added filter lists should be displayed at the top and marked with a dot.
+
+#### Create custom filter section
+
+![](/res/abp/options-page/advanced-default-custom-filter.jpg)
+
+1. [Custom filter section header](#markdown-header-custom-filter-section-header)
+1. [Custom filter section description](#markdown-header-custom-filter-section-description)
+1. [Custom filter title](#markdown-header-custom-filter-title)
+1. [Custom filter list placeholder](#markdown-header-custom-filter-list-placeholder)
+1. [Create custom filter list button](#markdown-header-create-custom-filter-list-button)
+1. [Create custom filter list link](#markdown-header-create-custom-filter-list-link)
+
+#### Custom filter section header
+
+`CREATE AND EDIT YOUR FILTER LIST`
+
+#### Custom filter section description
+
+`Write your own custom filters to further control what content Adblock PLus allows or blocks.`
+
+#### Custom filter title 
+
+`My filter list`
+
+#### Custom filter list placeholder
+
+
+`Filters you create will show up here.`
+
+#### Create custom filter list button
+
+
+`Start writing my filter list`
+
+Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
+
+#### Create custom filter list link
+
+[Learn how to write filter lists](https://adblockplus.org/filters)
+
+
+### Advanced tab: Custom filter empty
+
+![](/res/abp/options-page/advanced-tab-custom-filter-empty.jpg)
+
+#### Advanced tab: Custom filter start button
+
+`Start writing my filter list`
+
+Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
+
+See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
+
+### Advanced tab: Custom filter hover
+
+![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
+
+[Advanced tab: Custom filter start button](#markdown-header-advanced-tab-custom-filter-start-button) will hover.
+
+### Advanced tab: Edit custom filter empty
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
+
+#### Advanced tab: Custom filter save button
+
+`Save`
+
+Will stay inactive as long as as no filter has been added.
+
+See also [Advanced tab: Edit custom filter add](#markdown-header-advanced-tab-edit-custom-filter-add)
+
+#### Advanced tab: Custom filter cancel link
+
+`Cancel`
+
+Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#markdown-header-advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#markdown-header-advanced-tab-custom-filter).
+
+### Advanced tab: Edit custom filter add
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg)
+
+### Advanced tab: Custom filter
+
+![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
+
+#### Advanced tab: Custom filter edit button
+
+`Edit filters`
+
+[Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) will hover.
+
+Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
+
+### Advanced tab: Hover behavior 
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg)
+
+### Advanced tab: Edit custom filter edit
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
+
+### Advanced tab: Invalid custom filter 
+
+![](/res/abp/options-page/advanced-tab-invalid-filter.jpg)
+
+- If a user enters an invalid filter, hightlight text input field in red.
+- Notification reads: `Something's not right. Please check the following filters:`
+- Filter strings which are invalid will populate as a list below the message.
 
 ## Help tab
 
