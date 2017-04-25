@@ -980,6 +980,7 @@ Assets
 
 | Name | Asset | 
 |-----------|---------------|
+| ABP_Logo_Outline.svg | ![](/res/abp/options-page/assets/ABP_Logo_Outline.svg) |
 | attention.svg | ![](/res/abp/options-page/assets/attention.svg) |
 | box-circle.svg | ![](/res/abp/options-page/assets/box-circle.svg) |
 | checkmark.svg | ![](/res/abp/options-page/assets/checkmark.svg) |
