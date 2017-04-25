@@ -42,6 +42,9 @@ Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpan
 
 Navigation menu
 -------------
+
+### Navigation menu default
+
 ![](/res/abp/options-page/navigation-menu.jpg)
 
 1. [Logo](#markdown-logo)
@@ -49,12 +52,12 @@ Navigation menu
 1. [Contribute button](#markdown-contribute-button)
 1. [About link](#markdown-about-link)
 
-### Logo
+#### Logo
 - This will appear consistently across all tabs.
 - All elements within the navigation menu are fixed according to the screen height.
 - `Adblock Plus Settings`
 
-### Navigation menu list
+#### Navigation menu list
 
 Navigation names should match the headlines of each tab.
 1. [General tab headline](#markdown-general-tab-headline)
@@ -62,13 +65,13 @@ Navigation names should match the headlines of each tab.
 1. [Advanced tab headline](#markdown-advanced-tab-headline)
 1. [Help tab headline](#markdown-help-tab-headline)
 
-### Contribute button
+#### Contribute button
 Opens <https://adblockplus.org/contribute> in a new tab.
 
-### About link
+#### About link
 Opens the [About](#markdown-about) overlay.
 
-## About
+### About
 
 ![](/res/abp/options-page/navigation-about.jpg)
 
