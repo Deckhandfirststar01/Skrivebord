@@ -340,7 +340,7 @@ Description `**Note:** These filters are managed by third party authors. Adblock
 
 Whitelist tab
 -------------
-<a href="#top">Back to top of page</a>
+[Back to top of page](#markdown-header-options-page)
 
 ### Whitelist tab empty
 
@@ -451,7 +451,7 @@ clicked or automatically after 2 seconds.
 
 Advanced tab
 ------------
-<a href="#top">Back to top of page</a>
+[Back to top of page](#markdown-header-options-page)
 
 ### Advanced tab: Default
 
@@ -910,7 +910,7 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 
 ## Help tab
 
-<a href="#top">Back to top of page</a>
+[Back to top of page](#markdown-header-options-page)
 
 ![](/res/abp/options-page/help-tab.jpg)
 
@@ -976,7 +976,7 @@ Additional subscriptions
 Assets
 -------------
 
-<a href="#top">Back to top of page</a>
+[Back to top of page](#markdown-header-options-page)
 
 | Name | Asset | 
 |-----------|---------------|
