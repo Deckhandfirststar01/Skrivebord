@@ -12,7 +12,6 @@ The options page is used to change various options of the ABP browser extension.
 1. [Whitelist tab](#markdown-header-whitelist-tab)
 1. [Advanced tab](#markdown-header-advanced-tab)
 1. [Help tab](#markdown-header-help-tab)
-1. [Additional subscriptions](#markdown-header-additional-subscriptions)
 1. [Assets](#markdown-header-assets)
 
 ## General requirements
@@ -66,7 +65,7 @@ Navigation names should match the headlines of each tab.
 1. [Help tab headline](#markdown-help-tab-headline)
 
 #### Contribute button
-Opens <https://adblockplus.org/contribute> in a new tab.
+Opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): *contribute* in a new tab
 
 #### About link
 Opens the [About](#markdown-about) overlay.
@@ -165,9 +164,11 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 
 | Title | Description | Action |
 |-----------|---------------|--------------|
-| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria](https://acceptableads.com/en/about/criteria)` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
+| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
 | `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
 | `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
+
+[1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): *acceptable_ads_criteria*
 
 ##### Show nonintrusive ads
 
@@ -180,15 +181,9 @@ The default setting.
 - Detect if the user has DNT enabled - **Please specifiy how to detect DNT**
 - If a user selects this option AND has DNT disabled, display the below text within the table:
 
-```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT](link to https://adblockplus.org/redirect and redirect to the official browser instructions for enabling DNT)```
+```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT][1] and redirect to the official browser instructions for enabling DNT)```
 
-| Browser | DNT URL redirect | 
-|-----------|---------------|
-| Chrome | https://support.google.com/chrome/answer/2790761 |
-| Firefox | https://www.mozilla.org/en-US/firefox/dnt/ |
-| Opera | http://help.opera.com/Windows/12.10/en/notrack.html |
-| Edge | https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy |
-
+[1]: [Dokumentation link](/spec/abp/prefs.md#markdown-header-documentation-link): One of *adblock_plus_chrome_dnt*, *adblock_plus_firefox_dnt*, *adblock_plus_opera_dnt* or *adblock_plus_edge_dnt* depending on which browser the extension is running.
 
 ![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
 
@@ -576,6 +571,111 @@ Updates all filters lists.
 
 Allows to add a subscription.
 
+#### Create custom filter section
+
+![](/res/abp/options-page/advanced-default-custom-filter.jpg)
+
+1. [Custom filter section header](#markdown-header-custom-filter-section-header)
+1. [Custom filter section description](#markdown-header-custom-filter-section-description)
+1. [Custom filter title](#markdown-header-custom-filter-title)
+1. [Custom filter list placeholder](#markdown-header-custom-filter-list-placeholder)
+1. [Create custom filter list button](#markdown-header-create-custom-filter-list-button)
+1. [Create custom filter list link](#markdown-header-create-custom-filter-list-link)
+
+#### Custom filter section header
+
+`CREATE AND EDIT YOUR FILTER LIST`
+
+#### Custom filter section description
+
+`Write your own custom filters to further control what content Adblock PLus allows or blocks.`
+
+#### Custom filter title 
+
+`My filter list`
+
+#### Custom filter list placeholder
+
+
+`Filters you create will show up here.`
+
+#### Create custom filter list button
+
+
+`Start writing my filter list`
+
+Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
+
+#### Create custom filter list link
+
+`Learn how to write filter lists` opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *filterdoc*
+
+
+### Advanced tab: Added filter list
+
+![](/res/abp/options-page/advanced-added-filter-list.jpg)
+
+Newly added filter lists should be displayed at the top and marked with a dot.
+
+### Advanced tab: Custom filter empty
+
+![](/res/abp/options-page/advanced-tab-custom-filter-empty.jpg)
+
+#### Advanced tab: Custom filter start button
+
+`Start writing my filter list`
+
+Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
+
+See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
+
+### Advanced tab: Custom filter hover
+
+![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
+
+[Advanced tab: Custom filter start button](#markdown-header-advanced-tab-custom-filter-start-button) will hover.
+
+### Advanced tab: Edit custom filter empty
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
+
+#### Advanced tab: Custom filter save button
+
+`Save`
+
+Will stay inactive as long as as no filter has been added.
+
+See also [Advanced tab: Edit custom filter add](#markdown-header-advanced-tab-edit-custom-filter-add)
+
+#### Advanced tab: Custom filter cancel link
+
+`Cancel`
+
+Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#markdown-header-advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#markdown-header-advanced-tab-custom-filter).
+
+### Advanced tab: Edit custom filter add
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg)
+
+### Advanced tab: Custom filter
+
+![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
+
+#### Advanced tab: Custom filter edit button
+
+`Edit filters`
+
+[Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) will hover.
+
+Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
+
+### Advanced tab: Hover behavior 
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg)
+
+### Advanced tab: Edit custom filter edit
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
 
 Edit filter list popup
 ----------------------
@@ -610,7 +710,7 @@ Link to the filter list file.
 ### Remove filter list link
 
 Removes the filter list subscription.
-[Additional subscriptions](#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
+[Additional subscriptions](/spec/abp/prefs.md#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
 
 `Remove`
 
@@ -941,26 +1041,10 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 
 - Title `Support`
 - Bullet list (note: links are specific to language settings)
-	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (Link 1).
-	- `See an ad that you think shouldn’t be there?` `Report an ad` (Link 2).
-	- `Found a bug?`  `Send us a bug report`  (link to https://adblockplus.org/en/bugs#reporting)
-	- `Want support from our community?`  `Go to the Forum`  (link to https://adblockplus.org/forum)
-
-| Language | Link 1 | Link 2 |
-|----------------|----------------|----------------|
-| English | https://forums.lanik.us/viewforum.php?f=64 | https://forums.lanik.us/viewforum.php?f=62 |
-| Indonesian | https://forums.lanik.us/viewforum.php?f=94 | same as Link 1 |
-| Dutch | https://forums.lanik.us/viewforum.php?f=100 | same as Link 1 |
-| German | https://forums.lanik.us/viewforum.php?f=90 | same as Link 1 |
-| Italian | https://forums.lanik.us/viewforum.php?f=96 | same as Link 1 |
-| Spanish | https://forums.lanik.us/viewforum.php?f=103 | same as Link 1 |
-| Lithuanian | https://forums.lanik.us/viewtopic.php?f=101 | same as Link 1 |
-| Latvian | https://forums.lanik.us/viewforum.php?f=99 | same as Link 1 |
-| Arabic | https://forums.lanik.us/viewforum.php?f=98 | same as Link 1 |
-| French | https://forums.lanik.us/viewforum.php?f=91 | same as Link 1 |
-| Russian | https://forums.lanik.us/viewforum.php?f=102 | same as Link 1 |
-| All other languages |  https://forums.lanik.us/viewforum.php?f=64 | same as Link 1 |
-
+	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_issue*).
+	- `See an ad that you think shouldn’t be there?` `Report an ad` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_ad*).
+	- `Found a bug?`  `Send us a bug report` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_bug*)
+	- `Want support from our community?`  `Go to the Forum`  (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *reporter_other_link*)
 
 #### Get in touch section
 
@@ -970,17 +1054,12 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 
 | Social Media | Link URL | Browser locale |
 |----------------|----------------| ----------------|
-| `Twitter` | https://twitter.com/adblockplus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
-| `Facebook` | https://www.facebook.com/adblockplus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
-| `Google Plus` | https://plus.google.com/+AdblockPlus | For all locales except zh_CH, zh_SG, zh_HK and zh_TW |
-| `Weibo` | https://weibo.com/adblockplus | Only for the locales zh_CH, zh_SG, zh_HK and zh_TW |
+| `Twitter` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_twitter* | For all locales except *zh* |
+| `Facebook` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_facebook* | For all locales except *zh* |
+| `Google Plus` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_gplus* | For all locales except *zh* |
+| `Weibo` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_weibo* | Only for the locales *zh* |
 
 - `Email: support@adblockplus.org`
-
-Additional subscriptions
-------------------------
-
-[Additional subscriptions](#markdown-header-additional-subscriptions) are subscriptions that are added through group policies and cannot be removed See <https://issues.adblockplus.org/ticket/3801>
 
 Assets
 -------------
