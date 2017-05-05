@@ -484,30 +484,30 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 
 #### Customize Block Element
 
-Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA).
+- Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA).
+- `Show 'Block Element’ right-click menu item`
 
-`Show 'Block Element’ right-click menu item`
-
-#####Tooltip: 
-`Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
+##### Tooltip: 
+- `Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
+- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
 
 #### Customize Adblock Plus panel
 
-Checkbox to en-/disable [Adblock Plus Developer Tools Panel](#markdown-header-TBA).
+- Checkbox to en-/disable [Adblock Plus Developer Tools Panel](#markdown-header-TBA).
+- `Show 'Adblock Plus' panel in developer tools`
 
-`Show 'Adblock Plus' panel in developer tools`
-
-#####Tooltip: 
-`View blocked and whitelisted items from your browser's developer tools panel.`
+##### Tooltip: 
+- `View blocked and whitelisted items from your browser's developer tools panel.`
+- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
 
 #### Turn off notifications
 
-Checkbox to en-/disable [Notifications](#markdown-header-TBA).
+- Checkbox to en-/disable [Notifications](#markdown-header-TBA).
+- `Turn off notifications`
 
-`Turn off notifications`
-
-#####Tooltip: 
-`Turn off all notifications from Adblock Plus.`
+##### Tooltip: 
+- `Turn off all notifications from Adblock Plus.`
+- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
 
 #### Filter lists section
 
