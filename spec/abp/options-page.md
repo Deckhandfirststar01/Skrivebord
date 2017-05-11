@@ -65,7 +65,7 @@ Navigation names should match the headlines of each tab.
 1. [Help tab headline](#markdown-help-tab-headline)
 
 #### Contribute button
-Opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): *contribute* in a new tab
+Opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=contribute` in a new tab
 
 #### About link
 Opens the [About](#markdown-about) overlay.
@@ -168,7 +168,7 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 | `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
 | `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
 
-[1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): *acceptable_ads_criteria*
+[1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
 
 ##### Show nonintrusive ads
 
@@ -183,7 +183,7 @@ The default setting.
 
 ```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT][1] and redirect to the official browser instructions for enabling DNT)```
 
-[1]: [Dokumentation link](/spec/abp/prefs.md#markdown-header-documentation-link): One of *adblock_plus_chrome_dnt*, *adblock_plus_firefox_dnt*, *adblock_plus_opera_dnt* or *adblock_plus_edge_dnt* depending on which browser the extension is running.
+[1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
 ![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
 
@@ -620,7 +620,7 @@ Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edi
 
 #### Create custom filter list link
 
-`Learn how to write filter lists` opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *filterdoc*
+`Learn how to write filter lists` opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=filterdoc` in a new tab.
 
 
 ### Advanced tab: Added filter list
@@ -1046,10 +1046,10 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 
 - Title `Support`
 - Bullet list (note: links are specific to language settings)
-	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_issue*).
-	- `See an ad that you think shouldn’t be there?` `Report an ad` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_ad*).
-	- `Found a bug?`  `Send us a bug report` (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *adblock_plus_report_bug*)
-	- `Want support from our community?`  `Go to the Forum`  (link to [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *reporter_other_link*)
+	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_issue` in a new tab).
+	- `See an ad that you think shouldn’t be there?` `Report an ad` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_ad` in a new tab).
+	- `Found a bug?`  `Send us a bug report` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_bug` in a new tab)
+	- `Want support from our community?`  `Go to the Forum`  (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=reporter_other_link` in a new tab)
 
 #### Get in touch section
 
@@ -1059,10 +1059,10 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 
 | Social Media | Link URL | Browser locale |
 |----------------|----------------| ----------------|
-| `Twitter` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_twitter* | For all locales except *zh* |
-| `Facebook` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_facebook* | For all locales except *zh* |
-| `Google Plus` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_gplus* | For all locales except *zh* |
-| `Weibo` | [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *social_weibo* | Only for the locales *zh* |
+| `Twitter` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_twitter` in a new tab | For all locales except *zh* |
+| `Facebook` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_facebook` in a new tab | For all locales except *zh* |
+| `Google Plus` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_gplus` in a new tab | For all locales except *zh* |
+| `Weibo` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_weibo` in a new tab | Only for the locales *zh* |
 
 - `Email: support@adblockplus.org`
 
