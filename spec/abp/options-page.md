@@ -639,13 +639,6 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 
 Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
 
-See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
-
-### Advanced tab: Custom filter hover
-
-![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
-
-[Advanced tab: Custom filter start button](#markdown-header-advanced-tab-custom-filter-start-button) will hover.
 
 ### Advanced tab: Edit custom filter empty
 
