@@ -1016,11 +1016,14 @@ Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-
 
 ### Advanced tab: Invalid custom filter 
 
-![](/res/abp/options-page/advanced-tab-invalid-filter.jpg)
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-error-short.jpg)
 
 - If a user enters an invalid filter, hightlight text input field in red.
 - Notification reads: `Something's not right. Please check the following filters:`
 - Filter strings which are invalid will populate as a list below the message.
+- Show up to 5 invalid items in the list. If there are more than 5 invalid items display a bounding box and scroll bar as demonstrated in the image below.
+
+![](/res/abp/options-page/advanced-tab-edit-custom-filter-error-long.jpg)
 
 ## Help tab
 
