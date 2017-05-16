@@ -418,20 +418,15 @@ If clicked the corresponding whitelisted domain is removed.
 
 ### Whitelisted domain added notification
 
-![](/res/abp/options-page/whitelisted-websites-notification.jpg'
-  width='888px' />
+![](/res/abp/options-page/whitelisted-websites-notification.jpg)
 
 1. [Whitelisted domain added notification](#markdown-header-add-whitelisted-domain-button)
 
 #### Whitelisted domain added notification
 
-The notification should push down page from the top and disappear if the X is
-clicked or automatically after 2 seconds.
-
-`"{}" has been added as a whitelisted website.`
-
-***TODO***: Clarification needed
-
+- The notification should appear as an overlay sliding in from the top of the page.
+- The notification will disappear if the X is clicked or automatically after 3 seconds.
+- `"<website>" has been whitelisted.`
 
 Advanced tab
 ------------
@@ -476,7 +471,8 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 - Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA).
 - `Show 'Block Element’ right-click menu item`
 
-##### Tooltip: 
+##### Tooltip:
+ 
 - `Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
 - Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
 
