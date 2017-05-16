@@ -358,25 +358,15 @@ Whitelist tab
 Description for the [Whitelist tab](#markdown-header-whitelist-tab).
 
 ```
-You’ve turned off ad blocking on these websites. You will see ads on these websites. [Learn more](link to Help Centre article about whitelisting)
+You’ve turned off ad blocking on these websites. You will see ads on these websites. [Learn more][1]
 ```
-
-***TODO***: Add link to Help centre article
+[1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *whitelist*
 
 #### Add whitelisted domain text input
 
- Textinput to enter domains to be added to the whitelist.
- - Instruction label in text input `e.g. www.example.com`
- - Auto-focus when the [Whitelist tab](#markdown-header-whitelist-tab) is first loaded
- - Validate as you type
-
-| Condition | Error message |
-|-----------|---------------|
-| Invalid hostname | `Not a valid hostname` |
-| Duplicate hostname | `Website is already whitelisted` |
-
-
-> Whats a valid hostname? <https://tools.ietf.org/html/rfc3986#section-3.2.2>
+Textinput to enter domains to be added to the whitelist.
+- Instruction label in text input `e.g. www.example.com`
+- When a duplicate entry is made, move the original entry to the top of the list and discard the duplicate.
 
 #### Add whitelisted domain button
 
@@ -384,7 +374,6 @@ Button to submit [Textinput A](#markdown-header-textinput-a).
  - Labelled `Add website`
  - Will only be active if [Add whitelisted domain textinput](#markdown-header-add-whitelisted-domain-textinput) is not empty and valid.
  - Refer to [w3 guidelines for keyboard interaction](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#button)
-
 
 If clicked whitelist domain and show [Whitelisted domain added notification](#markdown-header-whitelisted-domain-added-notification).
 
@@ -523,8 +512,6 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 1. [Add filter list button](#markdown-header-add-filter-list-button)
 1. [Update filter lists button](#markdown-header-update-filter-lists-button)
 
-
-
 #### Filter list section header
 
 `FILTER LISTS`
@@ -538,7 +525,6 @@ settings. You can also add additional filters created and maintained by our trus
 #### Remove filter list subscriptions
 
 - X deletes the filter list.
-
 
 #### Filter list subscriptions status
 
