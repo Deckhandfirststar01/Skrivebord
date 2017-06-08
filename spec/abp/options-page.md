@@ -34,6 +34,7 @@ All UI patterns are defined in the [Options page Style Guide](/res/abp/options-p
 Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/REC-WCAG20-20081211/):
 
 - 2.1 Keyboard Accessible
+- 2.4 Navigable
 
 ## Navigation
 
