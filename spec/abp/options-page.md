@@ -838,6 +838,7 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 ### Advanced tab: Edit custom filter empty
 
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
+- Placeholder instruction text `e.g. /ads/track/*`
 
 #### Advanced tab: Custom filter save button
 
