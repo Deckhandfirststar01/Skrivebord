@@ -344,7 +344,7 @@ Whitelist tab
 
 1. [Whitelist tab headline](#markdown-header-whitelist-tab-headline)
 1. [Whitelist tab description](#markdown-header-whitelist-tab-description)
-1. [Add whitelisted domain textinput](#markdown-header-add-whitelisted-domain-textinput)
+1. [Whitelist textinput](#markdown-header-whitelist-textinput)
 1. [Add whitelisted domain button](#markdown-header-add-whitelisted-domain-button)
 1. [Add whitelisted domain error message](#markdown-header-add-whitelisted-domain-error-message)
 1. [Empty Whitelist placeholder](#markdown-header-empty-whitelist-placeholder)
@@ -363,19 +363,18 @@ You’ve turned off ad blocking on these websites. You will see ads on these web
 ```
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *whitelist*
 
-#### Add whitelisted domain text input
+#### Whitelist textinput
 
-Textinput to enter domains to be added to the whitelist.
+- Textinput to enter domains to be added to the whitelist.
 - Instruction label in text input `e.g. www.example.com`
 - When a duplicate entry is made, move the original entry to the top of the list and discard the duplicate.
 
 #### Add whitelisted domain button
 
-Button to submit [Textinput A](#markdown-header-textinput-a).
+ - Button to submit [Whitelist textinput](#markdown-header-whitelist-textinput).
  - Labelled `Add website`
  - Refer to [w3 guidelines for keyboard interaction](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#button)
-
-If clicked whitelist domain and show [Whitelisted domain added notification](#markdown-header-whitelisted-domain-added-notification).
+ - If clicked whitelist domain and show [Whitelisted domain added notification](#markdown-header-whitelisted-domain-added-notification).
 
 > A whitelisted domain is an exception rule filter for a certain host.
 
@@ -398,10 +397,13 @@ Placeholder text shown as long as there are no whitelisted domains.
 
 1. [List of whitelisted domains](#markdown-header-add-whitelisted-domain-button)
 
-
 #### List of whitelisted domains
 
-The [List of whitelisted domains](#markdown-header-list-of-whitelisted-domains) displays all whitelisted domains. Show a [Remove whitelisted domain link](#markdown-header-remove-whitelisted-domain-link) for each domain.
+- Displays all whitelisted domains. 
+- Show a [Remove whitelisted domain link](#markdown-header-remove-whitelisted-domain-link) for each domain.
+- List items are sorted alphabetically when loaded.
+- Move newly added items (from the current session) to the top of the list.
+- When a duplicate domain entry is made, move the original entry to the top of the list.
 
 <!-- This is to technical, find a better way to describe it -->
 ***Note***: *All whitelisted domains* does only refer to exception rules that match the following regexp and a member of the *SpecialSubscription* filter list:
@@ -412,7 +414,7 @@ The [List of whitelisted domains](#markdown-header-list-of-whitelisted-domains) 
 
 #### Remove whitelisted domain link
 
-If clicked the corresponding whitelisted domain is removed.
+When clicked the corresponding whitelisted domain is removed.
 
 *NOTE: recently added has been ommitted because we don't know the date of when a domain has been whitelisted so we could only show the domains that have been added since the option page has been opened and that doesn't make any sense?!*
 
@@ -535,6 +537,8 @@ settings. You can also add additional filters created and maintained by our trus
 - Filter List column title: `Filter lists`
 - Displays name of the filter list
 - Update column title: `Last updated`
+- Lists are sorted alphabetically when loaded.
+- Move newly added items (from the current session) to the top of the list.
 
 #### Filter list subscriptions updates
 
