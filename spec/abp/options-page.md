@@ -568,7 +568,10 @@ settings. You can also add additional filters created and maintained by our trus
 Edit filter list popup
 ----------------------
 
-Popup to edit a filter list subscription
+- Popup to edit a filter list subscription.
+- The popup menu should follow [arai best practices](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#menu) for keyboard interactions.  
+- Clicking outside closes the menu if the menu is open.
+- Clicking on a menu item closes the menu.
 
 ![](/res/abp/options-page/advanced-edit-filter-list-popup.jpg)
 
@@ -579,28 +582,24 @@ Popup to edit a filter list subscription
 
 ### Update filter list link
 
-Updates this filter list.
-
-`Update now`
+- Updates this filter list.
+- `Update now`
 
 ### Filter list homepage link
 
-Link to the homepage of the filter list.
-
-`Website`
+- Link to the homepage of the filter list.
+- `Website`
 
 ### Filter list source link
 
-Link to the filter list file.
-
-`Source`
+- Link to the filter list file.
+- `Source`
 
 ### Remove filter list link
 
-Removes the filter list subscription.
+- Removes the filter list subscription.
 [Additional subscriptions](/spec/abp/prefs.md#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
-
-`Remove`
+- `Remove`
 
 Add filter list popup
 ---------------------
