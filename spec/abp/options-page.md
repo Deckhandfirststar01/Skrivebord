@@ -529,7 +529,7 @@ settings. You can also add additional filters created and maintained by our trus
 - Column title: `Status`
 - *Radio slider*  indicates whether or not the filter list subscription is active.
 - `Active`/`Disabled` depending on whether or not the filter list subscription is active.
-- Exception: Acceptable Ads filter list cannot be disabled, it can only be removed and added. 
+- Exception: Acceptable Ads filter list can only be deleted and added, this filter list can not be disabled (the filter list toggle is inactive as a result).
 
 #### List of filter list subscriptions
 
