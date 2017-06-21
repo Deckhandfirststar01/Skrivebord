@@ -119,7 +119,7 @@ Determine what Adblock Plus shows and hides on websites
 
 #### Privacy & Security section headline
 
-Headline for the [Privacy & security section](#markdown-header-privacy-&-security-section) `Privacy & Security`
+Headline for the [Privacy & security section](#markdown-header-privacy-&-security-section) `PRIVACY & SECURITY`
 
 #### Recommended filter lists
 
@@ -150,7 +150,7 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 
 #### Acceptable Ads section headline
 
-- Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) `Acceptable Ads`
+- Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) `ACCEPTABLE ADS`
 
 #### Acceptable Ads section description
 
