@@ -179,7 +179,6 @@ The default setting.
 
 - This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
 - Label this setting as `NEW` during the user's first visit to the new options page. 
-- Detect if the user has DNT enabled - **Please specifiy how to detect DNT**
 - If a user selects this option AND has DNT disabled, display the below text within the table:
 
 ```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT][1] and redirect to the official browser instructions for enabling DNT)```
