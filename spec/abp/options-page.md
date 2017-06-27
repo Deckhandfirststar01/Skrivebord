@@ -861,10 +861,17 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 
 ![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
 
+#### Advanced tab: Enable/Disable custom filter list
+
+![](/res/abp/options-page/advanced-tab-custom-filter-disabled.jpg)
+
+- Checkbox to disable the custom filter list.
+- Checkbox label: `Disable custom filter list`
+- When the custom filter list is disabled, both the custom filter textinput section and the [Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) becomes inactive.
+
 #### Advanced tab: Custom filter edit button
 
 - `Edit filters`
-- [Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) will hover.
 - Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
 
 ### Advanced tab: Hover behavior 
