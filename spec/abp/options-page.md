@@ -289,6 +289,14 @@ TODO link to language article
 
 - To remove a language from the list select `Remove` next to the listed language. 
 
+#### Language filter list - empty state
+
+![](/res/abp/options-page/general-tab-language-empty.jpg)
+
+- When alll langugae filter lists have been removed from the extension. 
+- Text: `You aren't blocking any language specific ads.`
+- Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
+
 ### More filters section
 
 ![](/res/abp/options-page/general-default-more-filters.jpg)
@@ -784,6 +792,14 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 ![](/res/abp/options-page/advanced-added-filter-list.jpg)
 
 Newly added filter lists should be displayed at the top and marked with a dot.
+
+#### Filter list table - empty state
+
+![](/res/abp/options-page/advanced-filter-lists-empty.jpg)
+
+- When alll filter lists have been removed from the extension. 
+- Text: `You have not added any filter lists to Adblock Plus. Filter lists you add will be shown here.`
+- [Update filter lists button](#markdown-header-update-filter-lists-button) is inactive.
 
 #### Create custom filter section
 
