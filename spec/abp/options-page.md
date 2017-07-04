@@ -890,10 +890,6 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 - `Edit filters`
 - Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
 
-### Advanced tab: Hover behavior 
-
-![](/res/abp/options-page/advanced-tab-edit-custom-filter-hover-2.jpg)
-
 ### Advanced tab: Edit custom filter edit
 
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
