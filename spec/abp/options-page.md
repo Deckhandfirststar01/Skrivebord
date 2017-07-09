@@ -505,13 +505,15 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 
 #### Filter lists section
 
+- Filter list subscriptions are displayed in a grid format. Keyboard interations should follow guidelines as specified by [w3 data: Grids for presenting tabular information](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#dataGrid)
+
 ![](/res/abp/options-page/advanced-default-filter-lists.jpg)
 
 1. [Filter list section header](#markdown-header-filter-list-section-header)
 1. [Filter list section description](#markdown-header-filter-list-section-description)
 1. [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
 1. [Filter list subscriptions status](#markdown-header-filter-list-subscriptions-status)
-1. [List of filter list subscriptions](#markdown-header-list-of-filter-list-subscriptions)
+1. [Filter list title](#markdown-header-filter-list-title)
 1. [Filter list subscriptions updates](#markdown-header-filter-list-subscriptions-updates)
 1. [Filter list subscriptions settings](#markdown-header-filter-list-subscriptions-settings)
 1. [Add filter list button](#markdown-header-add-filter-list-button)
@@ -538,39 +540,38 @@ settings. You can also add additional filters created and maintained by our trus
 - `Active`/`Disabled` depending on whether or not the filter list subscription is active.
 - Exception: Acceptable Ads filter list can only be deleted and added, this filter list can not be disabled (the filter list toggle is inactive as a result).
 
-#### List of filter list subscriptions
+#### Filter list title
 
-- Filter list subsritions are displayed in a grid format. Keyboard interations should follow guidelines as specified by [w3 data: Grids for presenting tabular information](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#dataGrid)
-- Filter List column title: `Filter lists`
+- Column title: `Filter lists`
 - Displays name of the filter list
-- Update column title: `Last updated`
 - Lists are sorted alphabetically when loaded.
 - Move newly added items (from the current session) to the top of the list.
 
 #### Filter list subscriptions updates
 
+ - Column title: `Last updated`
  - Date/Time of last filter list update
-   - Show `Just now` if less then 5 minutes ago
-   - Show `{} minutes ago` if more than 5 minutes ago
-   - Show `{} hours ago` if the last update was within the last 24 hours
-   - Show `DD MMM YYYY` (eg. 10 Jul 2017) if the update was more than 24 hours ago
-   - Show `Updating` while the list is getting updated
-   - Show `Download fail` when there is a problem downloading the filter list
+     - Show `Just now` if less then 5 minutes ago
+     - Show `{} minutes ago` if more than 5 minutes ago
+     - Show `{} hours ago` if the last update was within the last 24 hours
+     - Show `DD MMM YYYY` (eg. 10 Jul 2017) if the update was more than 24 hours ago
+     - Show `Updating` while the list is getting updated
+     - Show `Download fail` when there is a problem downloading the filter list
+     - All date and time status for filter lists should be updated as filter lists are updated.
 
 #### Filter list subscriptions settings
 
- - A Gear Icon that opens the [Edit filter list popup](#markdown-header-edit-filter-list-popup)
+ - A Gear Icon opens the [Edit filter list popup](#markdown-header-edit-filter-list-popup)
 
 #### Add filter list button
 
 - Opens [Add filter list popup](#markdown-header-add-filter-list-popup).
 - `+ Add a new filter list`
 
-
 #### Update filter lists button
 
-- Updates all filters lists.
 - `Update all filter lists`
+- Click to button will update all dates and time status for filter lists.
 
 Edit filter list popup
 ----------------------
