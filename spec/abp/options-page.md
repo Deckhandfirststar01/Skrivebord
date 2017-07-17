@@ -77,8 +77,8 @@ Opens the [About](#markdown-about) overlay.
 
 - Title: `About Adblock Plus`
 - Version number of extension added dynamically: `Version number xxx`
-- Text: `Copyright © 2016 Eyeo GmbH.
-Adblock Plus is a registered ® trademark of Eyeo GmbH.`
+- Text: `Copyright © 2016 eyeo GmbH.
+Adblock Plus is a registered ® trademark of eyeo GmbH.`
 - Button to close layover: `Close` 
 - X closes the layover.
 
@@ -127,7 +127,7 @@ Checkbox to install/uninstall each filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
-| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites that you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hide these buttons to protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
+| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites that you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hiding these buttons can protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
 | EasyPrivacy | `Disable tracking` | `Protect your personal data by removing all forms of tracking from the Internet including information collectors.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
 
 #### Tooltip icon
@@ -166,7 +166,7 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 | Title | Description | Action |
 |-----------|---------------|--------------|
 | `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
-| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information. Ads may be less relevant as a result.` | Enables Privacy friendly ads |
+| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information and, therefore, may be less relevant.` | Enables Privacy friendly ads |
 | `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
@@ -181,7 +181,7 @@ The default setting.
 - Label this setting as `NEW` during the user's first visit to the new options page. 
 - If a user selects this option AND has DNT disabled, display the below text within the table:
 
-```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to turn on DNT][1] and redirect to the official browser instructions for enabling DNT)```
+```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)```
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
@@ -252,7 +252,7 @@ TODO link to language article
 
 #### Language tip
 
-```**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and therefore your browsing speed. ```
+```**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. ```
 
 #### Adding / Changing a language
 
@@ -294,7 +294,7 @@ TODO link to language article
 ![](/res/abp/options-page/general-tab-language-empty.jpg)
 
 - When alll langugae filter lists have been removed from the extension. 
-- Text: `You aren't blocking any language specific ads.`
+- Text: `You aren't blocking any language-specific ads.`
 - Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
 
 ### More filters section
@@ -366,7 +366,7 @@ Whitelist tab
 Description for the [Whitelist tab](#markdown-header-whitelist-tab).
 
 ```
-You’ve turned off ad blocking on these websites. You will see ads on these websites. [Learn more][1]
+You’ve turned off ad blocking on these websites and, therefore, will see ads on them. [Learn more][1]
 ```
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *whitelist*
 
@@ -395,7 +395,7 @@ See [Add whitelisted domain textinput](#markdown-header-add-whitelisted-domain-t
 
 Placeholder text shown as long as there are no whitelisted domains.
 
- - `You aren't whitelisting any websites yet.`
+ - `You don't have any whitelisted websites.`
  - `Websites you trust and want to allow ads on will be shown here.`
 
 ### Whitelist tab populated
@@ -525,8 +525,8 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 
 #### Filter list section description
 
-`Each Adblock Plus setting functions because of a filter list. Below are the corresponding filter lists to all your Adblock Plus
-settings. You can also add additional filters created and maintained by our trusted community. [Learn more][1].`
+`Each Adblock Plus setting functions because of a filter list. Below are the filter lists that correspond to all of your Adblock Plus
+settings. You can also add additional filters created and maintained by our trusted community. [Learn more][1]`
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *subscriptions*
 
 #### Remove filter list subscriptions
@@ -642,12 +642,12 @@ Closes the [Add filter list popup](#markdown-header-add-filter-list-popup).
 |-----------|---------------|---------------|
 | `EasyPrivacy` | `Blocks tracking` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
 | `Malware Domains` | `Blocks malware` | https://easylist-downloads.adblockplus.org/malwaredomains_full.txt |
-| `Adblock Warning Removal List` | `Removes anti-ad block warnings and other obtrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
+| `Adblock Warning Removal List` | `Removes anti-ad block warnings and other intrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
 | `Adware filters` | `Blocks ads injected by adware` | https://easylist-downloads.adblockplus.org/adwarefilters.txt |
 | `Fanboy's Annoyances` | `Removes online annoyances (includes Fanboy's Social Blocking List)` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
 | `Fanboy's Social Blocking List` | `Removes social media integration` | https://easylist-downloads.adblockplus.org/fanboy-social.txt |
-| `I don't care about cookies` | `Filters obtrusive EU cookie law notices` | https://kiboke-studio.hr/i-dont-care-about-cookies/abp |
-| `Spam404` | `Block fraudulent websites` | https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt |
+| `I don't care about cookies` | `Filters intrusive EU cookie law notices` | https://kiboke-studio.hr/i-dont-care-about-cookies/abp |
+| `Spam404` | `Blocks fraudulent websites` | https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt |
 | `CJX's Annoyance List` | `Removes self-promotion and privacy protection for EasyList China` | https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt |
 
 Filter list subscriptions here: https://adblockplus.org/subscriptions
