@@ -77,9 +77,9 @@ Opens the [About](#markdown-about) overlay.
 
 - Title: `About Adblock Plus`
 - Version number of extension added dynamically: `Version number xxx`
-- Text: `Copyright © 2016 eyeo GmbH.
-Adblock Plus is a registered ® trademark of eyeo GmbH.`
-- Button to close layover: `Close` 
+- Text: `Copyright © {current year} Eyeo GmbH.
+Adblock Plus is a registered ® trademark of Eyeo GmbH.`
+- Button to close layover: `CLOSE` 
 - X closes the layover.
 
 General tab
