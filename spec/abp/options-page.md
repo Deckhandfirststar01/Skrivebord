@@ -223,7 +223,7 @@ Note:
 1. [Language section headline](#markdown-header-language-section-headline)
 1. [Language section description](#markdown-header-language-section-description)
 1. [Default language](#markdown-header-default-language)
-1. [Edit language](#markdown-header-edit-language)
+1. [Change language](#markdown-header-change-language)
 1. [Add language](#markdown-header-add-language)
 1. [Language tip](#markdown-header-language-tip)
 
@@ -244,14 +244,14 @@ TODO link to language article
 - Language filter list selected based on the browser's default language.
 - To see all available language options and corresponding filter lists go to  [Language filter lists](#markdown-header-language-filter-lists).
 
-#### Edit language
+#### Change language
 
-- Labelled `Edit`
+- Labelled `CHANGE`
 - Button to trigger the [language drop-down menu](#markdown-header-language-drop-down-menu).
 
 #### Add language
 
-- Labelled `+ Add language` 
+- Labelled `+ ADD A LANGUAGE` 
 - Button to trigger the [language drop-down menu](#markdown-header-language-drop-down-menu).
 
 #### Language tip
@@ -263,43 +263,45 @@ TODO link to language article
 ![](/res/abp/options-page/general-default-language-drop-down.jpg)
 
 1. [Language list](#markdown-header-language-list)
+1. [Dropdown header](#markdown-header-dropdown-header)
 1. [Selecting a language](#markdown-header-selecting-a-language)
 1. [Selected language](#markdown-header-selected-language)
-1. [Instruction text](#markdown-header-instruction-text)
 
 #### Language list
 
 - To see all available language options and corresponding filter lists go to  [Language filter lists](#markdown-header-language-filter-lists).
 
+#### Dropdown header
+
+- Labelled `Select a language` 
+
 #### Selecting a language
 
 - Hover over and click states are displayed in the same way. 
-- `EDIT` state: Clicking on a language will automatcically close the drop down menu and *add the language the list*. 
-- `+ ADD` state: Clicking on a language will automatcically close the drop down menu and *change the default language*. 
+- `CHANGE` state: Triggers language drop down. Clicking on a language will automatcically close the drop down menu and *add the language the list*. 
+- `+ ADD A LANGUAGE` state: Triggers language drop down. Clicking on a language will automatcically close the drop down menu and *change the default language*. 
 
 #### Selected language
 
 - Selected language(s) are greyed out and not interactive. 
-- When a user is  changing their default language using the [edit language](#markdown-header-edit-language) feature, there will be no `selected language` state.
+- When a user is  changing their default language using the [change language](#markdown-header-change-language) feature, there will be no `selected language` state.
 - If another language has already been added as a secondary language, a user will be able to select that language. This will change the language to the default language, and move it to the top of the language list.   
-
-#### Instruction text
-
-- Labelled `Select a language` 
 
 #### Removing a language
 
 ![](/res/abp/options-page/general-default-language-multiple.jpg)
 
-- To remove a language from the list select `Remove` next to the listed language. 
+- When there is more than 1 language filter list in the table, the `CHANGE` element turns into a bin icon. All filter lists are removeable.
+- To remove a language from the table, select the bin icon in the language row. 
+- When there is only 1 language filter list in the table, the remaining filter list is not removeable, and the user is only allowed to `CHANGE` the filter list - this triggers the language drop down.
 
 #### Language filter list - empty state
 
 ![](/res/abp/options-page/general-tab-language-empty.jpg)
 
-- When alll langugae filter lists have been removed from the extension. 
-- Text: `You aren't blocking any language-specific ads.`
-- Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
+- When alll language filter lists have been removed from the extension.
+- Text: `You don't have any language specific filters.`
+- Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions) in the Advanced tab.
 
 ### More filters section
 
