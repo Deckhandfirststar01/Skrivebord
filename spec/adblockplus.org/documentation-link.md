@@ -75,6 +75,9 @@ The Documentation link page is used by the our adblocking products to redirect t
 |acceptable_ads_criteria|IF APL|-|`https://adblockplus.org/acceptable-ads#criteria`|
 |contributors|IF APL|-|`https://adblockplus.org/contributors`|
 |whitelist|IF APL|-|`https://adblockplus.org/faq_basics#disable`|
+|adblock_plus|IF APL|-|`https://adblockplus.org`|
+|eyeo|IF APL|-|`https://eyeo.com`|
+|developer|-|-|`https://adblockplus.org/forum/viewforum.php?f=4`|
 
 [1] ***Locale***: *-* ignore locale, `*` apply for all unspecified locales, `xy` apply only for specified locale, *IF APL* (If applicable) redirect to locale specific document if applicable
 

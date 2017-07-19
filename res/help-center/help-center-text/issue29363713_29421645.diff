@@ -1,0 +1,1746 @@
+Index: includes/blockads-adblockplusforios.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-adblockplusforios.md
+@@ -0,0 +1,7 @@
++**Adblock Plus for iOS**
++
++1. Open the Adblock Plus for iOS app.
++2. Tap the **Tools icon**.
++3. Tap **Acceptable Ads**.
++4. Tap the **Allow some nonintrusive ads** toggle.
++5. Close the app.
+Index: includes/blockads-chrome.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-chrome.md
+@@ -0,0 +1,9 @@
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Uncheck the box labeled **Allow some nonintrusive advertising**.
++5. Close the tab.
+Index: includes/blockads-firefox.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-firefox.md
+@@ -0,0 +1,10 @@
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click **Filter preferences**.
++<br>The *Adblock Plus Filter preferences* window opens.
++5. Uncheck the box labeled **Allow some nonintrusive advertising**.
++6. Click **Close**.
+Index: includes/blockads-internetexplorer.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-internetexplorer.md
+@@ -0,0 +1,7 @@
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++<br>The *Adblock Plus Options* window opens.
++2. Uncheck the box labeled **Allow some nonintrusive advertising**.
++3. Close the window.
+Index: includes/blockads-maxthon.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-maxthon.md
+@@ -0,0 +1,15 @@
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Uncheck the box labeled **Allow some nonintrusive advertising**.
++4. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Uncheck the box labeled **Allow some nonintrusive advertising**.
++3. Click **Done**.
+Index: includes/blockads-opera.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-opera.md
+@@ -0,0 +1,9 @@
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Uncheck the box labeled **Allow some nonintrusive advertising**.
++5. Close the tab.
+Index: includes/blockads-safari.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-safari.md
+@@ -0,0 +1,6 @@
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Uncheck the box labeled **Allow some nonintrusive advertising**.
++3. Close the tab.
+Index: includes/blockads-samsung.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-samsung.md
+@@ -0,0 +1,5 @@
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap the box labeled **Allow some noninstrusive ads**.
++3. Close the app.
+Index: includes/blockads-yandexbrowser.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/blockads-yandexbrowser.md
+@@ -0,0 +1,9 @@
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Uncheck the box labeled **Allow some nonintrusive advertising**.
++5. Close the tab.
+Index: includes/removewhitelist-adblockplusforios.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-adblockplusforios.md
+@@ -0,0 +1,6 @@
++**Adblock Plus for iOS**
++
++1. Open the Adblock Plus for iOS app.
++2. Tap the **Tools icon**.
++3. Tap **Whitelisted Websites**.
++4. Tap the **Trash icon** next to the website you want to remove.
+Index: includes/removewhitelist-chrome.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-chrome.md
+@@ -0,0 +1,10 @@
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
+Index: includes/removewhitelist-firefox.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-firefox.md
+@@ -0,0 +1,13 @@
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click **Filter preferences**.
++<br>The *Adblock Plus Filter Preferences* window opens.
++5. Select the **Custom filters** tab.
++6. Select a filter group, click **Actions** and select **Show/hide filters**.
++7. If a filter rule appears in the right window for the website you see ads on, do one of the following:
++    - Select the rule, click **Filter actions** and select **Delete**.
++    - Uncheck the **Enabled** box that applies to the rule.
+Index: includes/removewhitelist-internetexplorer.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-internetexplorer.md
+@@ -0,0 +1,8 @@
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the **Manage** button.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Close the window.
+Index: includes/removewhitelist-maxthon.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-maxthon.md
+@@ -0,0 +1,17 @@
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Select the **Whitelisted domains** tab.
++4. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++5. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Select the **Whitelisted domains** tab.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Click **Done**.
+Index: includes/removewhitelist-opera.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-opera.md
+@@ -0,0 +1,10 @@
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
+Index: includes/removewhitelist-safari.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-safari.md
+@@ -0,0 +1,7 @@
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Select the **Whitelisted domains** tab.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Close the tab.
+Index: includes/removewhitelist-yandexbrowser.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/includes/removewhitelist-yandexbrowser.md
+@@ -0,0 +1,10 @@
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
+Index: pages/adblock-plus/adblock-plus-breaks-the-websites-i-visit.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/adblock-plus-breaks-the-websites-i-visit.md
+@@ -0,0 +1,170 @@
++title=Adblock Plus breaks the websites I visit | eyeo Help
++description=In rare instances, Adblock Plus may prevent some websites from functioning correctly. This is typically not a bug but rather a problem with the filters (or filter subscription).
++
++## Adblock Plus breaks the websites I visit
++
++In rare instances, Adblock Plus may prevent some websites from functioning correctly. This is typically not a bug but rather a problem with the filters (or filter subscription).
++
++### Temporarily disable Adblock Plus on a website
++
++A filter list may be directing Adblock Plus to block something that should be allowed. To verify that the issue lies within the filter list, temporarily disable Adblock Plus on the website that you are experiencing the issue. If the issue is fixed after temporarily disabling Adblock Plus, you can be certain that the problem lies within the filters.
++
++**Chrome**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Enabled on this site**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Firefox**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Disable on [website name]**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Internet Explorer**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Disable on [website name]**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Maxthon 5 and 4.9**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Block ads on this website**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Opera**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Enabled on this site**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Safari**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Enabled on this site**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++**Yandex.Browser**
++
++1. Click the **Adblock Plus icon**.
++2. Click **Enabled on this site**.
++<br>Adblock Plus is now disabled on the website you are on.
++
++### Update the filter list(s)
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**..
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* page opens.
++4. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++5. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Preferences** (Mac)/**Options** (Windows).
++4. Click the **Filter preferences** button.
++<br>The *Adblock Plus Filter preferences* window opens.
++5. Click the **Actions** drop-down menu next to the filter you want to update.
++6. Select **Update filters**.
++<br>The update is successful if the current date and time appears next to the list.
++7. Repeat steps 5 and 6 for each filter list.
++8. Close the window.
++
++**Adblock Plus for iOS**
++
++1. Open the Adblock Plus for iOS app.
++2. Tap the **Tools icon**.
++3. Tap **Update Filter lists**.
++4. Wait 10-20 seconds for the lists to update.
++<br>The update is successful if the current date and time appears below *Update filter lists*.
++5. Close the app.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++4. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++3. Click **Done**.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++5. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++3. Close the window.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **Configure Filters**.
++3. Deselect the filter you want to update.
++4. Tap the back button to refresh.
++5. Tap **Configure Filters**.
++6. Select the filter you want to update.
++<br>The update is successful if the current date and time appears next to the list.
++7. Close the app.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the **Update Now** button.
++<br>The update is successful if the current date and time appears next to the list.
++5. Close the tab.
++
++### Report bad filters
++
++If updating the filter list(s) does not work, follow the steps below to report bad filters.
++
++**Chrome, Internet Explorer, Adblock Plus for iOS, Maxthon, Opera, Safari, Adblock Plus for Samsung Internet and Yandex.Browser**
++
++1. Go to the [forum](https://adblockplus.org/forum/).
++2. Click the appropriate topic (e.g. Adblock Plus for Chrome Support).
++3. Click the first topic (e.g. Read this if you still see ads on Chrome).
++
++**Firefox**
++
++1. Click the **Adblock Plus icon** and select **Report issue on this page**.
++<br/>The *Issue Reporter* window opens.
++2. Select the radio button labeled **Adblock Plus is blocking too much**.
++3. Click **Next**.
++4. Attach a screenshot and click **Next**.
++5. Enter your email address in the *Email* field.
++6. Optionally, enter a comment in the *Comment* field.
++7. Click **Send report**.
++8. Your report is automatically sent to the filter hosts.
++<br/>**Tip**: Filter hosts may not be able reply to your issue directly, so please provide any additional information that will help make the problem reproducible.
+Index: pages/adblock-plus/add-afilter-list.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/add-afilter-list.md
+@@ -0,0 +1,111 @@
++title=Add a filter list | eyeo Help
++description=A default filter list based on your browser's language settings is automatically activated when you install Adblock Plus. Add additional filter lists to block unwanted items, or to block ads on websites that you read in other languages.
++
++## Add a filter list
++
++Adblock Plus requires filter lists to block ads. A default filter list based on your browser's language settings is automatically activated when you install Adblock Plus. It blocks ads from the most popular (often English language-based) websites. However, it does not block ads on less popular national websites. For example, if you live in Germany you should subscribe to the national German filter list. This filter list is detected as "EasyList Germany + EasyList".
++
++An overview of actively maintained filter lists can be found [here](https://adblockplus.org/en/subscriptions).
++
++**Tip**: As a recommendation, you should avoid adding too many filter lists to Adblock Plus. Adding too many filter lists slows down the ad blocker and, therefore, your browsing.
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* page opens.
++4. Click the **Add filter subscription** button.
++5. Select the **filter list** that you want to subscribe to from the drop-down menu.
++6. Click **Add**.
++7. Verify that the filter list update status appears as **Just Now** or displays the current date and time.
++8. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click the **Filter preferences** button.
++<br>The *Adblock Plus Filter preferences* window opens.
++5. Click the **Add filter subscription** button.
++6. Select the **filter list** that you want to subscribe to from the drop-down menu.
++7. Click **Add**.
++8. Verify that the filter list update status appears as **Success** and displays the current date and time.
++9. Close the window.
++
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++<br>The *Adblock Plus Options* window opens.
++3. Select the **filter list** that you want to subscribe to from the drop-down menu.
++4. Close the window.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Click the **Add filter subscription** button.
++4. Select the **filter list** that you want to subscribe to from the drop-down menu.
++5. Click **Add**.
++6. Verify that the filter list update status appears as **Last update (Date) (Time)**.
++7. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the **Add filter subscription** button.
++3. Select the **filter list** that you want to subscribe to from the drop-down menu.
++4. Click **Add**.
++5. Verify that the filter list update status appears as **Last update (Date) (Time)**.
++6. Click **Done**.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the **Add filter subscription** button.
++5. Select the **filter list** that you want to subscribe to from the drop-down menu.
++6. Click **Add**.
++7. Verify that the filter list update status appears as **Just Now** or displays the current date and time.
++8. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Click the **Add filter subscription** button.
++3. Select the **filter list** that you want to subscribe to from the drop-down menu.
++4. Click **Add**.
++5. Verify that the filter list update status appears as **Just Now** or displays the current date and time.
++6. Close the window.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **Configure your filter lists**.
++3. Select the **filter list** you would like to subscribe to below *Other Languages*.
++4. Tap the back button to refresh.
++5. Close the app.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the **Add filter subscription** button.
++5. Select the **filter list** that you want to subscribe to from the drop-down menu.
++6. Click **Add**.
++7. Verify that the filter list update status appears as **Just Now** or displays the current date and time.
++8. Close the tab.
+Index: pages/adblock-plus/add-awebsite-to-the-whitelist.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/add-awebsite-to-the-whitelist.md
+@@ -0,0 +1,90 @@
++title=Add a website to the whitelist | eyeo Help
++description=Add websites that you trust and want to support to your Adblock Plus whitelist. Ads will be shown on these websites.
++
++## Add a website to the whitelist
++
++In general, a whitelist is a list of items that has been approved to receive special privileges. You can add website URLs to a whitelist in order to view ads on websites that you want to support. Please note that all ads will be allowed on whitelisted websites.
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. Enter the website URL and click **Add domain**.
++6. Close the tab.
++
++**Firefox**
++
++1. Go to the website that you want to whitelist.
++2. Click the **Adblock Plus icon**.
++3. Select **Disable on [website URL]**.
++
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the **Manage** button.
++3. Enter the website URL and click **Add**.
++4. Close the window.
++
++**Adblock Plus for iOS**
++
++1. Open the Adblock Plus for iOS app.
++2. Tap the **Tools icon**.
++3. Tap **Whitelisted Websites**.
++4. Tap the field below *Add Website to Whitelist*.
++5. Enter the **website URL**.
++6. Tap the **+ sign**.
++7. Close the app.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Select the **Whitelisted domains** tab.
++4. Enter the website URL and click **Add domain**.
++5. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Select the **Whitelisted domains** tab.
++3. Enter the website URL and click **Add domain**.
++4. Click **Done**.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. Enter the website URL and click **Add domain**.
++6. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Select the **Whitelisted domains** tab.
++3. Enter the website URL and click **Add domain**.
++4. Close the tab.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. Enter the website URL and click **Add domain**.
++6. Close the tab.
+Index: pages/adblock-plus/block-all-ads.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/block-all-ads.md
+@@ -0,0 +1,18 @@
++title=Block all ads | eyeo Help
++description=Browse the web completely ad-free by blocking all ads, even those that apply to the Acceptable Ads criteria.
++
++## Block all ads
++
++If you choose to block all ads, Adblock Plus will block annoying ads *and* ads that are considered nonintrusive (Acceptable Ads). To learn more about Acceptable Ads, visit the [Acceptable Ads webpage](https://acceptableads.com/en/).
++
++**Note**: By disabling Acceptable Ads, website owners and content creators that abide by the Acceptable Ads criteria will lose ad revenue.
++
++<? include blockads-chrome ?>
++<? include blockads-firefox ?>
++<? include blockads-internetexplorer ?>
++<? include blockads-adblockplusforios ?>
++<? include blockads-maxthon ?>
++<? include blockads-opera ?>
++<? include blockads-safari ?>
++<? include blockads-samsung ?>
++<? include blockads-yandexbrowser ?>
+Index: pages/adblock-plus/block-malware-sites.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/block-malware-sites.md
+@@ -0,0 +1,62 @@
++title=Block malware sites | eyeo Help
++description=Use Adblock Plus to help block malware domains, which may infect your computer with viruses, worms, adware and other nasty stuff.
++
++## Block malware sites
++
++Malware is nasty stuff. It can slow down your computer's performance, plague your screen with pop-ups and leave you vulnerable to all kinds of cyber attacks. By using Adblock Plus to disable malware domains, you are less susceptible to viruses, worms, adware and other vicious attacks.
++
++**Chrome**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Malware Domains** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Firefox**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Malware Domains** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++4. Click **Add subscription**.
++5. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++6. Select **Extensions** from the left menu.
++7. Locate Adblock Plus and click **Preferences** (Mac)/**Options** (Windows).
++8. Click **Filter Preferences**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++9. Close the window.
++
++**Opera**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Malware Domains** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Safari**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Malware Domains** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not control-click the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **More blocking options**.
++3. Select **Malware Domains** to block domains known to spread malicious software, such as viruses, Trojan horses, worms and spyware.
++4. Tap the back button.
++5. Close the app.
+Index: pages/adblock-plus/compatibility-issues.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/compatibility-issues.md
+@@ -0,0 +1,11 @@
++title=Compatibility issues | eyeo Help
++description=You must be on the current version of your browser or platform for Adblock Plus to work properly.
++
++## Compatibility issues
++
++If Adblock Plus or Adblock Browser cannot be installed due to compatibility issues, please verify that Adblock Plus or Adblock Browser supports your [platform's version](https://adblockplus.org/requirements). Please note, Adblock Plus and Adblock Browser cannot function on older browser versions that are no longer supported.
++
++To ensure that your platform is up-to-date, visit:
++- [Desktop browsers](https://whatbrowser.org/)
++- [Android](https://whatismyandroidversion.com/)
++- [iOS](https://support.apple.com/en-us/HT201685)
+Index: pages/adblock-plus/configure-automatic-updates.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/configure-automatic-updates.md
+@@ -0,0 +1,14 @@
++title=Configure automatic updates | eyeo Help
++description=Choose when to allow updates for Adblock Plus for Samsung Internet.
++
++## Configure automatic updates
++
++Currently, it is only possible to configure automatic updates via Wi-Fi or mobile data for Adblock Plus for Samsung Internet.
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **Configure automatic updates**.
++<br>Select one of the following:
++ Note: **On Wi-Fi only** is activated by default.
++ - **On Wi-Fi only** - Updates the filter lists only when you are connected to Wi-Fi.
++ - **Always** - Updates the filter lists at any time, using either Wi-Fi or mobile data.
++ 3. Close the app.
+Index: pages/adblock-plus/disable-social-media-buttons.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/disable-social-media-buttons.md
+@@ -0,0 +1,62 @@
++title=Disable social media buttons | eyeo Help
++description=Use Adblock Plus to help block social media sites from tracking your online activity.
++
++## Disable social media buttons
++
++Social media buttons track your online browsing activities. Even if you never click one of these buttons, a profile based on your browsing habits can be created and sent to various social network servers. Use Adblock Plus to stop social media sites from tracking your online activity. This means all social media buttons will be hidden.
++
++**Chrome**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Social Media Buttons** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++<br>Close the tab.
++
++**Firefox**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Social Media Buttons** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++4. Click **Add subscription**.
++5. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++6. Select **Extensions** from the left menu.
++7. Locate Adblock Plus and click **Preferences** (Mac)/**Options** (Windows).
++8. Click **Filter Preferences**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++9. Close the window.
++
++**Opera**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Social Media Buttons** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++<br>Close the tab.
++
++**Safari**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Social Media Buttons** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not control-click the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++<br>Close the tab.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **More blocking options**.
++3. Select **Social Media Buttons** to disable buttons used to create profiles based on your browsing habits.
++4. Tap the back button.
++5. Close the app.
+Index: pages/adblock-plus/disable-tracking.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/disable-tracking.md
+@@ -0,0 +1,65 @@
++title=Disable tracking | eyeo Help
++description=Use Adblock Plus to prevent companies from tracking your online browsing habits.
++
++## Disable tracking
++
++Many companies collect data about your browsing habits across multiple websites - your browsing history is even examined and collected. When you add the disable tracking filter list, your online behavior is no longer tracked.
++
++**Note**: Adding this filter list does not clear cookies that are already on your computer; it only blocks cookies from ads. Cookies from first-party domains (those that help identify you to specific websites) are not be blocked, therefore information such as saved passwords is not affected.
++
++**Chrome**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Tracking** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Firefox**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Tracking** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++4. Click **Add subscription**.
++5. **Mac OS X and Linux**: From the Mac menu bar, click **Tools** and select **Add-ons**.
++<br>**Windows**: Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++6. Select **Extensions** from the left menu.
++7. Locate Adblock Plus and click **Preferences** (Mac)/**Options** (Windows).
++8. Click **Filter Preferences**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++9. Close the window.
++
++**Opera**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Tracking** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not right-click (Windows) / control-click (Mac) the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Safari**
++
++1. Go to the [Adblock Plus Features](https://adblockplus.org/en/features) page.
++2. Click the **Disable Tracking** link at the top of the page.
++3. Click the **open this dialogue** link.
++<br>**Note**: Do not control-click the above link to open in a new tab or window.
++<br>The *Adblock Plus Options* tab opens.
++4. Click **Add**.
++<br>The download is successful if **Last updated (Date) (Time)** appears next to the list.
++5. Close the tab.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **More blocking options**.
++3. Select **Tracking** to disable most tracking and browse the web more anonymously.
++4. Tap the back button.
++5. Close the app.
+Index: pages/adblock-plus/download-and-install-adblock-plus.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/download-and-install-adblock-plus.md
+@@ -0,0 +1,120 @@
++title=Download and install Adblock Plus | eyeo Help
++description=Adblock Plus is available for Chrome, Firefox, Internet Explorer, Maxthon, Opera, Safari and Yandex.Browser desktop browsers, as well as a content blocker on iOS and Samsung Internet.
++
++## Download and install Adblock Plus
++
++**Chrome**
++
++There are two ways to install Adblock Plus for Chrome.
++
++**From the Adblock Plus website...**
++
++1. Open Chrome and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install for Chrome** button.
++<br>A dialog box opens.
++4. Click **Add extension**.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**From the Chrome Web Store...**
++
++1. Click [here](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb) to open Adblock Plus in the Chrome Web Store.
++2. Click the **Add to Chrome** button in the upper-right corner of the window.
++<br>A dialog box opens.
++3. Click **Add extension**.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Firefox**
++
++1. Open Firefox and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install** button.
++<br>A dialog box opens.
++3. Click **Allow**.
++<br>A dialog box opens.
++4. Click **Install**.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Internet Explorer**
++
++1. Open Internet Explorer and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install for Internet Explorer** button.
++<br>A dialog box opens at the bottom of the browser.
++3. Click the arrow and select **Save and run**.
++<br>A Windows dialog box opens asking for permission to install Adblock Plus.
++4. Click **Yes**.
++<br>The Install Wizard opens.
++<br>A dialog box opens asking to close Internet Explorer.
++5. Click **Yes**.
++<br>A dialog box opens asking if the Install Wizard can close Internet Explorer.
++6. Click **Yes**.
++7. Click **Next**.
++8. Click **Install**.
++9. After installation is complete, click **Finish**.
++10. Open your browser.
++<br>A dialog box opens prompting you to enable Adblock Plus.
++11. Click **Enable**.
++12. Close and reopen Internet Explorer.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Adblock Plus for iOS**
++
++1. Go to the [App Store](https://itunes.apple.com/us/app/adblock-plus-abp-remove-ads/id1028871868?mt=8).
++2. Tap **Install**.
++<br>**Important**: After you install Adblock Plus for iOS, you are prompted to enable ad blocking. To do this:
++    1. Open the app.
++    2. Open **iOS Settings**.
++    3. Tap **Safari**.
++    4. Tap **Content Blockers**.
++    5. Turn on **Adblock Plus**.
++    6. Wait 10 seconds.
++    7. Exit iOS Settings.
++  <br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Opera**
++
++Adblock Plus for Opera must be installed via Opera add-ons.
++
++1. Open Opera and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install for Opera** button.
++<br>The *Opera add-ons* page opens.
++3. Click the **Add to Opera** button.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Safari**
++
++1. Open Safari and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install for Safari** button.
++<br>The install file is moved to the *Downloads* folder.
++3. From the Dock, click the **Downloads icon** and then click the **application icon** next to the application file.
++<br>A dialog box opens.
++4. Click **Install from Developer**.
++5. Click **Trust**.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
++
++**Alternatively, after the application has been downloaded...**
++
++1. Open the **Finder**.
++2. Click **Downloads**.
++3. Drag and drop the **application file** into the *Applications* folder.
++4. Double-click the **application file**.
++5. Click **Install from Developer**.
++6. Click **Trust**.
++
++**Adblock Plus for Samsung Internet**
++
++1. Go to the [Google Play Store](https://play.google.com/store/apps/details?id=org.adblockplus.adblockplussbrowser&hl=en).
++2. Tap **Install**.
++<br>**Important**: After you install Adblock Plus for Samsung Browser, you are prompted to enable Adblock Plus. To do this manually:
++    1. Open Samsung Internet.
++    2. Tap the **menu icon** and select **Settings**.
++    3. Tap **Advanced**.
++    4. Tap **Block content**.
++    5. Enable the **Block content** option and tap **Adblock Plus for Samsung Internet**.
++    6. Exit Settings.
++
++**Yandex.Browser**
++
++1. Open Yandex.Browser and go to [AdblockPlus.org](https://adblockplus.org).
++2. Click the **Install for Yandex.Browser** button.
++<br>A dialog box opens.
++3. Click **Add extension**.
++<br>Adblock Plus is installed. You can now browse the web without annoying ads!
+Index: pages/adblock-plus/hide-the-adblock-plus-icon.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/hide-the-adblock-plus-icon.md
+@@ -0,0 +1,64 @@
++title=Hide the Adblock Plus icon | eyeo Help
++description=Hide or show the Adblock Plus icon on your browser's toolbar.
++
++## Hide the Adblock Plus icon
++
++You can easily hide the Adblock Plus icon if you do not want it displayed on your toolbar.
++
++**Chrome**
++
++1. Right-click (Windows)/Control-click (Mac) the **Adblock Plus icon**.
++2. Select **Hide in Chrome menu**.
++<br>The icon is removed from the toolbar.
++
++**How to show the icon...**
++
++1. Click the **Chrome menu icon**.
++2. Right-click (Windows)/Control-click (Mac) the **Adblock Plus icon** and select **Show in toolbar**.
++<br>The icon appears on the toolbar.
++
++**Firefox**
++
++1. Right-click (Windows) / Control-click (Mac) the **Adblock Plus icon**.
++2. Select **Remove from Toolbar**.
++<br>The icon is removed from the toolbar.
++
++**How to show the icon...**
++
++1. Right-click (Windows) / Control-click (Mac) the toolbar and select **Customize**.
++<br>The Customization tab opens.
++2. Select the **Adblock Plus icon** and drag it to the toolbar.
++3. Drop the icon in your desired location.
++<br>**Tip**: You can reorder the toolbar icons while the *Customization* window is open.
++4. Click **Exit Customize**.
++<br>The icon appears on the toolbar.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and check the box labeled **Hide from toolbar**.
++<br>The icon is removed from the toolbar.
++
++**How to show the icon...**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and uncheck the box labeled **Hide from toolbar**.
++<br>The icon appears on the toolbar.
++
++**Yandex.Browser**
++
++1. Right-click the **Adblock Plus icon**.
++2. Select **Hide button**.
++<br>The icon is removed from the toolbar.
++
++**How to show the icon...**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Show button**.
++<br>The icon appears on the toolbar.
+Index: pages/adblock-plus/i-still-see-ads.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/i-still-see-ads.md
+@@ -0,0 +1,114 @@
++title=I still see ads | eyeo Help
++description=If you still see ads after installing Adblock Plus, you may need to adjust your settings or verify your filter lists.
++
++## I still see ads
++
++Follow the suggestions below if you still see ads after installing Adblock Plus.
++
++### Make sure Adblock Plus is enabled
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and verify that **Enabled** is checked.
++4. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and verify that it is not disabled.
++4. From the Firefox toolbar, click the **Adblock Plus icon**.
++5. Verify that **Disable everywhere** is NOT checked.
++6. Close the tab.
++
++**Internet Explorer**
++
++1. Click **Tools** in the upper right corner of the toolbar and select **Manage add-ons**.
++<br>The *Manage Add-ons* window opens.
++2. Locate and select Adblock Plus.
++3. Verify that the status reads **Enabled**.
++4. Close the window.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and verify that its checkbox is checked.
++3. Close the tab.
++
++**Maxthon 4.9**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and verify that its checkbox is checked.
++3. Close the tab.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and verify that it is enabled.
++4. Close the tab.
++
++**Safari**
++
++1. From the Mac menu bar, click **Safari** and select **Preferences**.
++<br>The *Preferences* window opens.
++2. Select the **Extensions** tab.
++3. Locate Adblock Plus and verify that **Enable Adblock Plus** is checked.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select the **Extensions** tab.
++3. Locate Adblock Plus and verify that it is toggled on.
++4. Close the tab.
++
++### Verify your filter list(s)
++
++Adblock Plus requires filter lists to block ads. A default filter list based on your browser's language settings is automatically activated when you install Adblock Plus. It blocks ads from the most popular (often English language-based) websites. However, it does not block ads on less popular national websites. For example, if you live in Germany you should subscribe to the national German filter list.
++
++An overview of actively maintained filter lists can be found [here](https://adblockplus.org/en/subscriptions).
++
++**Tip**: As a recommendation, you should avoid adding too many filter lists to Adblock Plus. Adding too many filter lists slows down the ad blocker and, therefore, your browsing.
++
++### Make sure the website is not whitelisted
++
++<? include removewhitelist-chrome ?>
++<? include removewhitelist-firefox ?>
++<? include removewhitelist-internetexplorer ?>
++<? include removewhitelist-adblockplusforios ?>
++<? include removewhitelist-maxthon ?>
++<? include removewhitelist-opera ?>
++<? include removewhitelist-safari ?>
++<? include removewhitelist-yandexbrowser ?>
++
++### Turn off Acceptable Ads
++
++Some nonintrusive ads are displayed by default. If you want to block all ads, this feature must be turned off. Please note that by turning off Acceptable Ads, website owners and content creators that abide by the Acceptable Ads criteria will lose ad revenue.
++
++<? include blockads-chrome ?>
++<? include blockads-firefox ?>
++<? include blockads-internetexplorer ?>
++<? include blockads-adblockplusforios ?>
++<? include blockads-maxthon ?>
++<? include blockads-opera ?>
++<? include blockads-safari ?>
++<? include blockads-samsung ?>
++<? include blockads-yandexbrowser ?>
++
++### Check to see if your computer is infected with adware/malware
++
++##### What is adware?
++
++Adware is a type of malware, short for "malicious software." It's a term generally used for software installed on your computer that is designed to infiltrate or damage a computer system without your consent. In many cases you obtained this software without knowing it, as these applications are often bundled in other software installers.
++
++For information about detecting and removing malware, visit our [adware information page](https://adblockplus.org/adware).
++
++If you still see ads after following these recommendations, please report the website(s) in the [forum](https://adblockplus.org/forum/).
+Index: pages/adblock-plus/is-adblock-plus-the-same-thing-as-adblock.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/is-adblock-plus-the-same-thing-as-adblock.md
+@@ -0,0 +1,6 @@
++title=Is Adblock Plus the same thing as AdBlock? | eyeo Help
++description=Adblock Plus is not the same thing as AdBlock.
++
++## Is Adblock Plus the same thing as AdBlock?
++
++ In short - no. Both are ad blockers, but they are separate projects. Adblock Plus is a version of the original "ad-blocking" project while AdBlock originated in 2009 for Google Chrome.
+Index: pages/adblock-plus/problems-installing.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/problems-installing.md
+@@ -0,0 +1,75 @@
++title=Problems installing | eyeo Help
++description=Problems installing Adblock Plus on your desktop browser? Learn more here.
++
++## Problems installing
++
++ Refer to the suggestions below if you are having trouble installing Adblock Plus.  
++
++**Chrome**
++
++1. Ensure that you downloaded the extension from [AdblockPlus.org](https://adblockplus.org) OR the [Chrome Web Store](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb).
++2. Ensure that your browser is on version 41 or higher. Follow the steps below to check your browser version.
++    1. Open Chrome.
++    2. Click the **Chrome menu icon** and select **Settings**.
++    3. Select **About** from the left menu.
++    <br> The version is displayed below the Chrome icon. If your browser is out-of-date, Chrome will automatically start the update process.
++3. [Uninstall](https://support.google.com/chrome_webstore/answer/2664769?hl=en) and reinstall Adblock Plus.
++4. If you are still experiencing issues, try [restoring Chrome settings to default](https://support.google.com/chrome/answer/3296214).
++
++**Firefox**
++
++1. Ensure that you downloaded the extension from [AdblockPlus.org](https://adblockplus.org) OR [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/?src=ss).
++2. Ensure that your browser is on version 38 or higher. Follow the steps below to check your browser version.
++    1. Open Firefox.
++    2. Click the **Firefox menu icon**.
++    3. Click the **Help icon**.
++    4. Select **About Firefox**.
++    <br> The *About Firefox* window opens.
++    <br> The version is displayed next to the Firefox icon. If your browser is out-of-date, Firefox will automatically start the update process.
++3. [Uninstall](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons#w_how-to-remove-extensions-and-themes) and reinstall Adblock Plus.
++4. Receiving a 'corrupt download' or 'conflict with other extensions' error? Refer to this Mozilla article about the [inability to install add-ons](https://support.mozilla.org/en-US/kb/unable-install-add-ons-extensions-or-themes?redirectlocale=en-US&redirectslug=unable-install-add-ons-or-extensions).
++5. If you are still experiencing issues, try [refreshing Firefox](https://support.mozilla.org/en-US/kb/refresh-firefox-reset-add-ons-and-settings).
++
++**Internet Explorer**
++
++1. Ensure that you downloaded the extension from [AdblockPlus.org](https://adblockplus.org).
++2. Ensure that your browser is on version 8 or higher. Follow the steps below to check your browser version.
++    1. Open Internet Explorer.
++    2. Click the **Help icon**.
++    3. Select **About Internet Explorer**.
++    <br> The *About Internet Explorer* window opens.
++    <br> The version is displayed below the Internet Explorer icon.
++3. [Uninstall](https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons)and reinstall Adblock Plus.
++
++**Opera**
++
++1. Ensure that you downloaded the extension from [Opera Add-ons](https://addons.opera.com/en/extensions/details/opera-adblock/?display=en-US).
++2. Ensure that your browser is on version 28 or higher. Follow the steps below to check your browser version.
++    1. Open Opera.
++    2. Click the **Opera menu icon**.
++    3. Select **About Opera**.
++    <br> If your browser is out-of-date, Opera will automatically start the update process.
++3. [Uninstall](http://help.opera.com/Mac/11.60/en/extensions.html) and reinstall Adblock Plus.
++
++**Safari**
++
++1. Ensure that you downloaded the extension from [AdblockPlus.org](https://adblockplus.org).
++2. Ensure that your browser is on version 6.0 or higher. Follow the steps below to check your browser version.
++    1. Open Safari.
++    2. Click **Safari**.
++    3. Select **About Safari**.
++    <br> The *About Safari* window opens.
++    <br> The version is displayed below the Safari icon.
++3. [Uninstall](https://support.apple.com/en-us/HT203051) and reinstall Adblock Plus.
++
++**Yandex.Browser**
++
++1. Ensure that you downloaded the extension from [AdblockPlus.org](https://adblockplus.org).
++2. Ensure that your browser is on version 16.6 or higher. Follow the steps below to check your browser version.
++    1. Open Yandex Browser.
++    2. Click the **Yandex.Browser menu icon**, hover over **Advanced** and select **About Yandex.Browser**.
++    <br> The *About* tab opens.
++    <br> The version is displayed to the left of the Yandex.Browser icon.
++3. [Uninstall](https://yandex.com/support/browser/feedback/del-extension.xml) and reinstall Adblock Plus.
++
++If you still cannot install Adblock Plus after trying these suggestions, please contact <support@adblockplus.org>.
+Index: pages/adblock-plus/remove-afilter-list.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/remove-afilter-list.md
+@@ -0,0 +1,87 @@
++title=Remove a filter list | eyeo Help
++description=Remove a filter list that you previously added to Adblock Plus.
++
++## Remove a filter list
++
++You may want to remove a filter list to unblock certain items, or because the filter list is no longer relevant to your browsing habits.
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the red **X** next to the filter list that you want to remove.
++5. Click **OK**.
++6. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click the **Filter preferences** button.
++<br>The *Adblock Plus Filter preferences* window opens.
++5. Select the **Filter subscriptions** tab and then locate the filter list that you want to remove.
++6. Click **Actions** and select **Delete**.
++7. Click **OK**.
++8. Click **Close**.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Click the red **X** next to the filter list that you want to remove.
++<br>The filter list is removed.
++4. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the red **X** next to the filter list that you want to remove.
++<br>The filter list is removed.
++3. Click **Done**.
++
++**Opera**
++
++1.  Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the red **X** next to the filter list that you want to remove.
++5. Click **OK**.
++6. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Select the **Filter lists** tab and then click the red **X** next to the filter list that you want to remove.
++3. Click **OK**.
++4. Close the window.
++
++**Adblock Plus for Samsung Internet**
++
++1. Open the Adblock Plus for Samsung Internet app.
++2. Tap **Configure your filter lists**.
++3. Deselect the **filter list** you would like to remove above *Other Languages*.
++4. Tap the back button to refresh.
++5. Close the app.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Click the red **X** next to the filter list that you want to remove.
++<br>A dialog box opens.
++5. Click **Yes**.
++6. Close the tab.
+Index: pages/adblock-plus/remove-awebsite-from-the-whitelist.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/remove-awebsite-from-the-whitelist.md
+@@ -0,0 +1,94 @@
++title=Remove a website from the whitelist | eyeo Help
++description=No longer want to allow ads on websites that you previously whitelisted? Remove the websites from your Adblock Plus whitelist.
++
++## Remove a website from the whitelist
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click **Filter preferences**.
++<br>The *Adblock Plus Filter Preferences* window opens.
++5. Select the **Custom filters** tab.
++6. Select a filter group, click **Actions** and select **Show/hide filters**.
++7. If a filter rule appears in the right window, do one of the following:
++    - Select the rule, click **Filter actions** and select **Delete**.
++    - Uncheck the **Enabled** box that applies to the rule.
++
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++<br>The *Adblock Plus Options* window opens.
++2. Click the **Manage** button.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Close the window.
++
++**Adblock Plus for iOS**
++
++1. Open the Adblock Plus for iOS app.
++2. Tap the **Tools icon**.
++3. Tap **Whitelisted Websites**.
++4. Tap the **Trash icon** next to the website you want to remove.
++5. Close the app.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Select the **Whitelisted domains** tab.
++4. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++5. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Select the **Whitelisted domains** tab.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Click **Done**.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Select the **Whitelisted domains** tab.
++3. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++4. Close the tab.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Whitelisted domains** tab.
++5. If a website that you don't want to view ads on appears in the box, select the website and click **Remove selected**.
++6. Close the tab.
+Index: pages/adblock-plus/unblock-ablocked-item.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/unblock-ablocked-item.md
+@@ -0,0 +1,87 @@
++title=Unblock a blocked item | eyeo Help
++description=A custom Adblock Plus filter might occasionally block a website element that you want to view. Edit or remove the filter in order to view the blocked element(s).
++
++## Unblock a blocked item
++
++**Note**: This article only applies to users who have created their own custom filter.
++
++Sometimes a custom filter you created can block a website element that you want to view. In this instance, you must revise the filter or remove it. For information about writing and maintaining custom filters, visit [https://adblockplus.org/filters].
++
++**Chrome**
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* window opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++4. Select the **Add your own filters** tab.
++5. Select the filter you want to remove and click **Remove selected**.
++6. Close the tab.
++
++**Firefox**
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Options** (Windows) / **Preferences** (Mac).
++4. Click **Filter preferences**.
++<br>The *Adblock Plus Filter preferences* window opens.
++5. Select the **Custom Filters** tab.
++6. Right-click a group and select **Show/hide filters**.
++7. Remove the respective filters from the right window.
++8. Close the tab.
++
++**Internet Explorer**
++
++1. From the status bar located at the bottom of your browser, click the **Adblock Plus icon** and select **Settings**.
++<br>**Tip**: If you do not see the Adblock Plus icon, right-click the tab bar (the empty area near the tabs) and select **Status bar**.
++2. Click **Manage**.
++3. Select the filter you want to remove and click **Remove selected**.
++
++**Maxthon 5**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* window opens.
++3. Select the **Add your own filters** tab.
++4. Right-click (Windows)/Control-click (Mac) the filter you want to remove and click **Delete**.
++5. Click **Done**.
++
++**Maxthon 4.9**
++
++1. Click the **Adblock Plus icon** and select **Adblock Plus Options**.
++<br>The *Adblock Plus Options* window opens.
++2. Select the **Add your own filters** tab.
++3. Right-click (Windows)/Control-click (Mac) the filter you want to remove and click **Delete**.
++4. Click **Done**.
++
++**Opera**
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Add your own filters** tab.
++5. Select the filter you want to remove and click **Remove selected**.
++6. Close the tab.
++
++**Safari**
++
++1. From the Safari toolbar, click the **Adblock Plus icon** and select **Options**.
++<br>The *Adblock Plus Options* tab opens.
++2. Select the **Add your own filters** tab.
++3. Select the filter you want to remove and click **Remove selected**.
++4. Close the window.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Options**.
++<br>The *Adblock Plus Options* tab opens.
++4. Select the **Add your own filters** tab.
++5. Select the filter you want to remove and click **Remove selected**.
++6. Close the tab.
+Index: pages/adblock-plus/uninstall-adblock-plus.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/uninstall-adblock-plus.md
+@@ -0,0 +1,112 @@
++title=Uninstall Adblock Plus | eyeo Help
++description=You can temporarily disable Adblock Plus rather than uninstall it. Still want to uninstall Adblock Plus? Learn more here.
++
++## Uninstall Adblock Plus
++
++**Chrome**
++
++**Tip**: If you would like to disable, rather than uninstall Adblock Plus, right-click (Windows)/control-click (Mac) the **Adblock Plus icon**, select **Manage extensions** and uncheck the box labeled **Enabled**.
++
++1. Click the **Chrome menu icon** in the upper right corner of the toolbar and select **Settings**.
++<br>The *Settings* tab opens.
++2. Select **Extensions** from the left menu.
++3. Locate Adblock Plus and click the **Trash** icon.
++4. Click **Remove**.
++5. Close the tab.
++
++**Firefox**
++
++**Tip**: If you would like to disable, rather than uninstall Adblock Plus, click the **Adblock Plus icon** and select **Disable everywhere**.
++
++1. Click the **Firefox menu icon** in the upper right corner of the toolbar and select **Add-ons**.
++<br/>The *Add-ons Manager* tab opens.
++2. Select **Extensions** from the left menu.
++3. Select Adblock Plus and click **Remove**.
++4. Close the window.
++
++**Internet Explorer**
++
++**Tip**: If you would like to disable, rather than uninstall Adblock Plus, click the **Adblock Plus icon** and select **Disable everywhere**.
++
++Adblock Plus must be uninstalled via the Control Panel.
++
++**Windows 8 and 10...**
++1. From the Desktop, right-click **Start** and select **Control Panel**.
++2. Click **Uninstall a Program**.
++3. Select Adblock Plus from the installed program list and click **Uninstall**.
++<br>A dialog box opens.
++4. Click **Yes**.
++
++**Windows 7...**
++
++1. Click **Start** and select **Control Panel**.
++2. Click **Uninstall a Program**.
++3. Select Adblock Plus from the installed program list and click **Uninstall**.
++<br>A dialog box opens.
++4. Click **Yes**.
++
++**Adblock Plus for iOS**
++
++1. Long-tap the Adblock Plus icon until the screen starts to wiggle.
++2. Tap the **X** in the upper-left corner of the Adblock Plus icon.
++
++**Maxthon 5**
++
++**Note**: Because Adblock Plus is a feature of the Maxthon browser, it cannot be uninstalled. You can, however, disable it.
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar, hover over **Tools** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and uncheck the box labeled **Enabled**.
++<br> Adblock Plus is now disabled.
++3. Close the tab.
++
++**Maxthon 4.9**
++
++1. Click the **Maxthon menu icon** in the upper right corner of the toolbar and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and uncheck its checkbox.
++<br> Adblock Plus is now disabled.
++3. Close the tab.
++
++**Opera**
++
++**Tip**: If you would like to disable, rather than uninstall Adblock Plus, right-click (Windows)/control-click (Mac) the **Adblock Plus icon**, select **Manage Extensions** and click **Disable**.
++
++1. Click the **Opera menu icon** in the upper left corner of the toolbar, hover over **Extensions** and select **Manage extensions**.
++<br>The *Extensions* tab opens.
++2. Select **All** from the left menu.
++3. Locate Adblock Plus and click the **X** in the upper-right corner.
++<br>A dialog box opens.
++4. Click **OK**.
++5. Close the tab.
++
++**Safari**
++
++**Tip**: Follow the steps below if you would like to disable, rather than uninstall, Adblock Plus.
++
++> 1. From the Mac menu bar, click **Safari** and select **Preferences**.
++> 2. Select the *Extensions* tab.
++> 3. Uncheck the box labeled **Enable Adblock Plus**.
++
++1. From the Mac menu bar, click **Safari** and select **Preferences**.
++<br>The *Preferences* window opens.
++2. Select the **Extensions** tab.
++3. Locate Adblock Plus and click **Uninstall**.
++<br>A dialog box opens.
++4. Click **Uninstall**.
++5. Close the window.
++
++**Adblock Plus for Samsung Internet**
++
++1. Long-tap the Adblock Plus icon.
++2. Drag and drop it to the **Uninstall button** at the top of the screen.
++3. Tap **Yes**.
++
++**Yandex.Browser**
++
++1. Click the **Yandex.Browser menu icon** and select **Extensions**.
++<br>The *Extensions* tab opens.
++2. Locate Adblock Plus and click **More details**.
++3. Click **Delete**.
++4. Click **Remove**.
++5. Close the tab.
+Index: pages/adblock-plus/what-are-acceptable-ads.md
+===================================================================
+new file mode 100755
+--- /dev/null
++++ b/pages/adblock-plus/what-are-acceptable-ads.md
+@@ -0,0 +1,10 @@
++title=What are Acceptable Ads? | eyeo Help
++description=Acceptable Ads are respectful, nonintrusive ads that do not interfere with your browsing. By allowing these ads. website owners who abide by the Acceptable Ads criteria continue to earn ad revenue.
++
++## What are Acceptable Ads?
++
++Acceptable Ads are nonitrusive ads that do not disrupt the content you are viewing.
++
++The Acceptable Ads criteria was developed in 2011 as a joint effort between Adblock Plus and its community of users. When you install Adblock Plus and Adblock Browser, all nonintrusive ads are displayed by default. You can, however, disable this feature at any time and hide all ads. To do this, refer to this [article]().
++
++To view the entire Acceptable Ads criteria, visit the [Acceptable Ads website](https://acceptableads.com/about/criteria).
