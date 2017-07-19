@@ -193,24 +193,28 @@ The default setting.
 
 ![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
 
-- Notifcation headline 
+- Notifcation title: `Allow tracking on Acceptable Ads?`
 
-`Allow tracking on Acceptable Ads?`
-
-- Notifcation text 
-
-`You are allowing nonintrusive advertising (Acceptable Ads) to show on websites you visit. These ads are respectful and do not interfere with the content you are viewing.` 
-
-`Some of these ads require tracking techniques to show you more relevant ads.` 
-
-`Click *Yes* to see relevant ads that are nonintrusive. Click *No* to disable all tracking.`
+- Notifcation text:
+```
+You currently allow Acceptable Ads to be shown.
+These ads are respectful and do not interfere with content that you view.
+Some of these ads require tracking to show you more relevant ads.
+Click *YES* to continue seeing relevant nonintrusive ads.
+```
 - Buttons
 
 | Button label | Behaviour | 
 |-----------|---------------|
-| `Yes, show me relevant ads` | Keeps selection on `Show nonintrusive ads`, and closes window |
-| `No, disable all tracking` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
+| `YES, ALLOW RELEVANT ADS` | Keeps selection on `Show nonintrusive ads`, and closes window |
+| `NO, TURN OFF TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
+```
+Note:
+* Ability to disable tracking depends on completeness of the EasyPrivacy filter list.
+* Adblock Plus does not directly show ads.
+* Adblock Plus never tracks any information.
+```
 
 ### Language section
 
