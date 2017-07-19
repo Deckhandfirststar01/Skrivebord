@@ -618,15 +618,10 @@ Popup to add a filter list from a selection.
 
 1. [Add filter list popup title](#markdown-header-add-filter-list-popup-title)
 1. [Close filter list popup X](#markdown-header-close-filter-list-popup-X)
-1. [List of available subscriptions](#markdown-header-list-of-available-subscriptions)
-1. [Filter list description](#markdown-header-filter-list-description)
+1. [Filter subscription](#markdown-header-filter-subscription)
 1. [Scroll bar](#markdown-header-scroll-bar)
 1. [Focused filter list](#markdown-header-Focussed-filter-list)
-1. [Language filter list title](#markdown-header-language-filter-list-title)
-1. [Language filter lists](#markdown-header-language-filter-lists)
-1. [Installed filter list](#markdown-header-installed-filter-list)
-1. [Add custom subscription link](#markdown-header-add-custom-subscription-link)
-
+1. [Add filter list via URL](#markdown-header-add-filter-list-via-URL)
 
 ### Add filter list popup title
 
@@ -636,25 +631,10 @@ Popup to add a filter list from a selection.
 
 Closes the [Add filter list popup](#markdown-header-add-filter-list-popup).
 
-### List of available subscriptions
+### Filter subscription
 
-| Subscription title | Description | URL |
-|-----------|---------------|---------------|
-| `EasyPrivacy` | `Blocks tracking` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
-| `Malware Domains` | `Blocks malware` | https://easylist-downloads.adblockplus.org/malwaredomains_full.txt |
-| `Adblock Warning Removal List` | `Removes anti-ad block warnings and other intrusive messages` | https://easylist-downloads.adblockplus.org/antiadblockfilters.txt |
-| `Adware filters` | `Blocks ads injected by adware` | https://easylist-downloads.adblockplus.org/adwarefilters.txt |
-| `Fanboy's Annoyances` | `Removes online annoyances (includes Fanboy's Social Blocking List)` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
-| `Fanboy's Social Blocking List` | `Removes social media integration` | https://easylist-downloads.adblockplus.org/fanboy-social.txt |
-| `I don't care about cookies` | `Filters intrusive EU cookie law notices` | https://kiboke-studio.hr/i-dont-care-about-cookies/abp |
-| `Spam404` | `Blocks fraudulent websites` | https://raw.githubusercontent.com/Dawsey21/Lists/master/adblock-list.txt |
-| `CJX's Annoyance List` | `Removes self-promotion and privacy protection for EasyList China` | https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt |
-
-Filter list subscriptions here: https://adblockplus.org/subscriptions
-
-### Filter list descriptions
-
-See above for filter list subscriptions and corresponding descriptions. 
+- Show filter *Subscription title* in the first column and filter *Description* in the second column. See [Language filter lists](#markdown-header-language-filter-lists) for titles and description.
+- Already added filter subscriptions will appear disabled in the popup. 
 
 ### Scroll bar
 
@@ -664,11 +644,10 @@ The size of the layover menu should correspond to the screen size. The scroll ba
 
 When a filter list is in focus the whole row should be highlighted.
 
-### Language filter list title
+### Add filter list via URL
 
-`Languages`
-
-All language filter lists will be grouped separately beneath the title.
+- Closes the [Add filter list popup](#markdown-header-add-filter-list-popup) and opens the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
+- `+ ADD FILTER LIST VIA URL`
 
 ### Language filter lists
 
@@ -698,16 +677,6 @@ All language filter lists will be grouped separately beneath the title.
 | `Eesti saitidele kohandatud filter` | `Eesti keel` |  http://adblock.ee/list.php | |
 | `hufilter` | `magyar` | https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt | |
 | `YousList` | `한국어` | https://raw.githubusercontent.com/yous/YousList/master/youslist.txt | |
-  
-### Installed filter list
-
-Installed filter lists will appear in the menu, but should be disabled.
-
-### Add custom subscription link
-
-Closes the [Add filter list popup](#markdown-header-add-filter-list-popup) and opens the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
-
-`+ Add a filter list via URL`
 
 Add custom subscription popup
 -----------------------------
@@ -733,15 +702,15 @@ Closes the [Add custom subscription popup](#markdown-header-add-custom-subscript
 
 #### Custom subscription popup subscription title input
 
-- Label `Subscription title:`
-- Placeholder `Filter subscription title`
+- Label `Filter list name`
+- When the text field is active or contains data, the label floats above the input area.
 - Auto focus when [Add custom subscription popup](#markdown-header-add-custom-subscription-popup) is opened.
 - Validate as you type: Not Empty.
 
 #### Custom subscription popup subscription url input
 
-- Label `Filter list location`.
-- Placeholder `https://website.com/filterlist.txt`
+- Label `Filter list URL`.
+- When the text field is active or contains data, the label floats above the input area.
 - Validates as you type against:
 <!-- This is to technical, find a better way to describe it -->
 ```javascript
