@@ -511,11 +511,11 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 
 1. [Filter list section header](#markdown-header-filter-list-section-header)
 1. [Filter list section description](#markdown-header-filter-list-section-description)
-1. [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
 1. [Filter list subscriptions status](#markdown-header-filter-list-subscriptions-status)
 1. [Filter list title](#markdown-header-filter-list-title)
 1. [Filter list subscriptions updates](#markdown-header-filter-list-subscriptions-updates)
 1. [Filter list subscriptions settings](#markdown-header-filter-list-subscriptions-settings)
+1. [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions)
 1. [Add filter list button](#markdown-header-add-filter-list-button)
 1. [Update filter lists button](#markdown-header-update-filter-lists-button)
 
@@ -528,10 +528,6 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 `Each Adblock Plus setting functions because of a filter list. Below are the filter lists that correspond to all of your Adblock Plus
 settings. You can also add additional filters created and maintained by our trusted community. [Learn more][1]`
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *subscriptions*
-
-#### Remove filter list subscriptions
-
-- X deletes the filter list.
 
 #### Filter list subscriptions status
 
@@ -562,6 +558,10 @@ settings. You can also add additional filters created and maintained by our trus
 #### Filter list subscriptions settings
 
  - A Gear Icon opens the [Edit filter list popup](#markdown-header-edit-filter-list-popup)
+
+#### Remove filter list subscriptions
+
+- trash.svg icon deletes the filter list. 
 
 #### Add filter list button
 
