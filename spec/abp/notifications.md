@@ -57,7 +57,7 @@ One minute after starting ABP (e.g. the browser), and then every 60 minutes, ABP
 
 ## Notification types
 
-There are three different types of notification. They all contain translateable text and optionally links the user can visit. But they do differ when it comes to when and how they show up.
+There are four different types of notification. They all contain translatable text and optionally links the user can visit. But they do differ when it comes to when and how they show up.
 
 (Please note that the _question_ notification type is not specified here, because question notifications can currently not be defined via `notifications.json`, they are only used internally.)
 
@@ -82,6 +82,18 @@ And show up in the popup:
 ![](/res/abp/notifications/information-popup.png)
 
 Both the icon animation and the notification in the popup stay in place until the user closes the notification, see [closing and disabling notifications](#closing-and-disabling-notifications).
+
+### Normal
+
+#### When they show up
+
+The logic is the same as for information notifications.
+
+#### How they show up in Chrome
+
+Normal notifications show up in the popup:
+
+![](/res/abp/notifications/normal-chrome-notification.png)
 
 ### Relentless
 
