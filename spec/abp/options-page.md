@@ -77,8 +77,8 @@ Opens the [About](#markdown-about) overlay.
 
 - Title: `About Adblock Plus`
 - Version number of extension added dynamically: `Version number xxx`
-- Text: `Copyright © {current year} Eyeo GmbH.
-Adblock Plus is a registered ® trademark of Eyeo GmbH.`
+- Text: `Copyright © {current year} eyeo GmbH.
+Adblock Plus is a registered ® trademark of eyeo GmbH.`
 - Button to close layover: `CLOSE` 
 - X closes the layover.
 
@@ -127,7 +127,7 @@ Checkbox to install/uninstall each filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
-| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites that you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hiding these buttons can protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
+| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hiding these buttons can protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
 | EasyPrivacy | `Disable tracking` | `Protect your personal data by removing all forms of tracking from the Internet including information collectors.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
 
 #### Tooltip icon
@@ -298,7 +298,7 @@ TODO link to language article
 ![](/res/abp/options-page/general-tab-language-empty.jpg)
 
 - When alll language filter lists have been removed from the extension.
-- Text: `You don't have any language specific filters.`
+- Text: `You don't have any language-specific filters.`
 - Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions) in the Advanced tab.
 
 ### More filters section
@@ -332,7 +332,7 @@ If no description is available, the tooltip icon is hidden.
 
 | Filter list name | Tooltip description | 
 |-----------|---------------|
-| Adware filters | `Adware is software that is typically obtained without your consent. It displays unwanted ads when you are online and can also track your browsing habits.` |
+| Adware Filters | `Adware is software that is typically obtained without your consent. It displays unwanted ads when you are online and can also track your browsing habits.` |
 | Malware Domains | `Malicious software (or "malware") is software that is intended to gain access to and damage your computer. Computer viruses, worms, spyware and Trojan horses are all forms of malware.` |
 | Spam404 | `Fraudulent websites, or scam websites, may look legit but are filled with adware, malware, spam or other harmful elements.` |
 | Adblock Warning Removal List | `Some websites show messages that ask you to turn off your ad blocker. Access to content will not be limited on sites that require no action from you (i.e. you are not required to turn off Adblock Plus to access the content).` |
@@ -767,7 +767,7 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 
 #### Custom filter section description
 
-`Write your own custom filters to further control what content Adblock PLus allows or blocks.`
+`Write your own custom filters to further control what content Adblock Plus allows or blocks.`
 
 #### Custom filter title 
 
