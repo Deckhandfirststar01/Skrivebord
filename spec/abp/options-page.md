@@ -1,13 +1,10 @@
-Options Page
-============
-
+# Options Page
 Options page for the ABP Browser extension.
 
 The options page is used to change various options of the ABP browser extension.
-<a name="top"></a>
 
-1. [Navigation menu](#markdown-navigation-menu)
-1. [About ](#markdown-About)
+1. [Navigation menu](#markdown-header-navigation-menu)
+1. [About ](#markdown-header-about)
 1. [General tab](#markdown-header-general-tab)
 1. [Whitelist tab](#markdown-header-whitelist-tab)
 1. [Advanced tab](#markdown-header-advanced-tab)
@@ -15,9 +12,7 @@ The options page is used to change various options of the ABP browser extension.
 1. [Assets](#markdown-header-assets)
 
 ## General requirements
-
 ### Bidirectionailty
-
 Any change of state will be immediately reflected in the options page regardless
 of where and how the change was made, so that the options page always reflects
 the current state of the extension.
@@ -26,25 +21,19 @@ the current state of the extension.
 - If a change to the state was made through other means e.g. auto update of filter list subscriptions, it will be reflected immediately in every instance of the options page.
 
 ### Style Guide
-
-All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options_page_style_guide.pdf).
+All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options-page-style-guide.md).
 
 ### WCAG
-
 Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/REC-WCAG20-20081211/):
 
 - 2.1 Keyboard Accessible
 - 2.4 Navigable
 
 ## Navigation
-
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
-Navigation menu
--------------
-
+# Navigation menu
 ### Navigation menu default
-
 ![](/res/abp/options-page/navigation-menu.jpg)
 
 1. [Logo](#markdown-logo)
@@ -53,12 +42,14 @@ Navigation menu
 1. [About link](#markdown-about-link)
 
 #### Logo
-- This will appear consistently across all tabs.
-- All elements within the navigation menu are fixed according to the screen height.
-- `Adblock Plus Settings`
+This will appear consistently across all tabs.
+
+All elements within the navigation menu are fixed according to the screen height.
+
+##### Text
+`Adblock Plus Settings`
 
 #### Navigation menu list
-
 Navigation names should match the headlines of each tab.
 1. [General tab headline](#markdown-general-tab-headline)
 1. [Whitelisted tab headline](#markdown-whitelisted-tab-headline)
@@ -72,20 +63,28 @@ Opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-
 Opens the [About](#markdown-about) overlay.
 
 ### About
-
 ![](/res/abp/options-page/navigation-about.jpg)
 
-- Title: `About Adblock Plus`
-- Version number of extension added dynamically: `Version number xxx`
-- Text: `Copyright © {current year} eyeo GmbH.
-Adblock Plus is a registered ® trademark of eyeo GmbH.`
-- Button to close layover: `CLOSE` 
-- X closes the layover.
+#### Title
+`About Adblock Plus`
 
-General tab
--------------
+#### Version number 
+Version number of extension added dynamically. 
+
+`Version number xxx`
+
+#### Text
+`Copyright © {current year} eyeo GmbH.`
+
+`All rights reserved. Adblock Plus® is a registered  trademark of eyeo GmbH.`
+
+#### Button to close layover
+`CLOSE` 
+
+X closes the layover.
+
+# General tab
 ### General tab default
-
 ![](/res/abp/options-page/general-tab.jpg)
 
 1. [General tab headline](#markdown-header-general-tab-headline)
@@ -96,20 +95,14 @@ General tab
 1. [More filters section](#markdown-header-more-filters-section)
 
 #### General tab headline
+`General`
 
-- Headline for the [General tab](#markdown-header-general-tab) `General`
-- Navigation label will match headline.
+Navigation label will match headline.
 
 #### General tab description
-
-Description for the [General tab](#markdown-header-general-tab).
-
-```
-Determine what Adblock Plus shows and hides on websites
-```
+`Determine what Adblock Plus shows and hides on websites`
 
 ### Privacy & Security section
-
 ![](/res/abp/options-page/general-default-privacy-and-security.jpg)
 
 1. [Privacy section headline](#markdown-header-privacy-tab-headline)
@@ -117,12 +110,10 @@ Determine what Adblock Plus shows and hides on websites
 1. [Tooltip icon](#markdown-header-tooltip-icon)
 1. [Tooltip pop-up](#markdown-header-tooltip-pop-up)
 
-#### Privacy & Security section headline
-
-Headline for the [Privacy & security section](#markdown-header-privacy-&-security-section) `PRIVACY & SECURITY`
+#### Privacy section headline
+ `PRIVACY & SECURITY`
 
 #### Recommended filter lists
-
 Checkbox to install/uninstall each filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
@@ -137,12 +128,10 @@ Checkbox to install/uninstall each filter list.
 - Clicking on the tooltip icon when the modal window is already open, will close the popup-
 
 #### Tooltip pop-up
-
 Refer to the table in [Recommended filter lists](#markdown-header-recommended-filter-lists)
  for tooltip descriptions. 
 
 ### Acceptable Ads section
-
 ![](/res/abp/options-page/general-default-acceptable-ads.jpg)
 
 1. [Acceptable Ads section headline](#markdown-header-acceptable-ads-section-headline)
@@ -151,19 +140,17 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 1. [Acceptable Ads notification](#markdown-header-acceptable-ads-notification)
 
 #### Acceptable Ads section headline
-
-- Headline for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) `ACCEPTABLE ADS`
+`ACCEPTABLE ADS`
 
 #### Acceptable Ads section description
-
-Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-section) 
-
-```Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting online content because they generate revenue for website owners.```
+`Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting online content because they generate revenue for website owners.`
 
 #### Acceptable Ads table
+##### Selection type
+Radio button
 
-- Radio button options.
-- `Show nonintrusive ads` is selected on default. This enables the `Allow nonintrusive advertising` (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
+##### Default bahaviour
+`Allow some nonintrusive ads` is selected on default. This enables the EasyPrivacy (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
 
 | Title | Description | Action |
 |-----------|---------------|--------------|
@@ -174,52 +161,52 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
 
 ##### Show nonintrusive ads
-
 The default setting.
 
 ##### Show nonintrusive ads that are privacy friendly
+This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
 
-- This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
-- Label this setting as `NEW` during the user's first visit to the new options page. 
-- If a user selects this option AND has DNT disabled, display the below text within the table:
+Label this setting as `NEW` during the user's first visit to the new options page. 
 
-```**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)```
+##### Do not track conditions
+![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
+
+If a user selects this option AND has DNT disabled, display the below text within the table:
+
+`**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)`
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
-![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
-
 #### Acceptable Ads notification
-
-- If a user enables `Disable tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
+If a user selects `Disable tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
 
 ![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
 
-- Notifcation title: `Allow tracking on Acceptable Ads?`
+##### Notifcation title
+`Allow tracking on Acceptable Ads?`
 
-- Notifcation text:
+##### Notifcation text
 ```
 You currently allow Acceptable Ads to be shown.
 These ads are respectful and do not interfere with content that you view.
-Some of these ads may require tracking to show you more relevant ads.
-Click *YES* to continue seeing relevant nonintrusive ads.
-```
-- Buttons
 
-| Button label | Behaviour | 
-|-----------|---------------|
-| `YES, ALLOW RELEVANT ADS` | Keeps selection on `Show nonintrusive ads`, and closes window |
-| `NO, BLOCK TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
+Some of these ads require tracking to show you more relevant ads.
+Click **YES** to continue seeing relevant nonintrusive ads.
 
-```
 *Note:*
 * Adblock Plus cannot guarantee that all tracking is disabled.
 * Ads shown are chosen by the website you visit, not Adblock Plus. 
 * Adblock Plus never tracks your data.
 ```
 
-### Language section
+##### Buttons
 
+| Button label | Behaviour | 
+|-----------|---------------|
+| `YES, ALLOW RELEVANT ADS` | Keeps selection on `Show nonintrusive ads`, and closes window |
+| `NO, TURN OFF TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
+
+### Language section
 ![](/res/abp/options-page/general-default-language.jpg)
 
 1. [Language section headline](#markdown-header-language-section-headline)
@@ -230,40 +217,40 @@ Click *YES* to continue seeing relevant nonintrusive ads.
 1. [Language tip](#markdown-header-language-tip)
 
 #### Language section headline
-
-- Headline for the [Language section](#markdown-header-language-section) `Language`
+`Language`
 
 #### Language section description
-
-Description for the [Language section](#markdown-header-language-section) 
-
-```Optimize Adblock Plus for the language(s) you typically browse websites in. [Learn more](#markdown-header-link to Help Centre article (needs to be created still)```
+`Optimize Adblock Plus for the language(s) you typically browse websites in. [Learn more](#markdown-header-link to Help Centre article (needs to be created still)`
 
 TODO link to language article
 
 #### Default language
+Language filter list selected based on the browser's default language.
 
-- Language filter list selected based on the browser's default language.
-- To see all available language options and corresponding filter lists go to  [Language filter lists](#markdown-header-language-filter-lists).
+To see all available language options and corresponding filter lists go to  [Language filter lists](#markdown-header-language-filter-lists).
 
 #### Change language
+##### Label 
+`CHANGE`
 
-- Labelled `CHANGE`
-- Button to trigger the [Language modal window](#markdown-header-language-modal-window).
-- Clicking on a language within the modal window will automatically close the window and *change the language filter subscription*. 
+##### Behaviour
+Button to trigger the [Language modal window](#markdown-header-language-modal-window).
+
+Clicking on a language within the modal window will automatically close the window and *change the language filter subscription*. 
 
 #### Add language
+##### Label 
+`+ ADD A LANGUAGE`
+ 
+##### Behaviour
+Button to trigger the [Language modal window](#markdown-header-language-modal-window).
 
-- Labelled `+ ADD A LANGUAGE` 
-- Button to trigger the [Language modal window](#markdown-header-language-modal-window).
-- Clicking on a language within the modal window will automatically close the window and *add the language filter subscription*. 
+Clicking on a language within the modal window will automatically close the window and *add the language filter subscription*. 
 
-#### Language tip
-
-```**Tip:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. ```
+##### Language tip
+`**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. `
 
 ### Language modal window
-
 ![](/res/abp/options-page/general-default-language-drop-down.jpg)
 
 1. [Modal window title](#markdown-header-modal-window-title)
@@ -273,35 +260,40 @@ TODO link to language article
 1. [Scroll bar](#markdown-header-scroll-bar)
 
 #### Modal window title
- - `SELECT A LANGUAGE` 
+`SELECT A LANGUAGE` 
 
 #### Close modal window
-- X closes the [Language modal window](#markdown-header-language-modal-window).
+X closes the [Language modal window](#markdown-header-language-modal-window).
 
 #### Selected language
-- Already added filter subscriptions will appear greyed out and disabled in the modal window.   
+Already added filter subscriptions will appear greyed out and disabled in the modal window.   
 
 #### Filter subscription
-- Show filter *Description* followed by *Subscription title*. See [Language filter lists](#markdown-header-language-filter-lists) for titles and description.
+Show filter *Description* followed by *Subscription title*. See [Language filter lists](#markdown-header-language-filter-lists) for titles and description.
 
 #### Scroll bar
-- The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
+The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
 
 #### Multiple languages
-
 ![](/res/abp/options-page/general-default-language-multiple.jpg)
 
+##### Behaviour
 - When there is more than one language filter list in the table, the  [Change language](#markdown-header-change-language) element turns into a bin icon. All filter lists are removeable.
 - When there is only one language filter list in the table, the remaining filter list is not removeable, and the user is only allowed to  [Change language](#markdown-header-change-language) the filter list - this triggers the [Language modal window](#markdown-header-language-modal-window).
-- To remove a language from the table, select the bin icon in the language row. 
+
+##### Removing a language
+To remove a language from the table, select the bin icon in the language row. 
 
 #### Language filter list - empty state
-
 ![](/res/abp/options-page/general-tab-language-empty.jpg)
 
-- When alll language filter lists have been removed from the extension.
-- Text: `You don't have any language-specific filters.`
-- Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions) in the Advanced tab.
+##### Text
+`You don't have any language-specific filters.`
+
+##### Conditions
+When alll language filter lists have been removed from the extension.
+
+Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#markdown-header-remove-filter-list-subscriptions) in the Advanced tab.
 
 ### More filters section
 
@@ -315,21 +307,15 @@ TODO link to language article
 1. [More filters note](#markdown-header-more-filters-note)
 
 #### More filters section headline
-
-Headline for the [More filters section](#markdown-header-more-filters-section) `More filters`
+`More filters`
 
 #### Language section description
-
-Description for the [More filters section](#markdown-header-more-filters-section) 
-
-```These are additional filters you previously added to Adblock Plus.```
+`These are additional filters you previously added to Adblock Plus.`
 
 #### More filter subscriptions
-
 All filter lists that a user subscribes to which are not one of Adblock Plus's recommended filter lists (i.e. not recommended within the `Privacy & Security` and `Language` sections) will be shown here. 
 
 #### More filters tooltips
-
 If no description is available, the tooltip icon is hidden.
 
 | Filter list name | Tooltip description | 
@@ -340,19 +326,16 @@ If no description is available, the tooltip icon is hidden.
 | Adblock Warning Removal List | `Some websites show messages that ask you to turn off your ad blocker. Access to content will not be limited on sites that require no action from you (i.e. you are not required to turn off Adblock Plus to access the content).` |
 
 #### Remove more filters
-
 You can only remove filters from the panel here, by clicking on the `Remove` button.
 
 #### More filters notes
 
 Description `**Note:** You should only use third party filter lists from authors that you trust.`
 
-Whitelist tab
--------------
+# Whitelist tab
 [Back to top of page](#markdown-header-options-page)
 
 ### Whitelist tab empty
-
 ![](/res/abp/options-page/whitelisted-websites.jpg)
 
 1. [Whitelist tab headline](#markdown-header-whitelist-tab-headline)
@@ -363,60 +346,63 @@ Whitelist tab
 1. [Empty Whitelist placeholder](#markdown-header-empty-whitelist-placeholder)
 
 #### Whitelist tab headline
+`Whitelisted websites`
 
-- Headline for the [Whitelist tab](#markdown-header-whitelist-tab) `Whitelisted websites`
-- Navigation label will match headline.
+Navigation label will match headline.
 
 #### Whitelist tab description
+`You’ve turned off ad blocking on these websites and, therefore, will see ads on them. [Learn more][1]`
 
-Description for the [Whitelist tab](#markdown-header-whitelist-tab).
-
-```
-You’ve turned off ad blocking on these websites and, therefore, will see ads on them. [Learn more][1]
-```
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *whitelist*
 
-#### Whitelist textinput
+#### Whitelisting a website
+##### Behaviour
+When a duplicate entry is made, move the original entry to the top of the list and discard the duplicate.
 
-- Textinput to enter domains to be added to the whitelist.
-- Instruction label in text input `e.g. www.example.com`
-- When a duplicate entry is made, move the original entry to the top of the list and discard the duplicate.
+##### Text input 
+Textinput to enter domains to be added to the whitelist.
+
+##### Label in text input 
+`e.g. www.example.com`
 
 #### Add whitelisted domain button
+##### Overview
+Button to submit [Whitelist textinput](#markdown-header-whitelist-textinput).
 
- - Button to submit [Whitelist textinput](#markdown-header-whitelist-textinput).
- - Labelled `Add website`
- - Refer to [w3 guidelines for keyboard interaction](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#button)
- - If clicked whitelist domain and show [Whitelisted domain added notification](#markdown-header-whitelisted-domain-added-notification).
+If clicked whitelist domain and show [Whitelisted domain added notification](#markdown-header-whitelisted-domain-added-notification).
+
+Refer to [w3 guidelines for keyboard interaction](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#button)
 
 > A whitelisted domain is an exception rule filter for a certain host.
 
-#### Add whitelisted domain error message
+##### Button label 
+`Add website`
 
+#### Add whitelisted domain error message
 Shows an error message if [Add whitelisted domain textinput](#markdown-header-add-whitelisted-domain-textinput) doesn't validate.
 
 See [Add whitelisted domain textinput](#markdown-header-add-whitelisted-domain-textinput) for more details.
 
 #### Empty Whitelist placeholder
-
 Placeholder text shown as long as there are no whitelisted domains.
 
- - `You don't have any whitelisted websites.`
- - `Websites you trust and want to allow ads on will be shown here.`
+`You don't have any whitelisted websites.`
+
+`Websites you trust and want to allow ads on will be shown here.`
 
 ### Whitelist tab populated
-
 ![](/res/abp/options-page/whitelisted-websites-populated.jpg)
 
-1. [List of whitelisted domains](#markdown-header-add-whitelisted-domain-button)
-
 #### List of whitelisted domains
+##### Overview
+Displays all whitelisted domains. 
 
-- Displays all whitelisted domains. 
-- Show a [Remove whitelisted domain link](#markdown-header-remove-whitelisted-domain-link) for each domain.
-- List items are sorted alphabetically when loaded.
-- Move newly added items (from the current session) to the top of the list.
-- When a duplicate domain entry is made, move the original entry to the top of the list.
+##### Behaviour
+List items are sorted alphabetically when loaded.
+
+Move newly added items (from the current session) to the top of the list.
+
+When a duplicate domain entry is made, move the original entry to the top of the list.
 
 <!-- This is to technical, find a better way to describe it -->
 ***Note***: *All whitelisted domains* does only refer to exception rules that match the following regexp and a member of the *SpecialSubscription* filter list:
@@ -427,28 +413,26 @@ Placeholder text shown as long as there are no whitelisted domains.
 
 #### Remove whitelisted domain link
 
-When clicked the corresponding whitelisted domain is removed.
+Clicking on the bin icon deletes the corresponding domain from the whitelist.
 
 *NOTE: recently added has been ommitted because we don't know the date of when a domain has been whitelisted so we could only show the domains that have been added since the option page has been opened and that doesn't make any sense?!*
 
 ### Whitelisted domain added notification
-
 ![](/res/abp/options-page/whitelisted-websites-notification.jpg)
 
-1. [Whitelisted domain added notification](#markdown-header-add-whitelisted-domain-button)
-
 #### Whitelisted domain added notification
+##### Overview
+The notification should appear as an overlay sliding in from the top of the page.
 
-- The notification should appear as an overlay sliding in from the top of the page.
-- The notification will disappear if the X is clicked or automatically after 3 seconds.
-- `"<website>" has been whitelisted.`
+The notification will disappear if the X is clicked or automatically after 3 seconds.
 
-Advanced tab
-------------
+##### Notification message
+`"<website>" has been whitelisted.`
+
+# Advanced tab
 [Back to top of page](#markdown-header-options-page)
 
 ### Advanced tab: Default
-
 ![](/res/abp/options-page/advanced-default.jpg)
 
 1. [Advanced tab headline](#markdown-header-advanced-tab-headline)
@@ -457,61 +441,32 @@ Advanced tab
 1. [Filter lists section](#markdown-header-filter-lists-section)
 1. [Create custom filter section](#markdown-header-create-custom-filter-section)
 
-
 #### Advanced tab: Headline
+`Advanced`
 
-- Headline for the [Advanced tab](#markdown-header-advanced-tab): `Advanced`
-- Navigation label will match headline.
-
+Navigation label will match headline.
 
 #### Advanced tab: Description
-
-Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Adblock Plus, add or remove filter lists, create and maintain your own filter lists`
+`Customize Adblock Plus, add or remove filter lists, create and maintain your own filter lists`
 
 #### Customize section
-
 ![](/res/abp/options-page/advanced-default-customize.jpg)
 
-1. [Customize section header](#markdown-header-customize-section-header)
-1. [Customize: block elements](#markdown-header-customize-block-elements)
-1. [Customize: ABP panel](#markdown-header-customize-adblock-plus-panel)
-1. [Customize: turn off notifications](#markdown-header-turn-off-notifications)
-
 #### Customize section header
-
 `CUSTOMIZE ON-PAGE ACTIONS`
 
-#### Customize Block Element
+#### Customize section options
+| Behaviour | Text | Tooltip | 
+|---------------|---------------|---------------|
+| Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA) | `Show 'Block Element’ right-click menu item` | `Temporarily block annoying items on a webpage, e.g. images or animated slideshows.` |
+| Checkbox to en-/disable [Adblock Plus Developer Tools Panel](#markdown-header-TBA) | `Show 'Adblock Plus' panel in developer tools` | `View blocked and whitelisted items from your browser's developer tools panel.` |
+| Checkbox to en-/disable [Notifications](#markdown-header-TBA) [1] | `Turn off notifications` | `Turn off all notifications from Adblock Plus.` |
+[1] Checkbox to opt out of notifications should only appear after the user has opted out of notifications once (prefs.notification_showui).
 
-- Checkbox to en-/disable [Block Element Context Menu Entry](#markdown-header-TBA).
-- `Show 'Block Element’ right-click menu item`
-
-##### Tooltip:
- 
-- `Temporarily block annoying items on a webpage, e.g. images or animated slideshows.`
-- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
-
-#### Customize Adblock Plus panel
-
-- Checkbox to en-/disable [Adblock Plus Developer Tools Panel](#markdown-header-TBA).
-- `Show 'Adblock Plus' panel in developer tools`
-
-##### Tooltip: 
-- `View blocked and whitelisted items from your browser's developer tools panel.`
-- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
-
-#### Turn off notifications
-
-- Checkbox to en-/disable [Notifications](#markdown-header-TBA).
-- `Turn off notifications`
-
-##### Tooltip: 
-- `Turn off all notifications from Adblock Plus.`
-- Behaviour specified in [Tooltip icon](#markdown-header-tooltip-icon).
+Tooltip behaviour is specified in [Tooltip icon](#markdown-header-tooltip-icon).
 
 #### Filter lists section
-
-- Filter list subscriptions are displayed in a grid format. Keyboard interations should follow guidelines as specified by [w3 data: Grids for presenting tabular information](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#dataGrid)
+Filter list subscriptions are displayed in a grid format. Keyboard interations should follow guidelines as specified by [w3 data: Grids for presenting tabular information](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#dataGrid)
 
 ![](/res/abp/options-page/advanced-default-filter-lists.jpg)
 
@@ -526,40 +481,28 @@ Description for the [Advanced tab](#markdown-header-advanced-tab): `Customize Ad
 1. [Update filter lists button](#markdown-header-update-filter-lists-button)
 
 #### Filter list section header
-
 `FILTER LISTS`
 
 #### Filter list section description
-
 `Each Adblock Plus setting functions because of a filter list. Below are the filter lists that correspond to all of your Adblock Plus
 settings. You can also add additional filters created and maintained by our trusted community. [Learn more][1]`
+
 [1]: [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) *subscriptions*
 
 #### Filter list subscriptions status
+##### Column title
+`Status`
 
-- Column title: `Status`
-- *Radio slider*  indicates whether or not the filter list subscription is active.
-- `Active`/`Disabled` depending on whether or not the filter list subscription is active.
-- Exception: Acceptable Ads filter list can only be deleted and added, this filter list can not be disabled (the filter list toggle is inactive as a result).
+##### Toggle 
+Indicates whether or not the filter list subscription is active.
 
-#### Filter list title
+`Active`/`Disabled` depending on whether or not the filter list subscription is active.
 
-- Column title: `Filter lists`
-- Displays name of the filter list
-- Lists are sorted alphabetically when loaded.
-- Move newly added items (from the current session) to the top of the list.
+Exception: Acceptable Ads filter list can only be deleted and added, this filter list can not be disabled (the filter list toggle is inactive as a result).
 
-#### Filter list subscriptions updates
-
- - Column title: `Last updated`
- - Date/Time of last filter list update
-     - Show `Just now` if less then 5 minutes ago
-     - Show `{} minutes ago` if more than 5 minutes ago
-     - Show `{} hours ago` if the last update was within the last 24 hours
-     - Show `DD MMM YYYY` (eg. 10 Jul 2017) if the update was more than 24 hours ago
-     - Show `Updating` while the list is getting updated
-     - Show `Download fail` when there is a problem downloading the filter list
-     - All date and time status for filter lists should be updated as filter lists are updated.
+#### Filter list subscriptions
+##### Overview
+Displays name of the filter list
  
 #### Filter list error
 ##### Filter list error message
@@ -587,31 +530,54 @@ Clicking anywhere outside of the box, or on the 'X' closes the popup.
 
 [1] Triggers a filter list update 
 
-#### Filter list subscriptions settings
+##### Behaviour
+Lists are sorted alphabetically when loaded.
 
- - A Gear Icon opens the [Edit filter list popup](#markdown-header-edit-filter-list-popup)
+Move newly added items (from the current session) to the top of the list.
+
+#### Filter list subscriptions updates
+##### Column title
+`Last updated`
+
+##### Date/Time of last filter list update
+  - Show `Just now` if less then 5 minutes ago
+  - Show `{} minutes ago` if more than 5 minutes ago
+  - Show `{} hours ago` if the last update was within the last 24 hours
+  - Show `DD MMM YYYY` (eg. 10 Jul 2017) if the update was more than 24 hours ago
+  - Show `Updating` while the list is getting updated
+  - Show `Download fail` when there is a problem downloading the filter list
+  - All date and time status for filter lists should be updated as filter lists are updated.
+
+#### Filter list subscriptions settings
+A Gear Icon opens the [Edit filter list popup](#markdown-header-edit-filter-list-popup)
 
 #### Remove filter list subscriptions
-
-- trash.svg icon deletes the filter list. 
+trash.svg icon deletes the filter list. 
 
 #### Add filter list button
+##### Overview
+Opens [Add filter list modal window](#markdown-header-add-filter-list-modal-window).
 
-- Opens [Add filter list modal window](#markdown-header-add-filter-list-modal-window).
-- `+ Add a new filter list`
+##### Button label
+`+ ADD A NEW FILTER LIST`
 
 #### Update filter lists button
+##### Behaviour
+Click to button will update all dates and time status for filter lists.
 
-- `Update all filter lists`
-- Click to button will update all dates and time status for filter lists.
+##### Button label
+`Update all filter lists`
 
-Edit filter list popup
-----------------------
+## Edit filter list popup
+##### Overview
+Popup to edit a filter list subscription.
 
-- Popup to edit a filter list subscription.
-- The popup menu should follow [arai best practices](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#menu) for keyboard interactions.  
-- Clicking outside closes the menu if the menu is open.
-- Clicking on a menu item closes the menu.
+The popup menu should follow [arai best practices](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#menu) for keyboard interactions.  
+
+##### Behaviour
+Clicking outside closes the menu if the menu is open.
+
+Clicking on a menu item closes the menu.
 
 ![](/res/abp/options-page/advanced-edit-filter-list-popup.jpg)
 
@@ -620,32 +586,19 @@ Edit filter list popup
 1. [Filter list source link](#markdown-header-filter-list-source-link)
 1. [Remove filter list link](#markdown-header-remove-filter-list-link)
 
-### Update filter list link
+| # | Text | Behaviour | 
+|---------------|---------------|---------------|
+| 1 | `Update now` | Updates the filter list |
+| 2 | `Website` | Link to the homepage of the filter list | 
+| 3 | `Source` | Link to the filter list file | 
+| 4 | `Remove` | Removes the filter list subscription [1] | 
 
-- Updates this filter list.
-- `Update now`
+[1] [Additional subscriptions](/spec/abp/prefs.md#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
 
-### Filter list homepage link
-
-- Link to the homepage of the filter list.
-- `Website`
-
-### Filter list source link
-
-- Link to the filter list file.
-- `Source`
-
-### Remove filter list link
-
-- Removes the filter list subscription.
-[Additional subscriptions](/spec/abp/prefs.md#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
-- `Remove`
-
-Add filter list modal window
----------------------
+## Add filter list modal window
 ![](/res/abp/options-page/advanced-add-filter-list-popup.jpg)
 
-#### OVERVIEW
+#### Overview
 Modal window to add an Adblock Plus recognized filter list.
 
 This will behave in the same way as the [Language modal window](#markdown-header-language-modal-window) in the [General tab](#markdown-header-general-tab) with some changes as stated below.
@@ -657,7 +610,6 @@ This will behave in the same way as the [Language modal window](#markdown-header
 Clicking `+ ADD FILTER LIST VIA URL` closes the [Add filter list modal window](#markdown-header-add-filter-list-modal-window) and opens the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
 
 ### Language filter lists
-
 | Subscription title | Description | URL + EasyList | URL | 
 |-----------|---------------|---------------|---------------|
 | `EasyList` | `English` | https://easylist-downloads.adblockplus.org/easylist.txt | |
@@ -685,9 +637,7 @@ Clicking `+ ADD FILTER LIST VIA URL` closes the [Add filter list modal window](#
 | `hufilter` | `magyar` | https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt | |
 | `YousList` | `한국어` | https://raw.githubusercontent.com/yous/YousList/master/youslist.txt | |
 
-Add custom subscription popup
------------------------------
-
+## Add custom subscription popup
 ### Add custom subscription popup: Initial
 ![](/res/abp/options-page/add-custom-subscription-popup.jpg)
 
@@ -700,25 +650,30 @@ Add custom subscription popup
 
 
 #### Custom subscription popup title
-
 `Add a filter list`
 
 #### Custom subscription popup X
-
 Closes the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
 
 #### Custom subscription popup subscription title input
+##### Label
+`Filter list name`
 
-- Label `Filter list name`
-- When the text field is active or contains data, the label floats above the input area.
-- Auto focus when [Add custom subscription popup](#markdown-header-add-custom-subscription-popup) is opened.
-- Validate as you type: Not Empty.
+##### Behaviour
+When the text field is active or contains data, the label floats above the input area.
 
-#### Custom subscription popup subscription url input
+Auto focus when [Add custom subscription popup](#markdown-header-add-custom-subscription-popup) is opened.
 
-- Label `Filter list URL`.
-- When the text field is active or contains data, the label floats above the input area.
-- Validates as you type against:
+Validate as you type: Not Empty.
+
+#### Custom subscription popup subscription URL input
+##### Label 
+`Filter list URL`
+
+##### Behaviour
+When the text field is active or contains data, the label floats above the input area.
+
+Validates as you type against:
 <!-- This is to technical, find a better way to describe it -->
 ```javascript
 /^https?:/i
@@ -735,29 +690,43 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 If [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) is valid show a green *✓*.
 
 #### Custom subscription popup cancel button
+##### Behaviour
+Closes the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
 
-- Closes the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
-- Label `Cancel`
+##### Label 
+`Cancel`
 
 #### Custom subscription popup add button
+##### Overview
+Adds filter list.
 
-- Adds filter list.
-- Tab focus on the `Add filter list` button before `Cancel`.
-- Inactive as long as [Custom subscription popup subscription title input](#markdown-header-custom-subscription-popup-subscription-title-input) and [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) don't validate.
-- See [Advanced tab added filter list](#markdown-header-advanced-tab-added-filter-list)
-- Label `Add filter list`
+##### Behaviour
+Tab focus on the `Add filter list` button before `Cancel`.
+
+Button is inactive as long as [Custom subscription popup subscription title input](#markdown-header-custom-subscription-popup-subscription-title-input) and [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) don't validate.
+
+See [Advanced tab added filter list](#markdown-header-advanced-tab-added-filter-list) for behaviour once a filter list has been added. 
+
+##### Label 
+`Add filter list`
 
 ### Add custom subscription popup: Predefined
-
 ![](/res/abp/options-page/add-custom-subscription-popup-predefined.jpg)
 
-- When a user adds a filter list by clicking on a subscribe-link from an external source, it should open the options page and display the above popup.
-- Default dialog action is on the the primary button `Yes, add this filter list`
-- Popup menu title:  `Are you sure you want to add this filter list?`
-- Popup menu text:  
+##### Overview
+When a user adds a filter list by clicking on a subscribe-link from an external source, it should open the options page and display the above popup.
+
+Default dialog action is on the the primary button `Yes, add this filter list`
+
+If no filter list title is provided, only show the URL link.
+
+##### Popup menu title
+`Are you sure you want to add this filter list?`
+
+##### Popup menu text
 `Title: <Filter list title>` 
+
 `URL: <Filter list URL>`
-- If no filter list title is provided, only show the URL link. 	
 	
 | Button label | Behaviour |
 |-----------|---------------|
@@ -765,21 +734,22 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 | `Yes, add this filter list` | Adds filter list to the table |
 
 ### Advanced tab: Added filter list
-
 ![](/res/abp/options-page/advanced-added-filter-list.jpg)
 
 Newly added filter lists should be displayed at the top and marked with a dot.
 
 #### Filter list table - empty state
-
 ![](/res/abp/options-page/advanced-filter-lists-empty.jpg)
 
-- When alll filter lists have been removed from the extension. 
-- Text: `You have not added any filter lists to Adblock Plus. Filter lists you add will be shown here.`
-- [Update filter lists button](#markdown-header-update-filter-lists-button) is inactive.
+##### Overview 
+When alll filter lists have been removed from the extension. 
+
+[Update filter lists button](#markdown-header-update-filter-lists-button) is inactive.
+
+##### Text
+`You have not added any filter lists to Adblock Plus. Filter lists you add will be shown here.`
 
 #### Create custom filter section
-
 ![](/res/abp/options-page/advanced-default-custom-filter.jpg)
 
 1. [Custom filter section header](#markdown-header-custom-filter-section-header)
@@ -790,100 +760,101 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 1. [Create custom filter list link](#markdown-header-create-custom-filter-list-link)
 
 #### Custom filter section header
-
 `CREATE AND EDIT YOUR FILTER LIST`
 
 #### Custom filter section description
-
 `Write your own custom filters to further control what content Adblock Plus allows or blocks.`
 
 #### Custom filter title 
-
 `My filter list`
 
 #### Custom filter list placeholder
-
 `Filters you create will show up here.`
 
 #### Create custom filter list button
+`Start writing my filter list`
 
-- `Start writing my filter list`
-- Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
+Opens [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
 
 #### Create custom filter list link
-
 `Learn how to write filter lists` opens the [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=filterdoc` in a new tab.
 
 ### Advanced tab: Custom filter empty
-
 ![](/res/abp/options-page/advanced-tab-custom-filter-empty.jpg)
 
 #### Advanced tab: Custom filter start button
+##### Overview
+Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
 
-- `Start writing my filter list`
-- Will open [Advanced tab: Edit custom filter empty](#markdown-header-advanced-tab-edit-custom-filter-empty)
-- See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
+See also [Advanced tab: Custom filter hover](#markdown-header-advanced-tab-custom-filter-hover).
+
+##### Button label
+`Start writing my filter list`
 
 ### Advanced tab: Custom filter hover
-
 ![](/res/abp/options-page/advanced-tab-custom-filter-hover.jpg)
 
 [Advanced tab: Custom filter start button](#markdown-header-advanced-tab-custom-filter-start-button) will hover.
 
 ### Advanced tab: Edit custom filter empty
-
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-empty.jpg)
-- Placeholder instruction text `e.g. /ads/track/*`
+Placeholder instruction text `e.g. /ads/track/*`
 
 #### Advanced tab: Custom filter save button
+##### Behaviour
+Will stay inactive as long as as no filter has been added.
 
-- `Save`
-- Will stay inactive as long as as no filter has been added.
-- See also [Advanced tab: Edit custom filter add](#markdown-header-advanced-tab-edit-custom-filter-add)
+See also [Advanced tab: Edit custom filter add](#markdown-header-advanced-tab-edit-custom-filter-add)
+
+##### Text
+`Save`
 
 #### Advanced tab: Custom filter cancel link
+Link text: `Cancel`
 
-- `Cancel`
-- Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#markdown-header-advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#markdown-header-advanced-tab-custom-filter).
+Will revert all changes. If no custom filter switch to [Advanced tab: Custom filter empty](#markdown-header-advanced-tab-custom-filter-empty) otherwise show [Advanced tab: Custom filter](#markdown-header-advanced-tab-custom-filter).
 
 ### Advanced tab: Edit custom filter add
-
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-add.jpg)
 
 ### Advanced tab: Custom filter
-
 ![](/res/abp/options-page/advanced-tab-custom-filter.jpg)
 
 #### Advanced tab: Enable/Disable custom filter list
-
 ![](/res/abp/options-page/advanced-tab-custom-filter-disabled.jpg)
 
-- Checkbox to disable the custom filter list.
-- Checkbox label: `Disable custom filter list`
-- When the custom filter list is disabled, both the custom filter textinput section and the [Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) becomes inactive.
+##### Overview
+Checkbox to disable the custom filter list.
+
+When the custom filter list is disabled, both the custom filter textinput section and the [Advanced tab: Custom filter edit button](#markdown-header-advanced-tab-custom-filter-edit-button) becomes inactive.
+
+##### Checkbox label
+`Disable custom filter list`
 
 #### Advanced tab: Custom filter edit button
+Button label: `Edit filters`
 
-- `Edit filters`
-- Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
+Will open [Advanced tab: Edit custom filter edit](#markdown-header-advanced-tab-edit-custom-filter-edit)
 
 ### Advanced tab: Edit custom filter edit
-
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-edit.jpg)
 
 ### Advanced tab: Invalid custom filter 
-
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-error-short.jpg)
 
-- If a user enters an invalid filter, hightlight text input field in red.
-- Notification reads: `Something's not right. Please check the following filters:`
-- Filter strings which are invalid will populate as a list below the message.
-- Show up to 5 invalid items in the list. If there are more than 5 invalid items display a bounding box and scroll bar as demonstrated in the image below.
+##### Overview
+If a user enters an invalid filter, hightlight text input field in red.
+
+Filter strings which are invalid will populate as a list below the message.
+
+Show up to 5 invalid items in the list. If there are more than 5 invalid items display a bounding box and scroll bar as demonstrated in the image below.
+
+##### Notification text 
+`Something's not right. Please check the following filters:`
 
 ![](/res/abp/options-page/advanced-tab-edit-custom-filter-error-long.jpg)
 
 ## Help tab
-
 [Back to top of page](#markdown-header-options-page)
 
 ![](/res/abp/options-page/help-tab.jpg)
@@ -894,29 +865,31 @@ Newly added filter lists should be displayed at the top and marked with a dot.
 1. [Get in touch section](#markdown-header-get-in-touch-section)
 
 #### Help tab: Headline
+`Help`
 
-- Headline for the [Help tab](#markdown-header-help-tab): `Help`
-- Navigation label will match headline.
+Navigation label will match headline.
 
 #### Help tab: Description
-
-Description for the [Help tab](#markdown-header-help-tab): `Find help or get in touch with us`
+`Find help or get in touch with us`
 
 #### Support section
+##### Title 
+`Support`
 
-- Title `Support`
-- Bullet list (note: links are specific to language settings)
-	- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_issue` in a new tab).
-	- `See an ad that you think shouldn’t be there?` `Report an ad` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_ad` in a new tab).
-	- `Found a bug?`  `Send us a bug report` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_bug` in a new tab)
-	- `Want support from our community?`  `Go to the Forum`  (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=reporter_other_link` in a new tab)
+##### Bullet list (note: links are specific to language settings)
+- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_issue` in a new tab).
+- `See an ad that you think shouldn’t be there?` `Report an ad` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_ad` in a new tab).
+- `Found a bug?`  `Send us a bug report` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_bug` in a new tab)
+- `Want support from our community?`  `Go to the Forum`  (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=reporter_other_link` in a new tab)
 
 #### Get in touch section
+##### Title 
+`Get in touch`
 
-- Title `Get in touch`
-- Description `Have a question or a new idea? We're here to help.`
-- Social media icons and links
+##### Description 
+`Have a question or a new idea? We're here to help.`
 
+##### Social media icons and links
 | Social Media | Link URL | Browser locale |
 |----------------|----------------| ----------------|
 | `Twitter` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_twitter` in a new tab | For all locales except *zh* |
@@ -924,11 +897,9 @@ Description for the [Help tab](#markdown-header-help-tab): `Find help or get in 
 | `Google Plus` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_gplus` in a new tab | For all locales except *zh* |
 | `Weibo` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_weibo` in a new tab | Only for the locales *zh* |
 
-- `Email: support@adblockplus.org`
+`Email: support@adblockplus.org`
 
-Assets
--------------
-
+# Assets
 [Back to top of page](#markdown-header-options-page)
 
 | Name | Asset | 
@@ -948,3 +919,5 @@ Assets
 | tooltip.svg | ![](/res/abp/options-page/assets/tooltip.svg) |
 | trash.svg | ![](/res/abp/options-page/assets/trash.svg) |
 | twitter.svg | ![](/res/abp/options-page/assets/twitter.svg) |
+| toggle-enabled.svg | ![](/res/abp/options-page/assets/toggle-enabled.svg) |
+| toggle-disabled.svg | ![](/res/abp/options-page/assets/toggle-disabled.svg) |
