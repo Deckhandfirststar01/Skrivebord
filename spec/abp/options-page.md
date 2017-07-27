@@ -247,53 +247,51 @@ TODO link to language article
 #### Change language
 
 - Labelled `CHANGE`
-- Button to trigger the [language drop-down menu](#markdown-header-language-drop-down-menu).
+- Button to trigger the [Language modal window](#markdown-header-language-modal-window).
+- Clicking on a language within the modal window will automatically close the window and *change the language filter subscription*. 
 
 #### Add language
 
 - Labelled `+ ADD A LANGUAGE` 
-- Button to trigger the [language drop-down menu](#markdown-header-language-drop-down-menu).
+- Button to trigger the [Language modal window](#markdown-header-language-modal-window).
+- Clicking on a language within the modal window will automatically close the window and *add the language filter subscription*. 
 
 #### Language tip
 
 ```**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. ```
 
-#### Adding / Changing a language
+### Language modal window
 
 ![](/res/abp/options-page/general-default-language-drop-down.jpg)
 
-1. [Language list](#markdown-header-language-list)
-1. [Dropdown header](#markdown-header-dropdown-header)
-1. [Selecting a language](#markdown-header-selecting-a-language)
+1. [Modal window title](#markdown-header-modal-window-title)
+1. [Close modal window](#markdown-header-close-modal-window)
 1. [Selected language](#markdown-header-selected-language)
+1. [Filter subscription](#markdown-header-filter-subcription)
+1. [Scroll bar](#markdown-header-scroll-bar)
 
-#### Language list
+#### Modal window title
+ - `SELECT A LANGUAGE` 
 
-- To see all available language options and corresponding filter lists go to  [Language filter lists](#markdown-header-language-filter-lists).
-
-#### Dropdown header
-
-- Labelled `Select a language` 
-
-#### Selecting a language
-
-- Hover over and click states are displayed in the same way. 
-- `CHANGE` state: Triggers language drop down. Clicking on a language will automatcically close the drop down menu and *add the language the list*. 
-- `+ ADD A LANGUAGE` state: Triggers language drop down. Clicking on a language will automatcically close the drop down menu and *change the default language*. 
+#### Close modal window
+- X closes the [Language modal window](#markdown-header-language-modal-window).
 
 #### Selected language
+- Already added filter subscriptions will appear greyed out and disabled in the modal window.   
 
-- Selected language(s) are greyed out and not interactive. 
-- When a user is  changing their default language using the [change language](#markdown-header-change-language) feature, there will be no `selected language` state.
-- If another language has already been added as a secondary language, a user will be able to select that language. This will change the language to the default language, and move it to the top of the language list.   
+#### Filter subscription
+- Show filter *Description* followed by *Subscription title*. See [Language filter lists](#markdown-header-language-filter-lists) for titles and description.
 
-#### Removing a language
+#### Scroll bar
+- The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
+
+#### Multiple languages
 
 ![](/res/abp/options-page/general-default-language-multiple.jpg)
 
-- When there is more than 1 language filter list in the table, the `CHANGE` element turns into a bin icon. All filter lists are removeable.
+- When there is more than one language filter list in the table, the  [Change language](#markdown-header-change-language) element turns into a bin icon. All filter lists are removeable.
+- When there is only one language filter list in the table, the remaining filter list is not removeable, and the user is only allowed to  [Change language](#markdown-header-change-language) the filter list - this triggers the [Language modal window](#markdown-header-language-modal-window).
 - To remove a language from the table, select the bin icon in the language row. 
-- When there is only 1 language filter list in the table, the remaining filter list is not removeable, and the user is only allowed to `CHANGE` the filter list - this triggers the language drop down.
 
 #### Language filter list - empty state
 
@@ -571,7 +569,7 @@ settings. You can also add additional filters created and maintained by our trus
 
 #### Add filter list button
 
-- Opens [Add filter list popup](#markdown-header-add-filter-list-popup).
+- Opens [Add filter list modal window](#markdown-header-add-filter-list-modal-window).
 - `+ Add a new filter list`
 
 #### Update filter lists button
@@ -615,45 +613,20 @@ Edit filter list popup
 [Additional subscriptions](/spec/abp/prefs.md#markdown-header-additional-subscriptions) cannot be removed and the [Remove filter list link](#markdown-header-remove-filter-list-link) should be disabled in this case.
 - `Remove`
 
-Add filter list popup
+Add filter list modal window
 ---------------------
-
-Popup to add a filter list from a selection.
-
 ![](/res/abp/options-page/advanced-add-filter-list-popup.jpg)
 
-1. [Add filter list popup title](#markdown-header-add-filter-list-popup-title)
-1. [Close filter list popup X](#markdown-header-close-filter-list-popup-X)
-1. [Filter subscription](#markdown-header-filter-subscription)
-1. [Scroll bar](#markdown-header-scroll-bar)
-1. [Focused filter list](#markdown-header-Focussed-filter-list)
-1. [Add filter list via URL](#markdown-header-add-filter-list-via-URL)
+#### OVERVIEW
+Modal window to add an Adblock Plus recognized filter list.
 
-### Add filter list popup title
+This will behave in the same way as the [Language modal window](#markdown-header-language-modal-window) in the [General tab](#markdown-header-general-tab) with some changes as stated below.
 
-`Add filter subscription`
+#### Title 
+`ADD A FILTER SUBSCRIPTION`
 
-### Close filter list popup X
-
-Closes the [Add filter list popup](#markdown-header-add-filter-list-popup).
-
-### Filter subscription
-
-- Show filter *Subscription title* in the first column and filter *Description* in the second column. See [Language filter lists](#markdown-header-language-filter-lists) for titles and description.
-- Already added filter subscriptions will appear disabled in the popup. 
-
-### Scroll bar
-
-The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
-
-### Focused filter list
-
-When a filter list is in focus the whole row should be highlighted.
-
-### Add filter list via URL
-
-- Closes the [Add filter list popup](#markdown-header-add-filter-list-popup) and opens the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
-- `+ ADD FILTER LIST VIA URL`
+#### Add filter list via URL
+Clicking `+ ADD FILTER LIST VIA URL` closes the [Add filter list modal window](#markdown-header-add-filter-list-modal-window) and opens the [Add custom subscription popup](#markdown-header-add-custom-subscription-popup)
 
 ### Language filter lists
 
