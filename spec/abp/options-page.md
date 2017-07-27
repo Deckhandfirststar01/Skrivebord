@@ -558,6 +558,14 @@ settings. You can also add additional filters created and maintained by our trus
      - Show `Updating` while the list is getting updated
      - Show `Download fail` when there is a problem downloading the filter list
      - All date and time status for filter lists should be updated as filter lists are updated.
+ - Filter list error status messages:
+   
+   | Error message | Trigger |
+   |-----------|---------------|
+   | `Not a valid address. Check the URL.` | Invalid URL provided |
+   | `Download failure` | No HTTP Response or Response is anything other than 2XX |
+   | `Not a valid filter list` | The filter list is invalid |
+   | `Checksum mismatch. Try downloading the file again.` | Checksum of filter list and checksum in filter list header doesn't match |
 
 #### Filter list subscriptions settings
 
