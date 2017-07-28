@@ -210,10 +210,10 @@ Click *YES* to continue seeing relevant nonintrusive ads.
 | `NO, TURN OFF TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
 ```
-Note:
-* Ability to disable tracking depends on completeness of the EasyPrivacy filter list.
-* Adblock Plus does not directly show ads.
-* Adblock Plus never tracks any information.
+*Note:*
+* Adblock Plus cannot guarantee that all tracking is disabled.
+* Ads shown are chosen by the website you visit, not Adblock Plus. 
+* Adblock Plus never tracks your data.
 ```
 
 ### Language section
@@ -258,7 +258,7 @@ TODO link to language article
 
 #### Language tip
 
-```**TIP:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. ```
+```**Tip:** Only select the languages you need. Selecting more will slow down the ad blocker and, therefore, your browsing speed. ```
 
 ### Language modal window
 
