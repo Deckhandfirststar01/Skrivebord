@@ -19,21 +19,23 @@ This this the style guide for Adblock Plus desktop and mobile browser extension.
 ## Typography
 
 Font: Source Sans Pro
-# H1: Main Heading - Light, 48px, #4A4A4A
-## H2: Section header - Bold, 22px, #4A4A4A
-### H3: Bold content within body or form labels - Semibold, 22px, #4A4A4A
 
-Body: Regular, 20px #4A4A4A
+Line height: 150%
+# H1: Main Heading - Light, 3em, #4A4A4A
+## H2: Section header - Bold, 1.375em, #4A4A4A
+### H3: Bold content within body or form labels - Semibold, 1.375em, #4A4A4A
 
-**Body selected: Bold, 20px #4A4A4A**
+Body: Regular, 1.25em #4A4A4A
 
-Text link: Regular, 20 #099CD0
+**Body selected: Bold, 1.25em #4A4A4A**
 
-**LABEL: BUTTON TEXT - BOLD, 18, #099CD0/ #FFF**
+Text link: Regular, 1.25em #099CD0
 
-Instruction text: Regular, 18px, #4A4A4A
+**LABEL: BUTTON TEXT - BOLD, 1.125em, #099CD0/ #FFF**
 
-List item: Line height: 26px, Paragraph: 14px
+Instruction text: Regular, 1.125em, #4A4A4A
+
+List item: Line height: 1.625em, Paragraph: 0.875em
 
 ## Colour
 ![](/res/abp/options-page/style-guide/color-light-grey.jpg)
@@ -94,6 +96,11 @@ List item: Line height: 26px, Paragraph: 14px
 
 ### Dropdown overlay
 ![](/res/abp/options-page/style-guide/language-3-overlay.jpg)
+
+#### Mobile dropdown
+![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-filter-subscriptions.jpg)
+
+ See also [Mobile style guide](#markdown-header-mobile-style-guide)
  
 ### Informational overlay
 ![](/res/abp/options-page/style-guide/about-overlay.jpg)
@@ -104,6 +111,11 @@ List item: Line height: 26px, Paragraph: 14px
 
 #### Form error
 ![](/res/abp/options-page/style-guide/modal-window-form-error.jpg)
+
+##### Mobile form overlay
+![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-url-filter.jpg)
+
+See also [Mobile style guide](#markdown-header-mobile-style-guide)
 
 ## Tables
 ### Default
@@ -124,3 +136,13 @@ List item: Line height: 26px, Paragraph: 14px
 
 ### Error state
 ![](/res/abp/options-page/style-guide/text-box-error.jpg)
+
+## Mobile style guide
+### Mobile home screen
+![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page.jpg)
+
+### Mobile modal screen
+See [Mobile form overlay](#markdown-header-mobile-form-overlay)
+
+### Mobile modal dropdown
+See [Mobile dropdown](#markdown-header-mobile-dropdown)
