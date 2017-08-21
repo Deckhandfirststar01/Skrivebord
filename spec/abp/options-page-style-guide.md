@@ -17,27 +17,40 @@ This this the style guide for Adblock Plus desktop and mobile browser extension.
 1. [Text box](#markdown-header-text-box)
 
 ## Typography
-
+### Desktop
 Font: Source Sans Pro
 
-Line height: 150%
+Line height: 1.5em
+
 # H1: Main Heading - Light, 3em, #4A4A4A
 ## H2: Section header - Bold, 1.375em, #4A4A4A
 ### H3: Bold content within body or form labels - Semibold, 1.375em, #4A4A4A
 
 Body: Regular, 1.25em #4A4A4A
 
-**Body selected: Bold, 1.25em #4A4A4A**
+**Body emphasized: Bold, 1.25em #4A4A4A**
 
-Text link: Regular, 1.25em #099CD0
+Text link: Regular, 1.25em #099DD1
 
 **LABEL: BUTTON TEXT - BOLD, 1.125em, #099CD0/ #FFF**
 
-Instruction text: Regular, 1.125em, #4A4A4A
+List item: Line height: 2.5em
 
-List item: Line height: 1.625em, Paragraph: 0.875em
+### Mobile
+# H1: Main Heading - 1.15em, #4A4A4A
+## H2: Section header - Bold, 1.1em, #4A4A4A
 
-## Colour
+Body: Regular, 1em #4A4A4A
+
+**Body emphasized: Bold, 1em #4A4A4A**
+
+Text link: Regular, 1em #099CD0
+
+**LABEL: BUTTON TEXT - BOLD, 1em, #099CD0/ #FFF**
+
+List item: Line height: 2em
+
+## Color
 ![](/res/abp/options-page/style-guide/color-light-grey.jpg)
 ![](/res/abp/options-page/style-guide/color-grey.jpg)
 ![](/res/abp/options-page/style-guide/color-dark-grey.jpg)
@@ -79,6 +92,9 @@ List item: Line height: 1.625em, Paragraph: 0.875em
 
 ### Gear icon
 ![](/res/abp/options-page/style-guide/gear-popup.jpg)
+
+### Banner notifications
+![](/res/abp/options-page/style-guide/whitelisted-websites-notification.jpg)
 
 ## Dropdown
 | State | Image |
