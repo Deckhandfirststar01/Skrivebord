@@ -133,6 +133,8 @@ Checkbox to install/uninstall each filter list.
 #### Tooltip icon
 
 - Tooltip is triggered when a users clicks on the icon. 
+- Clicking on the X or anywhere outside the modal window will close the popup.
+- Clicking on the tooltip icon when the modal window is already open, will close the popup-
 
 #### Tooltip pop-up
 
