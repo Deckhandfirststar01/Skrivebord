@@ -560,14 +560,32 @@ settings. You can also add additional filters created and maintained by our trus
      - Show `Updating` while the list is getting updated
      - Show `Download fail` when there is a problem downloading the filter list
      - All date and time status for filter lists should be updated as filter lists are updated.
- - Filter list error status messages:
-   
-   | Error message | Trigger |
-   |-----------|---------------|
-   | `Not a valid address. Check the URL.` | Invalid URL provided |
-   | `Download failure` | No HTTP Response or Response is anything other than 2XX |
-   | `Not a valid filter list` | The filter list is invalid |
-   | `Checksum mismatch. Try downloading the file again.` | Checksum of filter list and checksum in filter list header doesn't match |
+ 
+#### Filter list error
+##### Filter list error message
+![](/res/abp/options-page/advanced-added-filter-list-error.jpg)
+When there is a a problem with the filter list, the text in the `Last updated` column changes to the display the relevant error message. 
+
+When text runs longer than the column width, animate the text to move from right to left upon hover.
+
+See [Filter list error statuses](#markdown-header-filter-list-error-statuses).
+
+##### Filter list error popup
+![](/res/abp/options-page/advanced-added-filter-list-error-2.jpg) 
+Upon clicking on the error status a popup box appears to display the entire text. 
+
+Clicking anywhere outside of the box, or on the 'X' closes the popup.
+
+##### Filter list error statuses
+
+   | Error message | Trigger | Settings status | Settings behaviour |
+   |-----------|---------------|--------------|------------|
+   | `Not a valid address. Check the URL.` | Invalid URL provided | no change | n/a |
+   | `Download failure` | No HTTP Response or Response is anything other than 2XX | 'settings.svg' icon changes to 'reload.svg' icon | Clicking the 'reload.svg' icon updates the filter list |
+   | `Not a valid filter list` | The filter list is invalid | no change | n/a |
+   | `Checksum mismatch. Try (downloading)[1] the file again.` | Checksum of filter list and checksum in filter list header doesn't match | 'settings.svg' icon changes to 'reload.svg' icon | Clicking the 'reload.svg' icon updates the filter list |
+
+[1] Triggers a filter list update 
 
 #### Filter list subscriptions settings
 
