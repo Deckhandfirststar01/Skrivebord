@@ -127,8 +127,8 @@ Checkbox to install/uninstall each filter list.
 
 | Filter list name | Filter list title | Tooltip | Filter list URL |
 |-----------|---------------|---------------|--------------|
-| Fanboy's Annoyances | `Block social media tracking` | `The social media buttons (or icons) on the websites you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hiding these buttons can protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
-| EasyPrivacy | `Disable tracking` | `Protect your personal data by removing all forms of tracking from the Internet including information collectors.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
+| Fanboy's Annoyances | `Block social media icon tracking` | `The social media icons on the websites you visit allow social media networks to build a profile of you based on your browsing habits - even when you don’t click on them. Hiding these icons can protect your profile.` | https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt |
+| EasyPrivacy | `Block additional tracking` | `Protect your personal data by removing all forms of tracking from the Internet including information collectors.` | https://easylist-downloads.adblockplus.org/easyprivacy.txt |
 
 #### Tooltip icon
 
@@ -167,7 +167,7 @@ Description for the [Acceptable Ads section](#markdown-header-acceptable-ads-sec
 
 | Title | Description | Action |
 |-----------|---------------|--------------|
-| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
+| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads may collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
 | `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information and, therefore, may be less relevant.` | Enables Privacy friendly ads |
 | `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
 
@@ -201,7 +201,7 @@ The default setting.
 ```
 You currently allow Acceptable Ads to be shown.
 These ads are respectful and do not interfere with content that you view.
-Some of these ads require tracking to show you more relevant ads.
+Some of these ads may require tracking to show you more relevant ads.
 Click *YES* to continue seeing relevant nonintrusive ads.
 ```
 - Buttons
@@ -209,7 +209,7 @@ Click *YES* to continue seeing relevant nonintrusive ads.
 | Button label | Behaviour | 
 |-----------|---------------|
 | `YES, ALLOW RELEVANT ADS` | Keeps selection on `Show nonintrusive ads`, and closes window |
-| `NO, TURN OFF TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
+| `NO, BLOCK TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
 ```
 *Note:*
@@ -345,7 +345,7 @@ You can only remove filters from the panel here, by clicking on the `Remove` but
 
 #### More filters notes
 
-Description `**Note:** These filters are managed by third party authors. Adblock Plus is not responsible for them.`
+Description `**Note:** You should only use third party filter lists from authors that you trust.`
 
 Whitelist tab
 -------------
