@@ -22,31 +22,31 @@ Font: Source Sans Pro
 
 Line height: 1.5em
 
-# H1: Main Heading - 200, 3em, #4A4A4A
-## H2: Section header - 700, 1.375em, #4A4A4A
-### H3: Bold content within body or form labels - 600, 1.375em, #4A4A4A
+# H1: Main Heading - 300 (light), 3em, #4A4A4A
+## H2: Section header - 700 (bold), 1.375em, #4A4A4A
+### H3: Bold content within body or form labels - 700 (bold), 1.375em, #4A4A4A
 
-Body: Regular, 400, 1.25em, #4A4A4A
+Body: Regular, 400 (regular), 1.25em, #4A4A4A
 
-**Body emphasized: 700, 1.25em #4A4A4A**
+**Body emphasized: 700 (bold), 1.25em #4A4A4A**
 
-Text link: 400, 1.25em #099CD0
+Text link: 400 (regular), 1.25em #099CD0
 
-**LABEL: BUTTON TEXT - 700, 1.125em, #099CD0/ #FFF**
+**LABEL: BUTTON TEXT - 700 (bold), 1.125em, #099CD0/ #FFF**
 
 List item: Line height: 2.5em
 
 ### Mobile
-# H1: Main Heading - 400, 1.15em, #4A4A4A
-## H2: Section header - 700, 1.1em, #4A4A4A
+# H1: Main Heading - 400 (regular), 1.15em, #4A4A4A
+## H2: Section header - 700 (bold), 1.1em, #4A4A4A
 
-Body: 400, 1em #4A4A4A
+Body: 400 (regular), 1em #4A4A4A
 
-**Body emphasized: 700, 1em #4A4A4A**
+**Body emphasized: 700 (bold), 1em #4A4A4A**
 
-Text link: 400, 1em #099CD0
+Text link: 400 (regular), 1em #099CD0
 
-**LABEL: BUTTON TEXT - 700, 1em, #099CD0/ #FFF**
+**LABEL: BUTTON TEXT - 700 (bold), 1em, #099CD0/ #FFF**
 
 List item: Line height: 2em
 
