@@ -32,7 +32,7 @@ Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/R
 ## Navigation
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
-# Navigation menu
+## Navigation menu
 ### Navigation menu default
 ![](/res/abp/options-page/navigation-menu.jpg)
 
@@ -83,7 +83,7 @@ Version number of extension added dynamically.
 
 X closes the layover.
 
-# General tab
+## General tab
 ### General tab default
 ![](/res/abp/options-page/general-tab.jpg)
 
@@ -332,7 +332,7 @@ You can only remove filters from the panel here, by clicking on the `Remove` but
 
 Description `**Note:** You should only use third party filter lists from authors that you trust.`
 
-# Whitelist tab
+## Whitelist tab
 [Back to top of page](#markdown-header-options-page)
 
 ### Whitelist tab empty
@@ -429,7 +429,7 @@ The notification will disappear if the X is clicked or automatically after 3 sec
 ##### Notification message
 `"<website>" has been whitelisted.`
 
-# Advanced tab
+## Advanced tab
 [Back to top of page](#markdown-header-options-page)
 
 ### Advanced tab: Default
@@ -899,7 +899,7 @@ Navigation label will match headline.
 
 `Email: support@adblockplus.org`
 
-# Assets
+## Assets
 [Back to top of page](#markdown-header-options-page)
 
 | Name | Asset | 
