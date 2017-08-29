@@ -2,15 +2,15 @@
 
 Adblock Plus has a system for showing various types of notifications to users under certain conditions.
 
-1. [What's missing from this document](#whats-missing-from-this-document)
+1. [What's missing from this document](#markdown-header-whats-missing-from-this-document)
 
-2. [Notification updates](#notification-updates)
+1. [Notification updates](#markdown-header-notification-updates)
 
-3. [Notification types](#notification-types)
+1. [Notification types](#markdown-header-notification-types)
 
-4. [Closing and disabling notifications](#closing-and-disabling-notifications)
+1. [Closing and disabling notifications](#markdown-header-closing-and-disabling-notifications)
 
-5. [When multiple notifications are supposed to be shown](#when-multiple-notifications-are-supposed-to-be-shown)
+1. [When multiple notifications are supposed to be shown](#markdown-header-when-multiple-notifications-are-supposed-to-be-shown)
 
 ## What's missing from this document
 
