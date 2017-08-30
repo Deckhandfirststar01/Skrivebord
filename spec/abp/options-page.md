@@ -21,7 +21,7 @@ the current state of the extension.
 - If a change to the state was made through other means e.g. auto update of filter list subscriptions, it will be reflected immediately in every instance of the options page.
 
 ### Style Guide
-All UI patterns are defined in the [Options page Style Guide](/res/abp/options-page/options-page-style-guide.md).
+All UI patterns are defined in the [Options page Style Guide](/spec/abp/options-page-style-guide.md).
 
 ### WCAG
 Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/REC-WCAG20-20081211/):
