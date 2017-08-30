@@ -32,6 +32,9 @@ Affecting lists of filter lists and Acceptable Ads toggle:
 - Filter list got removed
 - Filter list title changed
 
+### Style Guide
+All UI patterns are defined in the [Options page Style Guide](/spec/abp/options-page-style-guide.md).
+
 ### Firefox menu
 ![](/res/abp/firefox-mobile-options-page/firefox_menu.jpg)
 
