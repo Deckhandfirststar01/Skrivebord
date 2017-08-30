@@ -83,7 +83,7 @@ List item: Line height: 2em
 | Primary button (active) | ![](/res/abp/options-page/style-guide/primary-button-1-active.jpg) |
 | Primary button (hover) | ![](/res/abp/options-page/style-guide/primary-button-2-hover.jpg) |
 | Primary button (inactive) | ![](/res/abp/options-page/style-guide/primary-button-3-inactive.jpg) |
-| Secondary button (default) | ![](/res/abp/options-page/style-guide/secondary-button-1-default.jpg) |
+| Secondary button (active) | ![](/res/abp/options-page/style-guide/secondary-button-1-default.jpg) |
 | Secondary button (hover) | ![](/res/abp/options-page/style-guide/secondary-button-2-hover.jpg) |
 
 ## Popups
