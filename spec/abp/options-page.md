@@ -498,7 +498,9 @@ Indicates whether or not the filter list subscription is active.
 
 `Active`/`Disabled` depending on whether or not the filter list subscription is active.
 
-Exception: Acceptable Ads filter list can only be deleted and added, this filter list can not be disabled (the filter list toggle is inactive as a result).
+*Exception:* 
+
+The Acceptable Ads and privacy-friendly Acceptable Ads filter lists can only be deleted and added, both filter lists can not be disabled (the toggle disappears as a result).
 
 #### Filter list subscriptions
 ##### Overview
