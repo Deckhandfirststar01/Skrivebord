@@ -909,6 +909,7 @@ Navigation label will match headline.
 | ABP_Logo_Outline.svg | ![](/res/abp/options-page/assets/ABP_Logo_Outline.svg) |
 | attention.svg | ![](/res/abp/options-page/assets/attention.svg) |
 | box-circle.svg | ![](/res/abp/options-page/assets/box-circle.svg) |
+| checkbox.svg | ![](/res/abp/options-page/assets/checkbox.svg) |
 | checkmark.svg | ![](/res/abp/options-page/assets/checkmark.svg) |
 | code.svg | ![](/res/abp/options-page/assets/code.svg) |
 | delete.svg | ![](/res/abp/options-page/assets/delete.svg) |
@@ -916,9 +917,11 @@ Navigation label will match headline.
 | facebook.svg | ![](/res/abp/options-page/assets/facebook.svg) |
 | globe.svg | ![](/res/abp/options-page/assets/globe.svg) |
 | googleplus.svg | ![](/res/abp/options-page/assets/googleplus.svg) |
+| magic-wand.svg | ![](/res/abp/options-page/assets/magic-wand.svg) |
 | reload.svg | ![](/res/abp/options-page/assets/reload.svg) |
 | settings.svg | ![](/res/abp/options-page/assets/settings.svg) |
 | tooltip.svg | ![](/res/abp/options-page/assets/tooltip.svg) |
+| tooltip-arrow.svg | ![](/res/abp/options-page/assets/tooltip-arrow.svg) |
 | trash.svg | ![](/res/abp/options-page/assets/trash.svg) |
 | twitter.svg | ![](/res/abp/options-page/assets/twitter.svg) |
 | toggle-enabled.svg | ![](/res/abp/options-page/assets/toggle-enabled.svg) |
