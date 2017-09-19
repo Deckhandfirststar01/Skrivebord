@@ -149,17 +149,19 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 `Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting online content because they generate revenue for website owners.`
 
 #### Acceptable Ads table
+
 ##### Selection type
 Radio button
 
 ##### Default bahaviour
-`Allow some nonintrusive ads` is selected on default. This enables the EasyPrivacy (URL: https://easylist-downloads.adblockplus.org/exceptionrules.txt) filter list.
 
-| Title | Description | Action |
-|-----------|---------------|--------------|
-| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads may collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. |
-| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information and, therefore, may be less relevant.` | Enables Privacy friendly ads |
-| `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. |
+`Allow some nonintrusive ads` is selected on default.
+
+| Title | Description | Action | Filter list URL |
+|-------|-------------|--------|-----------------|
+| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads may collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. | https://easylist-downloads.adblockplus.org/exceptionrules.txt |
+| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information and, therefore, may be less relevant.` | Enables Privacy friendly ads | https://easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt |
+| `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. | N/A |
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
 
