@@ -29,6 +29,9 @@ Should implement the following [WCAG 2.0 Guidelines](http://www.w3.org/TR/2008/R
 - 2.1 Keyboard Accessible
 - 2.4 Navigable
 
+### Mouse behaviour
+Anywhere an item is clickable the mouse cursor should follow the default browser behaviour.
+
 ## Navigation
 Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpanel>
 
