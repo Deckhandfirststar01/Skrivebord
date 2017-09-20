@@ -39,18 +39,17 @@ Implement <https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/#tabpan
 ### Navigation menu default
 ![](/res/abp/options-page/navigation-menu.jpg)
 
-1. [Logo](#markdown-logo)
+1. [Main title](#markdown-main-title)
 1. [Navigation menu list](#markdown-navigation-menu-list)
 1. [Contribute button](#markdown-contribute-button)
 1. [About link](#markdown-about-link)
 
-#### Logo
+#### Main title
+`Adblock Plus Settings`
+
 This will appear consistently across all tabs.
 
 All elements within the navigation menu are fixed according to the screen height.
-
-##### Text
-`Adblock Plus Settings`
 
 #### Navigation menu list
 Navigation names should match the headlines of each tab.
