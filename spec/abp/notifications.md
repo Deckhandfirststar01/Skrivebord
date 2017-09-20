@@ -10,6 +10,8 @@ Adblock Plus has a system for showing various types of notifications to users un
 
 1. [Closing and disabling notifications](#markdown-header-closing-and-disabling-notifications)
 
+1. [Links in notifications](#markdown-header-links-in-notifications)
+
 1. [When multiple notifications are supposed to be shown](#markdown-header-when-multiple-notifications-are-supposed-to-be-shown)
 
 1. [Notification repository format](#markdown-header-notification-repository-format)
@@ -147,6 +149,31 @@ Note, however, that not all [notification types](#notification-types) can be dis
 
 **Notifications that show up as a Chrome notification** can be closed by clicking the _X_ icon, but there is no option for disabling them.
 
+## Links in notifications
+
+Notifications can contains [documentation links](/spec/adblockplus.org/documentation-link.md), see [Links](#links) below.
+
+For *information* and *critical* notifications the corresponding ```<a>``` tag in the message will be clickable:
+
+![](/res/abp/notifications/information-open-link.png)
+
+Clicking the link will open the [documentation links](/spec/adblockplus.org/documentation-link.md) in a new tab. The notification will remain active, see [closing and disabling notifications](#markdown-header-closing-and-disabling-notifications)
+
+For *normal* notifications with one link and additional button will be added. The label of the button will contain the content of the corresponding `<a>` tag from the message. If the buton is clicked the link will be opened in a new tab.
+
+![](/res/abp/notifications/normal-open-link.png)
+
+If the *normal* notifications contans more than one link, the button label will be `open all links from this notification`. If the button is clicked all links will be opened in a new tab.
+
+***NOTE:*** Notifications in chrome cannot contain more than two buttons and one button is already reserved to configure the notification settings.
+
+![](/res/abp/notifications/normal-open-multiple-links.png)
+
+The *relentless* notifications behave in exactly the same way, except that that don't have the button to configure the notifications settings, see [relentless](#relentless).
+
+![](/res/abp/notifications/relentless-open-link.png)
+![](/res/abp/notifications/relentless-open-multiple-links.png)
+
 ## When multiple notifications are supposed to be shown
 
 ABP never shows the user more than one notification at a time. If multiple notifications are supposed to be shown, the notification with the highest _severity_ is shown first. If multiple notifications have the same _severity_, the first one listed in `notifications.json` is shown first.
@@ -273,7 +300,6 @@ links = chrome_support knownIssuesChrome_filterstorage
 */
 links = /([\w-_]+)+/
 ```
-
 ### Filters
 
 It's possible to limit the users the notification will be shown to by using additional filters. A notification will show up if all filters are satisfied.
