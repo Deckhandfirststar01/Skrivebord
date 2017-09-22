@@ -32,6 +32,8 @@ Body: Regular, 400 (regular), 1.25em, #4A4A4A
 
 Text link: 400 (regular), 1.25em #099CD0
 
+Instruction text: Regular, 400 (regular), 1.125em, #4A4A4A
+
 **LABEL: BUTTON TEXT - 700 (bold), 1.125em, #099CD0/ #FFF**
 
 List item: Line height: 2.5em
