@@ -884,7 +884,7 @@ Navigation label will match headline.
 - `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_issue` in a new tab).
 - `See an ad that you think shouldn’t be there?` `Report an ad` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_ad` in a new tab).
 - `Found a bug?`  `Send us a bug report` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_bug` in a new tab)
-- `Want support from our community?`  `Go to the Forum`  (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=reporter_other_link` in a new tab)
+- `Want support from our community?`  `Go to the Forum`  (depending on the application open the application specific [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link)  `%LINK%=firefox_support` `%LINK%=chrome_support` `%LINK%=opera_support` or `%LINK%=edge_support`in a new tab)
 
 #### Get in touch section
 ##### Title 

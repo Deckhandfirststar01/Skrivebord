@@ -20,6 +20,7 @@ The Documentation link page is used by the our adblocking products to redirect t
 |----|------|-----|----------|
 |reporter_connect_issue|-|`/forum/?`|
 |reporter_other_link|-|-|`/forum/?`|
+|firefox_support|-|-|`/forum/viewforum.php?f=1?`|
 |chrome_support|-|-|`/forum/viewforum.php?f=10?`|
 |opera_support|-|-|`/forum/viewforum.php?f=14?`|
 |safari_support|-|-|`/forum/viewforum.php?f=18?`|
