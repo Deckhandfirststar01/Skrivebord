@@ -53,11 +53,15 @@ Options page to open in a new tab
 `<h1>Adblock Plus settings<h1>`
 
 #### Enabling/ Disabling Adblock Plus
-Toggle to enable/ disable Adblock Plus for the web domain on which the Options page had been launched from.
+Adblock Plus is enabled by default.
 
-Adblock Plus is enabled by default
+The toggle is "off" if current page is whitelisted and "on" otherwise.
 
-Toggle adds/ removes web domains from the whitelist.
+Switching it to "off" will add a whitelist filter for the domain.
+
+Switching it to "on" will
+- remove all whitelist custom filters
+- and disable all whitelist non-custom filters.
 
 ##### Toggle text
 `Enable Adblock Plus on <website URL>`
