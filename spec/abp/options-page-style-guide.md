@@ -65,6 +65,8 @@ List item: Line height: 2em
 ## Navigation
 ![](/res/abp/options-page/style-guide/style-navigation-menu.jpg)
 
+For wider screens increase the width of the section area (second column) and center the entire options page.
+
 ## Section style 
 ![](/res/abp/options-page/style-guide/section-style.jpg) 
 
