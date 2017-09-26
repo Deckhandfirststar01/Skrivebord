@@ -930,3 +930,4 @@ Navigation label will match headline.
 | twitter.svg | ![](/res/abp/options-page/assets/twitter.svg) |
 | toggle-enabled.svg | ![](/res/abp/options-page/assets/toggle-enabled.svg) |
 | toggle-disabled.svg | ![](/res/abp/options-page/assets/toggle-disabled.svg) |
+| weibo.svg | ![](/res/abp/options-page/assets/weibo.svg) | 
