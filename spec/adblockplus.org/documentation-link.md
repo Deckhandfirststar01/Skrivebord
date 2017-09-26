@@ -28,9 +28,9 @@ The Documentation link page is used by the our adblocking products to redirect t
 |knownIssuesChrome_filterstorage|-|-|`/forum/viewtopic.php?t=23597?`|
 |adblock_browser_android_beta_community|-|-|`https://plus.google.com/communities/104936844759781288661?`|
 |`^adblock_browser_promotion_\d$`|-|-|`https://adblockplus.org/adblock-browser`|
-|adblock_browser_android_support|`*`|-|`https://adblockbrowser.org/$lang/android-support/?`|
-|adblock_browser_android_faq|`*`|-|`https://adblockbrowser.org/$lang/android-support/faq?`|
-|adblock_browser_ios_support|-|-|`https://adblockbrowser.org/en/ios-support/?`|
+|adblock_browser_android_support|-|-|`/forum/viewforum.php?f=24?`|
+|adblock_browser_android_faq|-|-|`/forum/viewforum.php?f=24?`|
+|adblock_browser_ios_support|-|-|`/forum/viewforum.php?f=25?`|
 |adblock_browser_android_store|-|`*`|`https://play.google.com/store/apps/details?id=org.adblockplus.browser`|
 |adblock_browser_android_store|-|`cn`|`https://downloads.adblockplus.org/adblockbrowser-1.1.0-arm.apk`|
 |adblock_browser_ios_store|-|-|`https://geo.itunes.apple.com/us/app/adblock-browser-best-ad-blocker/id1015653330?mt=8?`|
