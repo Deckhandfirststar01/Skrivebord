@@ -60,6 +60,7 @@ List item: Line height: 2em
 ![](/res/abp/options-page/style-guide/color-clear-blue.jpg)
 ![](/res/abp/options-page/style-guide/color-light-blue.jpg)
 ![](/res/abp/options-page/style-guide/color-blue.jpg)
+![](/res/abp/options-page/style-guide/color-green.jpg)
 ![](/res/abp/options-page/style-guide/color-red.jpg)
 
 ## Navigation
@@ -128,6 +129,9 @@ For wider screens increase the width of the section area (second column) and cen
 ### Form overlay
 #### Form default
 ![](/res/abp/options-page/style-guide/modal-window-form-default.jpg)
+
+#### Form valid
+![](/res/abp/options-page/style-guide/modal-window-form-valid.jpg)
 
 #### Form error
 ![](/res/abp/options-page/style-guide/modal-window-form-error.jpg)

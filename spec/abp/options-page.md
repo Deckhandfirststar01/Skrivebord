@@ -693,7 +693,7 @@ If [Custom subscription popup subscription url input](#markdown-header-Custom-su
 ### Add custom subscription popup: Valid
 ![](/res/abp/options-page/add-custom-subscription-popup-valid.jpg)
 
-If [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) is valid show a green *✓*.
+If [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) is valid show a green *✓* regardless of whether the input field is active or not.
 
 #### Custom subscription popup cancel button
 ##### Behaviour
