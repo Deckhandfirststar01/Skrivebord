@@ -182,7 +182,9 @@ If a user selects this option AND has DNT disabled, display the below text withi
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
 #### Acceptable Ads notification
-If a user selects `Disable tracking` (EasyPrivacy) and `Show nonintrusive ads` (Acceptable Ads), then show the below notification. This is a one time message. 
+Open the notification whenever a user enables `Disable tracking` (EasyPrivacy) and `Allow Acceptable Ads` in the new options page. 
+
+The user must make an active informed decision between his privacy and the sustainability of the web. Clicking the 'X' will close the popup. The notification will appear again each time the user opens the Options page, until a selection is made (See  [Buttons](#markdown-header-buttons)). 
 
 ![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
 
