@@ -240,6 +240,10 @@ Passwords and email addresses will not be visible to other forum visitors.
 
 When you add a comment on the [Adblock Plus blog](https://adblockplus.org/blog/), you can optionally specify an email address. Unlike the other fields, the email address is never displayed to other visitors and is only used to notify the comment author about replies to his / her comments, if any.
 
+### Sharing Manually Added Filters with Adblock Plus
+
+Adblock Plus allows you to share your manually added filters so filter maintainers can review and potentially add them to filter lists. These reports contain the filter you added, the filter lists you have enabled, the webpage URL and the browser you are using. Parameter values are removed from all transmitted addresses to avoid unintentionally leaking private information. All submissions are anonymous and all associated data is automatically removed after 30 days.
+
 ###### Email collection
 
 Some of eyeo's Websites host product campaigns that rely on email collection. For example, you can request a link by email to install Adblock Browser on your mobile device. We do not use third parties to manage these campaigns. Instead, data that you submit is handled in-house (i.e. turned into an email or used to send the email). Further, we do not store your email address unless it’s specifically required to execute the related campaign (i.e. email signups for a newsletter or signing up to get notified about a product launch). In cases where we do store your email address, we only store it for the length of time that is needed to execute the campaign (i.e. once you’ve been notified of the launch). We will never share or sell your email address, or any other information collected, to any third parties.
