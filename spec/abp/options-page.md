@@ -139,7 +139,6 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 1. [Acceptable Ads section headline](#markdown-header-acceptable-ads-section-headline)
 1. [Acceptable Ads section description](#markdown-header-acceptable-ads-section-description)
 1. [Acceptable Ads table](#markdown-header-acceptable-ads-table)
-1. [Acceptable Ads notification](#markdown-header-acceptable-ads-notification)
 
 #### Acceptable Ads section headline
 `ACCEPTABLE ADS`
@@ -180,37 +179,6 @@ If a user selects this option AND has DNT disabled, display the below text withi
 `**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)`
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
-
-#### Acceptable Ads notification
-Open the notification whenever a user enables `Disable tracking` (EasyPrivacy) and `Allow Acceptable Ads` in the new options page. 
-
-The user must make an active informed decision between his privacy and the sustainability of the web. Clicking the 'X' will close the popup. The notification will appear again each time the user opens the Options page, until a selection is made (See  [Buttons](#markdown-header-buttons)). 
-
-![](/res/abp/options-page/general-acceptable-ads-notification.jpg)
-
-##### Notifcation title
-`Allow tracking on Acceptable Ads?`
-
-##### Notifcation text
-```
-You currently allow Acceptable Ads to be shown.
-These ads are respectful and do not interfere with content that you view.
-
-Some of these ads require tracking to show you more relevant ads.
-Click **YES** to continue seeing relevant nonintrusive ads.
-
-*Note:*
-* Adblock Plus cannot guarantee that all tracking is disabled.
-* Ads shown are chosen by the website you visit, not Adblock Plus. 
-* Adblock Plus never tracks your data.
-```
-
-##### Buttons
-
-| Button label | Behaviour | 
-|-----------|---------------|
-| `YES, ALLOW RELEVANT ADS` | Keeps selection on `Show nonintrusive ads`, and closes window |
-| `NO, TURN OFF TRACKING` | Switches selection to `Show nonintrusive ads that are privacy-friendly`, and closes window |
 
 ### Language section
 ![](/res/abp/options-page/general-default-language.jpg)
