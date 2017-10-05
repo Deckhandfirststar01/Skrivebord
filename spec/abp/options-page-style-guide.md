@@ -66,6 +66,8 @@ Line height: 2em
 ![](/res/abp/options-page/style-guide/color-blue.jpg)
 ![](/res/abp/options-page/style-guide/color-green.jpg)
 ![](/res/abp/options-page/style-guide/color-red.jpg)
+![](/res/abp/options-page/style-guide/color-light-yellow.jpg)
+![](/res/abp/options-page/style-guide/color-light-orange.jpg)
 
 ## Navigation
 
@@ -110,9 +112,14 @@ For wider screens increase the width of the section area (second column) and cen
 
 ![](/res/abp/options-page/style-guide/gear-popup.jpg)
 
+## Notifications
+
 ### Banner notifications
 
 ![](/res/abp/options-page/style-guide/whitelisted-websites-notification.jpg)
+
+### In-page notifications
+![](/res/abp/options-page/style-guide/in-page-notifications.jpg)
 
 ## Dropdown
 
@@ -126,10 +133,6 @@ For wider screens increase the width of the section area (second column) and cen
 [1] Border highlight disappears after there has been a new interaction on the page.
 
 ## Modal overlays
-
-### Action overlay
-
-![](/res/abp/options-page/style-guide/modal-overlay.jpg)
 
 ### Dropdown overlay
 

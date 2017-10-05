@@ -188,6 +188,26 @@ If a user selects `Only allow Acceptable Ads that are privacy-friendly` AND has 
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
+#### Acceptable Ads notification
+
+![](/res/abp/options-page/general-default-acceptable-ads-message.jpg)
+
+If a user selects `Block additional tracking` (EasyPrivacy) and `Allow Acceptable Ads`, then show the above notification within the page. This will continue showing until the user actively clicks to close the message. 
+
+Clicking X or `OK, got it` closes the notification.
+
+##### Notification text
+
+```
+We noticed you have both **Block additional tracking** and **Allow Acceptable Ad** enabled.
+
+We want you to know that in order for advertisers to show you more relevant ads, there *may* be some tracking with Acceptable Ads.
+
+If you prefer extra privacy, select the **Only allow Acceptable Ads that are privacy-friendly** checkbox below.
+
+[OK, got it](closes notifcation)
+```
+
 ### Language section
 ![](/res/abp/options-page/general-default-language.jpg)
 
