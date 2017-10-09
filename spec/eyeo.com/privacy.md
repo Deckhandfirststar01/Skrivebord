@@ -10,16 +10,17 @@
 
 ## Privacy Notice <small>(short version)</small>
 
-The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [privacy policy](#markdown-header-privacy-policy-long-version).
+The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [Privacy Policy](#markdown-header-privacy-policy-long-version).
 
 ### What kind of data do we process?
 
 1. While using the eyeo.com website:
     - IP address (stored separately)
-    - Date and time of access
-    - Browser type / version
-    - URL of previously visited webpage
-    - Amount of data sent
+    - The time at which the request was made
+    - The web address accessed
+    - The browser identifier
+    - The referring page
+
 2. When applying for a job:
     - Name
     - Email address
@@ -92,7 +93,7 @@ We are collecting and processing those data for the sole purpose of managing eye
 We will not transfer your personal data to third parties as a matter of course without letting you know in advance or asking for your prior permission. We may only transfer your personal data to third parties without informing you separately beforehand in the following exceptional cases as explained below:
 
 - If required for legal proceedings/investigations, personal data will be transferred to the criminal investigation authorities and, if appropriate, to injured third parties. We will only do this if there are concrete indications of illegal and/or abusive behaviour. We are also legally obliged to give certain public authorities information. These are criminal investigation authorities, public authorities which prosecute administrative offences entailing fines and the German finance authorities.
-- For job application we are using an external service provider to provide online application for you. Information is transferred to ENABLEAN Consulting GmbH & Co. KG, which provides the application tool TalentsTracker, in order to enable them to fulfil their contractual obligations. We have carefully selected this external service provider and review regularly to ensure that your privacy is preserved. ENABLEAN Consulting GmbH & Co. KG may only use the personal data for the purposes stipulated by us and in accordance with our instructions. We also contractually require ENABLEAN Consulting GmbH & Co. KG to treat your personal data solely in accordance with this Privacy Policy and the German data protection laws.
+- For job applications we use an external service provider to host the online application for you. Greenhouse collects some information on its website, such as anonymous usage statistics, by using cookies, server logs, and other similar technology. For more information, please refer to Greenhouse’s [Privacy Policy](https://www.greenhouse.io/privacy-policy). When clicking on the “Apply now” button you will be automatically forwarded to the job application tool, which is provided and hosted by Greenhouse Software, Inc., 110 Fifth Avenue, 3rd Floor, New York, NY 10011 (“Greenhouse”). Your job application information, including all documents provided by you, is stored at Greenhouse, in order to enable them to fulfil their contractual obligations. We have carefully selected this external service provider and review regularly to ensure that your privacy is preserved. Greenhouse provides sufficient guarantees to ensure an adequate level of data protection. Further, Greenhouse may only use the personal data for the purposes stipulated by us and in accordance with our instructions. We also contractually require ENABLEAN Consulting GmbH & Co. KG to treat your personal data solely in accordance with this Privacy Policy and the German data protection laws.
 - As part of the further development of our business it may happen that the structure of eyeo GmbH changes. The legal structure may be adapted, subsidiaries, business units or components may be created, bought or sold. In such transactions customer information may be shared with the transmitted part of the company. In the event of a transfer of personal information softgarden will ensure that it is done in accordance to this Privacy Policy and the German data protection laws.
 
 ### Cookies
@@ -118,4 +119,4 @@ If we don’t need your personal data any longer for the aforementioned purposes
 
 This Privacy Policy can be changed from time to time. The respective current version is available at: [https://eyeo.com/privacy](https://eyeo.com/privacy)
 
-<time>December 2016</time>
+<time>October 2017</time>
