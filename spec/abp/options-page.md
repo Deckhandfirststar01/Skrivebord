@@ -271,7 +271,11 @@ X closes the [Language modal window](#language-modal-window).
 Already added filter subscriptions will appear greyed out and disabled in the modal window.   
 
 #### Filter subscription
-Show filter *Description* followed by *Subscription title*. See [Language filter lists](#language-filter-lists) for titles and description.
+The bundled language filter subscriptions should be used where possible (i.e. it includes EasyList) otherwise use the supplement list. 
+
+Display label in the modal window as *Description* followed by its respective *Bundled subscription title*/*Subscription title*. 
+
+See [Language filter lists](#language-filter-lists) for titles and description.
 
 #### Scroll bar
 The size of the layover menu should correspond to the screen size. The scroll bar should adjust accordingly. 
@@ -614,32 +618,32 @@ This will behave in the same way as the [Language modal window](#language-modal-
 Clicking `+ ADD FILTER LIST VIA URL` closes the [Add filter list modal window](#add-filter-list-modal-window) and opens the [Add custom subscription popup](#add-custom-subscription-popup)
 
 ### Language filter lists
-| Subscription title | Description | URL + EasyList | URL | 
-|-----------|---------------|---------------|---------------|
-| `EasyList` | `English` | https://easylist-downloads.adblockplus.org/easylist.txt | |
-| `ABPindo` | `Bahasa Indonesia` | https://easylist-downloads.adblockplus.org/abpindo+easylist.txt | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt |
-| `Bulgarian list` | `български` | https://easylist-downloads.adblockplus.org/bulgarian_list+easylist.txt | https://stanev.org/abp/adblock_bg.txt |
-| `EasyList China` | `中文` | https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | https://easylist-downloads.adblockplus.org/easylistchina.txt |
-| `EasyList Czech and Slovak` | `čeština, slovenčina` | https://easylist-downloads.adblockplus.org/easylistczechslovak+easylist.txt | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt |
-| `EasyList Dutch` | `Nederlands` | https://easylist-downloads.adblockplus.org/easylistdutch+easylist.txt | https://easylist-downloads.adblockplus.org/easylistdutch.txt |
-| `EasyList Germany` | `Deutsch` | https://easylist-downloads.adblockplus.org/easylistgermany+easylist.txt | https://easylist-downloads.adblockplus.org/easylistgermany.txt |
-| `EasyList Hebrew` | `עברית` | https://easylist-downloads.adblockplus.org/israellist+easylist.txt | https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt |
-| `EasyList Italy` | `Italiano` | https://easylist-downloads.adblockplus.org/easylistitaly+easylist.txt | |
-| `EasyList Lithuania` | `lietuvių kalba` | https://easylist-downloads.adblockplus.org/easylistlithuania+easylist.txt | |
-| `EasyList Latvian` | `latviešu valoda` | https://easylist-downloads.adblockplus.org/latvianlist+easylist.txt | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt |
-| `EasyList Spanish` | `Español` | https://easylist-downloads.adblockplus.org/easylistspanish+easylist.txt | https://easylist-downloads.adblockplus.org/easylistspanish.txt |
-| `EasyList AR` | `العربية` | https://easylist-downloads.adblockplus.org/liste_ar+liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/Liste_AR.txt |
-| `EasyList FR` | `Français` | https://easylist-downloads.adblockplus.org/liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/liste_fr.txt |
-| `ROList` | `Românesc` | https://easylist-downloads.adblockplus.org/rolist+easylist.txt | https://easylist-downloads.adblockplus.org/advblock.txt |
-| `Icelandic ABP List` | `íslenska` | https://adblock.gardar.net/is.abp.txt | |
-| `void.gr` | `ελληνικά` | https://void.gr/kargig/void-gr-filters.txt | |
-| `ABP Japanese Filters` | `日本語` | https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt | |
-| `ABPVN List` | `Việt` | https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt | |
-| `Adblock List for Finland` | `suomi` | http://adb.juvander.net/Finland_adb.txt | |
-| `Czech List` | `čeština` | http://adblock.dajbych.net/adblock.txt | |
-| `Eesti saitidele kohandatud filter` | `Eesti keel` |  http://adblock.ee/list.php | |
-| `hufilter` | `magyar` | https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt | |
-| `YousList` | `한국어` | https://raw.githubusercontent.com/yous/YousList/master/youslist.txt | |
+| Subscription title | Bundled subscription title | Description | URL + EasyList | URL | 
+|-----------|---------------|---------------|---------------|---------------|
+| `EasyList` | N/A | `English` | https://easylist-downloads.adblockplus.org/easylist.txt | |
+| `ABPindo` | `ABPindo+EasyList` | `Bahasa Indonesia` | https://easylist-downloads.adblockplus.org/abpindo+easylist.txt | https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt |
+| `Bulgarian list` | `Bulgarian list+EasyList` | `български` | https://easylist-downloads.adblockplus.org/bulgarian_list+easylist.txt | https://stanev.org/abp/adblock_bg.txt |
+| `EasyList China` | `EasyList China+EasyList` | `中文` | https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt | https://easylist-downloads.adblockplus.org/easylistchina.txt |
+| `EasyList Czech and Slovak` | `EasyList Czech and Slovak+EasyList` | `čeština, slovenčina` | https://easylist-downloads.adblockplus.org/easylistczechslovak+easylist.txt | https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt |
+| `EasyList Dutch` | `EasyList Dutch+EasyList` | `Nederlands` | https://easylist-downloads.adblockplus.org/easylistdutch+easylist.txt | https://easylist-downloads.adblockplus.org/easylistdutch.txt |
+| `EasyList Germany` | `EasyList Germany+EasyList` | `Deutsch` | https://easylist-downloads.adblockplus.org/easylistgermany+easylist.txt | https://easylist-downloads.adblockplus.org/easylistgermany.txt |
+| `EasyList Hebrew` | `EasyList Hebrew+EasyList` | `עברית` | https://easylist-downloads.adblockplus.org/israellist+easylist.txt | https://raw.githubusercontent.com/easylist/EasyListHebrew/master/EasyListHebrew.txt |
+| `EasyList Italy` | `EasyList Italy+EasyList` | `Italiano` | https://easylist-downloads.adblockplus.org/easylistitaly+easylist.txt | |
+| `EasyList Lithuania` | `EasyList Lithuania+EasyList` | `lietuvių kalba` | https://easylist-downloads.adblockplus.org/easylistlithuania+easylist.txt | |
+| `EasyList Latvian` | `EasyList Latvian+EasyList` | `latviešu valoda` | https://easylist-downloads.adblockplus.org/latvianlist+easylist.txt | https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt |
+| `EasyList Spanish` | `EasyList Spanish+EasyList` | `Español` | https://easylist-downloads.adblockplus.org/easylistspanish+easylist.txt | https://easylist-downloads.adblockplus.org/easylistspanish.txt |
+| `EasyList AR` | `Liste AR+Liste FR+EasyList` | `العربية` | https://easylist-downloads.adblockplus.org/liste_ar+liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/Liste_AR.txt |
+| `EasyList FR` | `EasyList FR+EasyList` | `Français` | https://easylist-downloads.adblockplus.org/liste_fr+easylist.txt | https://easylist-downloads.adblockplus.org/liste_fr.txt |
+| `ROList` | `ROList+EasyList` | `Românesc` | https://easylist-downloads.adblockplus.org/rolist+easylist.txt | https://easylist-downloads.adblockplus.org/advblock.txt |
+| `Icelandic ABP List` | N/A | `íslenska` | https://adblock.gardar.net/is.abp.txt | |
+| `void.gr` | N/A | `ελληνικά` | https://void.gr/kargig/void-gr-filters.txt | |
+| `ABP Japanese Filters` | N/A | `日本語` | https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abpjf.txt | |
+| `ABPVN List` | `ABPVN List+EasyList` | `Việt` | https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt | |
+| `Adblock List for Finland` | N/A | `suomi` | http://adb.juvander.net/Finland_adb.txt | |
+| `Czech List` | N/A | `čeština` | http://adblock.dajbych.net/adblock.txt | |
+| `Eesti saitidele kohandatud filter` | `Eesti saitidele kohandatud filter` | `Eesti keel` |  http://adblock.ee/list.php | |
+| `hufilter` | N/A | `magyar` | https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt | |
+| `YousList` | N/A | `한국어` | https://raw.githubusercontent.com/yous/YousList/master/youslist.txt | |
 
 ## Add custom subscription popup
 ### Add custom subscription popup: Initial
