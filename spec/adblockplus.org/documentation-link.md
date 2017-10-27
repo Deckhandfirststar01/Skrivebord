@@ -74,7 +74,7 @@ The Documentation link page is used by the our adblocking products to redirect t
 |donate|IF APL|-|`https://adblockplus.org/donate`|
 |acceptable_ads|IF APL|-|`https://adblockplus.org/acceptable-ads`|
 |acceptable_ads_criteria|IF APL|-|`https://adblockplus.org/acceptable-ads#criteria`|
-|privacy_friendly_ads|IF APL|-|`https://adblockplus.org/acceptable-ads`|
+|privacy_friendly_ads|IF APL|-|`https://adblockplus.org/acceptable-ads#privacy-friendly-acceptable-ads`|
 |contributors|IF APL|-|`https://adblockplus.org/contributors`|
 |whitelist|IF APL|-|`https://adblockplus.org/faq_basics#disable`|
 |adblock_plus|IF APL|-|`https://adblockplus.org`|
