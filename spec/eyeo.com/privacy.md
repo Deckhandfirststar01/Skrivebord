@@ -119,4 +119,4 @@ If we don’t need your personal data any longer for the aforementioned purposes
 
 This Privacy Policy can be changed from time to time. The respective current version is available at: [https://eyeo.com/privacy](https://eyeo.com/privacy)
 
-<time>October 2017</time>
+<time>November 2017</time>
