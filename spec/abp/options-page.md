@@ -138,7 +138,7 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 
 1. [Acceptable Ads section headline](#markdown-header-acceptable-ads-section-headline)
 1. [Acceptable Ads section description](#markdown-header-acceptable-ads-section-description)
-1. [Acceptable Ads table](#markdown-header-acceptable-ads-table)
+1. [Acceptable Ads options](#markdown-header-acceptable-ads-options)
 
 #### Acceptable Ads section headline
 `ACCEPTABLE ADS`
@@ -146,35 +146,43 @@ Refer to the table in [Recommended filter lists](#markdown-header-recommended-fi
 #### Acceptable Ads section description
 `Acceptable Ads are nonintrusive ads. They are the middle ground between ad blocking and supporting online content because they generate revenue for website owners.`
 
-#### Acceptable Ads table
-
+#### Acceptable Ads options
 ##### Selection type
-Radio button
+Check box
 
-##### Default bahaviour
+##### Allow Acceptable Ads
+`Allow Acceptable Ads` is selected on default. This enables the EasyPrivacy filter list.
 
-`Allow some nonintrusive ads` is selected on default.
+###### Title:
+`Allow Acceptable Ads`
 
-| Title | Description | Action | Filter list URL |
-|-------|-------------|--------|-----------------|
-| `Allow some nonintrusive ads` | `Nonintrusive ads are not annoying and do not interfere with the content you are viewing. These ads may collect some information about your browsing habits to provide you with more relevant ads.  [Read more about the nonintrusive ad criteria][1]` `**Note:** The ads collect data about your browsing habits **_not_** Adblock Plus.` | Enables `Allow non-intrusive advertising` filter list. | https://easylist-downloads.adblockplus.org/exceptionrules.txt |
-| `Allow only nonintrusive ads that are privacy-friendly` | `These ads do not collect personal user information and, therefore, may be less relevant.` | Enables Privacy friendly ads | https://easylist-downloads.adblockplus.org/exceptionrules-privacy-friendly.txt |
-| `Block all ads` | N/A | Disables `Allow nonintrusive advertising` filter list. | N/A |
+###### Description:
+`Acceptable Ads are respectful and do not interfere with the content you are viewing. [Read more about the Acceptable Ads criteria][1]` 
+
+`**Note:** The advertisers collect data about your browsing habits **_not_** Adblock Plus.` 
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
 
-##### Show nonintrusive ads
-The default setting.
+##### Only allow Acceptable Ads that are privacy-friendly
+This appears as a subset of the `Acceptable Ads` options, which enables the Privacy-friendly Acceptable Ads filter list. 
 
-##### Show nonintrusive ads that are privacy friendly
-This is a subset of the `Nonintrusive ads` which complies with [EEF’s DNT policy](https://www.eff.org/pages/understanding-effs-do-not-track-policy-universal-opt-out-tracking). 
+This option is only active when `Allow Acceptable Ads` is selected, otherwise it willl be inactive with reduced opacity.
 
-Label this setting as `NEW` during the user's first visit to the new options page. 
+###### Title:
+`Only allow Acceptable Ads that are privacy-friendly`
+
+###### Label:
+Labelled as `NEW` during the user's first visit to the new options page. 
+
+###### Description:
+`These ads do not collect any user data. [Read more about privacy-friendly ads][1]`
+
+[1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=privacy_friendly_ads` in a new tab.
 
 ##### Do not track conditions
 ![](/res/abp/options-page/general-default-acceptable-ads-dnt.jpg)
 
-If a user selects this option AND has DNT disabled, display the below text within the table:
+If a user selects `Only allow Acceptable Ads that are privacy-friendly` AND has DNT disabled, display the below text within the table:
 
 `**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)`
 
