@@ -525,8 +525,8 @@ Move newly added items (from the current session) to the top of the list.
 
 ##### Date/Time of last filter list update
   - Show `Just now` if less then 5 minutes ago
-  - Show `{} minutes ago` if more than 5 minutes ago
-  - Show `{} hours ago` if the last update was within the last 24 hours
+  - Show `minutes ago` if between 5 to 60 minutes ago
+  - Show `hours ago` if the last update was between 60 minutues to 24 hours ago
   - Show `DD MMM YYYY` (eg. 10 Jul 2017) if the update was more than 24 hours ago
   - Show `Updating` while the list is getting updated
   - Show `Download fail` when there is a problem downloading the filter list
