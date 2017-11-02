@@ -184,7 +184,7 @@ Labelled as `NEW` during the user's first visit to the new options page.
 
 If a user selects `Only allow Acceptable Ads that are privacy-friendly` AND has DNT disabled, display the below text within the table:
 
-`**Note:** You have **Do Not Track (DNT)** disabled in your Chrome settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)`
+`**Note:** You have **Do Not Track (DNT)** disabled in your browser settings. For this feature to work properly, please enable **DNT** in your browser preferences. [Find out how to enable DNT][1] and redirect to the official browser instructions for enabling DNT)`
 
 [1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=(adblock_plus_chrome_dnt|adblock_plus_firefox_dnt|adblock_plus_opera_dnt|adblock_plus_edge_dnt)` depending on which browser the extension is running in a new tab.
 
