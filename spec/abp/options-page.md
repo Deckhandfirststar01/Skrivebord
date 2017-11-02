@@ -666,7 +666,12 @@ Validates as you type against:
 ### Add custom subscription popup: Invalid
 ![](/res/abp/options-page/add-custom-subscription-popup-invalid.jpg)
 
-If [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) is invalid show a small red *!*.
+If [Custom subscription popup subscription title input](#markdown-header-custom-subscription-popup-subscription-title-input) or [Custom subscription popup subscription url input](#markdown-header-Custom-subscription-popup-subscription-url-input) is invalid show a small red *!* and its corresponding error message.
+
+| Text field | Error message |
+|-------|--------|
+| Filter list name | Please fill out the field |
+| Filter list URL | Enter a valid URL |
 
 ### Add custom subscription popup: Valid
 ![](/res/abp/options-page/add-custom-subscription-popup-valid.jpg)
