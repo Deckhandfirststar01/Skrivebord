@@ -68,6 +68,7 @@ The Documentation link page is used by the our adblocking products to redirect t
 |faq|IF APL|-|`https://adblockplus.org/faq`|
 |filterdoc|IF APL|-|`https://adblockplus.org/filters`|
 |subscriptions|IF APL|-|`https://adblockplus.org/subscriptions`|
+|language_subscription|IF APL|-|`https://adblockplus.org/getting_started#subscription`|
 |reporter_privacy|IF APL|-|`https://adblockplus.org/privacy#abp_issue_reporter`|
 |privacy|IF APL|-|`https://adblockplus.org/privacy`|
 |contribute|IF APL|-|`https://adblockplus.org/contribute`|

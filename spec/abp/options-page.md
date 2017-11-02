@@ -202,9 +202,9 @@ If a user selects `Only allow Acceptable Ads that are privacy-friendly` AND has 
 `Language`
 
 #### Language section description
-`Optimize Adblock Plus for the language(s) you typically browse websites in. [Learn more](#markdown-header-link to Help Centre article (needs to be created still)`
+`Optimize Adblock Plus for the language(s) you typically browse websites in. [Learn more][1]`
 
-TODO link to language article
+[1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=language_subscription` in a new tab
 
 #### Default language
 Language filter list selected based on the browser's default language.
