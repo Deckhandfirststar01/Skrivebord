@@ -896,7 +896,8 @@ Navigation label will match headline.
 | ABP_Logo_Outline.svg | ![](/res/abp/options-page/assets/ABP_Logo_Outline.svg) |
 | attention.svg | ![](/res/abp/options-page/assets/attention.svg) |
 | box-circle.svg | ![](/res/abp/options-page/assets/box-circle.svg) |
-| checkbox.svg | ![](/res/abp/options-page/assets/checkbox.svg) |
+| checkbox-empty.svg | ![](/res/abp/options-page/assets/checkbox-empty.svg) |
+| checkbox-yes.svg | ![](/res/abp/options-page/assets/checkbox-yes.svg) |
 | checkmark.svg | ![](/res/abp/options-page/assets/checkmark.svg) |
 | code.svg | ![](/res/abp/options-page/assets/code.svg) |
 | delete.svg | ![](/res/abp/options-page/assets/delete.svg) |
