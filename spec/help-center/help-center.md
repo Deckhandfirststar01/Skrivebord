@@ -320,6 +320,16 @@ Steffen Kiedel
 | [searchIcon.svg](/res/help-center/assets/searchIcon.svg) | ![](/res/help-center/assets/searchIcon.svg) |
 | [settingsIcon.svg](/res/help-center/assets/settingsIcon.svg) | ![](/res/help-center/assets/settingsIcon.svg) |
 | [twitter.svg](/res/help-center/assets/twitter.svg) | ![](/res/help-center/assets/twitter.svg) |
+| [chrome](/res/help-center/assets/help-center-browser-icons/chrome.svg) | ![](/res/help-center/assets/help-center-browser-icons/chrome.svg) svg ![](/res/help-center/assets/help-center-browser-icons/chrome.png) png ![](/res/help-center/assets/help-center-browser-icons/chrome@2x.png) @2x.png  |
+| [edge](/res/help-center/assets/help-center-browser-icons/edge.svg) | ![](/res/help-center/assets/help-center-browser-icons/edge.svg) svg ![](/res/help-center/assets/help-center-browser-icons/edge.png) png ![](/res/help-center/assets/help-center-browser-icons/edge@2x.png) @2x.png |
+| [firefox](/res/help-center/assets/help-center-browser-icons/firefox.svg) | ![](/res/help-center/assets/help-center-browser-icons/firefox.svg) svg ![](/res/help-center/assets/help-center-browser-icons/firefox.png) png ![](/res/help-center/assets/help-center-browser-icons/firefox@2x.png) @2x.png |
+| [internet-explorer](/res/help-center/assets/help-center-browser-icons/internet-explorer.svg) | ![](/res/help-center/assets/help-center-browser-icons/internet-explorer.svg) svg ![](/res/help-center/assets/help-center-browser-icons/internet-explorer.png) png ![](/res/help-center/assets/help-center-browser-icons/internet-explorer@2x.png) @2x.png |
+| [ios](/res/help-center/assets/help-center-browser-icons/ios.svg) | ![](/res/help-center/assets/help-center-browser-icons/ios.svg) svg ![](/res/help-center/assets/help-center-browser-icons/ios.png) png ![](/res/help-center/assets/help-center-browser-icons/ios@2x.png) @2x.png |
+| [maxthon](/res/help-center/assets/help-center-browser-icons/maxthon.svg) | ![](/res/help-center/assets/help-center-browser-icons/maxthon.svg) svg ![](/res/help-center/assets/help-center-browser-icons/maxthon.png) png ![](/res/help-center/assets/help-center-browser-icons/maxthon@2x.png) @2x.png |
+| [opera](/res/help-center/assets/help-center-browser-icons/opera.svg) | ![](/res/help-center/assets/help-center-browser-icons/opera.svg) svg ![](/res/help-center/assets/help-center-browser-icons/opera.png) png ![](/res/help-center/assets/help-center-browser-icons/opera@2x.png) @2x.png |
+| [safari](/res/help-center/assets/help-center-browser-icons/safari.svg) | ![](/res/help-center/assets/help-center-browser-icons/safari.svg) svg ![](/res/help-center/assets/help-center-browser-icons/safari.png) png ![](/res/help-center/assets/help-center-browser-icons/safari@2x.png) @2x.png |
+| [samsung-internet](/res/help-center/assets/help-center-browser-icons/samsung-internet.svg) | ![](/res/help-center/assets/help-center-browser-icons/samsung-internet.svg) svg ![](/res/help-center/assets/help-center-browser-icons/samsung-internet.png) png ![](/res/help-center/assets/help-center-browser-icons/samsung-internet@2x.png) @2x.png |
+| [yandex](/res/help-center/assets/help-center-browser-icons/yandex.svg) | ![](/res/help-center/assets/help-center-browser-icons/yandex.svg) svg ![](/res/help-center/assets/help-center-browser-icons/yandex.png) png ![](/res/help-center/assets/help-center-browser-icons/yandex@2x.png) @2x.png |
 
 
 
