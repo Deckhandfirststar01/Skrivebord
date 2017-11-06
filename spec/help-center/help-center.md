@@ -90,7 +90,7 @@ Should implement the following WCAG 2.0 Guidelines:
 ### Footer links
 
 - `Legal` will open [Imprint](#markdown-header-imprint)
-- `[Privacy Policy](https://adblockplus.org/privacy)`
+- `Privacy Policy` will open [Privacy Policy](https://adblockplus.org/privacy)
 - `[Adblock Plus](https://adblockplus.org) is a registered trademark of [eyeo GmbH](https://eyeo.com)`
 	
 ## Product Help Home 
@@ -239,6 +239,9 @@ Should implement the following WCAG 2.0 Guidelines:
 ![](/res/help-center/help-imprint.jpg)
 
 - Title `Imprint`
+- Description `eyeo GmbH is headquartered in Cologne, Germany. For support inquiries, message us at support@adblockplus.org`
+
+
 `eyeo GmbH`
 
 ```
@@ -247,7 +250,7 @@ Lichtstraße 25
 Germany
 ```
 ```
-For suppoprt please goto: [Adblock Plus Forum](https://adblockplus.org/forum/)
+For additional support, go to:  [Adblock Plus Forum](https://adblockplus.org/forum/)
 Email: support@adblockplus.org
 Phone: +49 (0)221 7 65028 598
 Fax: +49 (0)221 / 65028 599
@@ -330,6 +333,7 @@ Steffen Kiedel
 | [safari](/res/help-center/assets/help-center-browser-icons/safari.svg) | ![](/res/help-center/assets/help-center-browser-icons/safari.svg) svg ![](/res/help-center/assets/help-center-browser-icons/safari.png) png ![](/res/help-center/assets/help-center-browser-icons/safari@2x.png) @2x.png |
 | [samsung-internet](/res/help-center/assets/help-center-browser-icons/samsung-internet.svg) | ![](/res/help-center/assets/help-center-browser-icons/samsung-internet.svg) svg ![](/res/help-center/assets/help-center-browser-icons/samsung-internet.png) png ![](/res/help-center/assets/help-center-browser-icons/samsung-internet@2x.png) @2x.png |
 | [yandex](/res/help-center/assets/help-center-browser-icons/yandex.svg) | ![](/res/help-center/assets/help-center-browser-icons/yandex.svg) svg ![](/res/help-center/assets/help-center-browser-icons/yandex.png) png ![](/res/help-center/assets/help-center-browser-icons/yandex@2x.png) @2x.png |
+
 
 
 
