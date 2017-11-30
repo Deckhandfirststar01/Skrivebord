@@ -866,10 +866,9 @@ Navigation label will match headline.
 `Support`
 
 ##### Bullet list (note: links are specific to language settings)
-- `Think content or functionality is being incorrectly blocked by us?`  `Report incorrectly blocked items here` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_issue` in a new tab).
-- `See an ad that you think shouldn’t be there?` `Report an ad` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_ad` in a new tab).
 - `Found a bug?`  `Send us a bug report` (opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=adblock_plus_report_bug` in a new tab)
 - `Want support from our community?`  `Go to the Forum`  (depending on the application open the application specific [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link)  `%LINK%=firefox_support` `%LINK%=chrome_support` `%LINK%=opera_support` or `%LINK%=edge_support`in a new tab)
+- `Email: support@adblockplus.org`
 
 #### Get in touch section
 ##### Title 
@@ -885,8 +884,6 @@ Navigation label will match headline.
 | `Facebook` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_facebook` in a new tab | For all locales except *zh* |
 | `Google Plus` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_gplus` in a new tab | For all locales except *zh* |
 | `Weibo` | Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link) `%LINK%=social_weibo` in a new tab | Only for the locales *zh* |
-
-`Email: support@adblockplus.org`
 
 ## Assets
 [Back to top of page](#markdown-header-options-page)
