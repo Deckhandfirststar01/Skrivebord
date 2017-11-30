@@ -365,8 +365,10 @@ Navigation label will match headline.
 ##### Behaviour
 When a duplicate entry is made, move the original entry to the top of the list and discard the duplicate.
 
+Convert URLs into domains when adding domain to whitelist.
+
 ##### Text input 
-Textinput to enter domains to be added to the whitelist.
+Text input to enter domains to be added to the whitelist.
 
 ##### Label in text input 
 `e.g. www.example.com`
