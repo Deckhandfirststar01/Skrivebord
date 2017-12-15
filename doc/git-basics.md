@@ -4,17 +4,17 @@ Editing the spec using git
 Overview
 --------
 
-1. [Introduction](#markdown-header-introduction)
-1. [Update repository](#markdown-header-update-repository)
-1. [Create feature branch](#markdown-header-create-feature-branch)
-1. [Make changes](#markdown-header-make-changes)
-1. [Commit changes](#markdown-header-commit-changes)
-1. [Comparing branches](#markdown-header-comparing-branches)
-1. [Push branch](#markdown-header-push-branch)
-1. [Pull request](#markdown-header-pull-request)
-1. [How to link to a specific version](#markdown-header-how-to-link-to-a-specific-version)
-1. [Working with WIP commits](#markdown-header-working-with-wip-commits)
-1. [Update remote origin](#markdown-header-update-remote-origin)
+1. [Introduction](#introduction)
+1. [Update repository](#update-repository)
+1. [Create feature branch](#create-feature-branch)
+1. [Make changes](#make-changes)
+1. [Commit changes](#commit-changes)
+1. [Comparing branches](#comparing-branches)
+1. [Push branch](#push-branch)
+1. [Pull request](#pull-request)
+1. [How to link to a specific version](#how-to-link-to-a-specific-version)
+1. [Working with WIP commits](#working-with-wip-commits)
+1. [Update remote origin](#update-remote-origin)
 
 ### Introduction
 
@@ -62,7 +62,7 @@ git checkout -b 1337_first_run master
 ```
 ![git_4.png](/res/doc/git-basics/git_4.png)
 
-Make sure your local master branch is up to date (see [Update repository](#markdown-header-update-repository)) or use the following shortcut to create a the feature branch regardless of where you are currently at.
+Make sure your local master branch is up to date (see [Update repository](#update-repository)) or use the following shortcut to create a the feature branch regardless of where you are currently at.
 
 ```
 git fetch origin
@@ -338,7 +338,7 @@ Now our changes have been pushed to <https://bitbucket.org>.
 
 The *first run* specification is not yet finished. To continue working on it we first have to make sure everything is up to date (Suppose a few days have passed since the last step).
 
-So got to [Update repository](#markdown-header-update-repository) and repeat the steps to update the *master* branch.
+So got to [Update repository](#update-repository) and repeat the steps to update the *master* branch.
 
 If our master branch is up to date, we have to update our feature branch *1337_first_run*.
 
@@ -413,7 +413,7 @@ index d114900..b78cbdc 100644
 
 ![git_20.png](/res/doc/git-basics/git_20.png)
 
-If we're happy we add and commit the changes as described in [Commit changes](#markdown-header-commit-changes) and push the changes as described in [Push branch](#markdown-header-push-branch).
+If we're happy we add and commit the changes as described in [Commit changes](#commit-changes) and push the changes as described in [Push branch](#push-branch).
 
 <https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository>
 

@@ -10,96 +10,96 @@ The purpose of this document is to fully explain how each and every core feature
 TABLE OF CONTENTS
 -----------------
 
-[**A: Basic User Interface**](#markdown-header-a-basic-user-interface)
+[**A: Basic User Interface**](#a-basic-user-interface)
 
-- [Launching Adblock Browser](#markdown-header-launching-adblock-browser)
+- [Launching Adblock Browser](#launching-adblock-browser)
 
-- [Primary User Interface](#markdown-header-primary-user-interface)
+- [Primary User Interface](#primary-user-interface)
 
-[**B: Dashboard**](#markdown-header-b-dashboard)
+[**B: Dashboard**](#b-dashboard)
 
-- [Dashboard default view](#markdown-header-dashboard-default-view)
+- [Dashboard default view](#dashboard-default-view)
 
-- [Editing a Dashboard shortcut](#markdown-header-editing-a-dashboard-shortcut)
+- [Editing a Dashboard shortcut](#editing-a-dashboard-shortcut)
 
-[**C: Navigation Bar**](#markdown-header-c-navigation-bar)
+[**C: Navigation Bar**](#c-navigation-bar)
 
-- [Entering search terms](#markdown-header-entering-search-terms)
+- [Entering search terms](#entering-search-terms)
 
-- [Searching for text on page](#markdown-header-searching-for-text-on-page)
+- [Searching for text on page](#searching-for-text-on-page)
 
-- [Entering a URL](#markdown-header-entering-a-url)
+- [Entering a URL](#entering-a-url)
 
-[**D: Control menu**](#markdown-header-d-control-menu)
+[**D: Control menu**](#d-control-menu)
 
-- [Control menu default view](#markdown-header-control-menu-default-view)
+- [Control menu default view](#control-menu-default-view)
 
-- [Bookmarking pages](#markdown-header-bookmarking-pages)
+- [Bookmarking pages](#bookmarking-pages)
 
-- [Disabling ad blocking](#markdown-header-disabling-ad-blocking)
+- [Disabling ad blocking](#disabling-ad-blocking)
 
-[**E: Recent History**](#markdown-header-e-recent-history)
+[**E: Recent History**](#e-recent-history)
 
-- [Recent History default view](#markdown-header-recent-history-default-view)
+- [Recent History default view](#recent-history-default-view)
 
-- [Delete confirmation view](#markdown-header-delete-confirmation-view)
+- [Delete confirmation view](#delete-confirmation-view)
 
-[**F: New Tabs**](#markdown-header-f-new-tabs)
+[**F: New Tabs**](#f-new-tabs)
 
-- [New Tabs default view](#markdown-header-new-tabs-default-view)
+- [New Tabs default view](#new-tabs-default-view)
 
-- [Deleting a Tab](#markdown-header-deleting-a-tab)
+- [Deleting a Tab](#deleting-a-tab)
 
-[**G: Ghost Mode**](#markdown-header-g-ghost-mode)
+[**G: Ghost Mode**](#g-ghost-mode)
 
-- [Ghost Mode default view](#markdown-header-ghost-mode-default-view)
+- [Ghost Mode default view](#ghost-mode-default-view)
 
-- [Managing New Tabs in Ghost Mode](#markdown-header-managing-new-tabs-in-ghost-mode)
+- [Managing New Tabs in Ghost Mode](#managing-new-tabs-in-ghost-mode)
 
-- [Quitting Ghost Mode](#markdown-header-quitting-ghost-mode)
+- [Quitting Ghost Mode](#quitting-ghost-mode)
 
-[**H: Bookmarked Pages**](#markdown-header-h-bookmarked-pages)
+[**H: Bookmarked Pages**](#h-bookmarked-pages)
 
-- [Bookmarked Pages default view](#markdown-header-bookmarked-pages-default-view)
+- [Bookmarked Pages default view](#bookmarked-pages-default-view)
 
-- [Editing Bookmarked Pages](#markdown-header-editing-bookmarked-pages)
+- [Editing Bookmarked Pages](#editing-bookmarked-pages)
 
-- [Deleting a Bookmarked Page](#markdown-header-deleting-a-bookmarked-page)
+- [Deleting a Bookmarked Page](#deleting-a-bookmarked-page)
 
-[**I: Settings**](#markdown-header-i-settings)
+[**I: Settings**](#i-settings)
 
-- [Settings default view](#markdown-header-settings-default-view)
+- [Settings default view](#settings-default-view)
 
-- [Ad blocking options](#markdown-header-ad-blocking-options)
+- [Ad blocking options](#ad-blocking-options)
 
-- [Clear Data options](#markdown-header-clear-data-options)
+- [Clear Data options](#clear-data-options)
 
-- [Clear Data confirmation message](#markdown-header-clear-data-confirmation-message)
+- [Clear Data confirmation message](#clear-data-confirmation-message)
 
-- [Language options](#markdown-header-language-options)
+- [Language options](#language-options)
 
-- [Search Engine options](#markdown-header-search-engine-options)
+- [Search Engine options](#search-engine-options)
 
-[**J: Conditional States**](#markdown-header-j-conditional-states)
+[**J: Conditional States**](#j-conditional-states)
 
-- [First run - Dashboard](#markdown-header-first-run---dashboard)
+- [First run - Dashboard](#first-run---dashboard)
 
-- [First run - Navigation bar](#markdown-header-first-run---navigation-bar)
+- [First run - Navigation bar](#first-run---navigation-bar)
 
-- [Critical error](#markdown-header-critical-error)
+- [Critical error](#critical-error)
 
-[**K: References**](#markdown-header-k-references)
+[**K: References**](#k-references)
 
-- [eyeo Hub Projects](#markdown-header-eyeo-hub-projects)
+- [eyeo Hub Projects](#eyeo-hub-projects)
 
-- [Contributors](#markdown-header-contributors)
+- [Contributors](#contributors)
 
 ***
 
 A: BASIC USER INTERFACE
 -----------------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Launching Adblock Browser**
 
@@ -110,7 +110,7 @@ A: BASIC USER INTERFACE
 **A1 - Splash screen:** After tapping the application icon on their Apple device, the user will see one of two splash screens while Adblock Browser loads in the background. In this case, everything is loading properly and the user sees a prominent logo with the message, 
 > from the makers of **Adblock Plus**
 
-To see what happens when things go wrong, [click here](#markdown-header-critical-error).
+To see what happens when things go wrong, [click here](#critical-error).
 
 ### **Primary User Interface**
 
@@ -131,7 +131,7 @@ To see what happens when things go wrong, [click here](#markdown-header-critical
 B: DASHBOARD
 ------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Dashboard default view**
 
@@ -158,7 +158,7 @@ A blank Navigation bar should always display prompt text that says,
 C: NAVIGATION BAR
 -----------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Entering search terms**
 
@@ -205,7 +205,7 @@ C: NAVIGATION BAR
 D: CONTROL MENU
 ---------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Control menu default view**
 
@@ -248,7 +248,7 @@ D: CONTROL MENU
 E: RECENT HISTORY
 -----------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Recent History default view**
 
@@ -280,7 +280,7 @@ E: RECENT HISTORY
 F: NEW TABS
 -----------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **New Tabs default view**
 
@@ -319,7 +319,7 @@ On the right, an `UNDO` button appears. Tapping this button immediately restores
 G: GHOST MODE
 -------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Ghost Mode default view**
 
@@ -367,7 +367,7 @@ The Navigation bar and Control menu are not accessible in this view.
 H: BOOKMARKED PAGES
 -------------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Bookmarked Pages default view**
 
@@ -406,7 +406,7 @@ H: BOOKMARKED PAGES
 I: SETTINGS
 -----------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **Settings default view**
 
@@ -534,7 +534,7 @@ After tapping the option `Search Engine`, a user will see a list of options.
 J: CONDITIONAL STATES
 ---------------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **First run - Dashboard**
 
@@ -600,7 +600,7 @@ Occasionally something will go wrong and the application either crashes or close
 K: REFERENCES
 ---------------------
 
-[Table of Contents](#markdown-header-table-of-contents)
+[Table of Contents](#table-of-contents)
 
 ### **eyeo Hub Projects**
 

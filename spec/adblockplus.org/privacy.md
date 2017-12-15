@@ -8,12 +8,12 @@
 
 # Privacy Policy
 
-- [Privacy Notice (short version)](#markdown-header-privacy-policy-short-version)
-- [Privacy Policy (long version)](#markdown-header-privacy-policy-long-version)
+- [Privacy Notice (short version)](#privacy-policy-short-version)
+- [Privacy Policy (long version)](#privacy-policy-long-version)
 
 ## Privacy Policy (short version)
 
-The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [Privacy Policy](#markdown-header-privacy-policy-long-version).
+The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [Privacy Policy](#privacy-policy-long-version).
 
 ### What kind of personal data do we process?
 
@@ -89,13 +89,13 @@ Email our [Data Protection Officer](mailto:privacy@eyeo.com).
 
 The following information applies to the collection, processing and use of personal data in connection with our services, as but not limited to, the Adblock Plus extension, Adblock Plus Browser and on our websites.
 
-[General notes](#markdown-header-general-notes)  
-[Who is responsible for data processing?](#markdown-header-who-is-responsible-for-data-processing)  
-[What is personal data?](#markdown-header-what-is-personal-data)  
-[What rights do you have?](#markdown-header-what-rights-do-you-have)  
-[Deletion of your data](#markdown-header-deletion-of-your-data)  
-[Changes to this Privacy Policy](#markdown-header-changes-to-this-privacy-policy)  
-[Collection and processing in our products](collection-and-processing-in-our-products)  
+[General notes](#general-notes)
+[Who is responsible for data processing?](#who-is-responsible-for-data-processing)
+[What is personal data?](#what-is-personal-data)
+[What rights do you have?](#what-rights-do-you-have)
+[Deletion of your data](#deletion-of-your-data)
+[Changes to this Privacy Policy](#changes-to-this-privacy-policy)
+[Collection and processing in our products](collection-and-processing-in-our-products)
 
 ### General notes
 

@@ -2,19 +2,19 @@
 
 Adblock Plus has a system for showing various types of notifications to users under certain conditions.
 
-1. [What's missing from this document](#markdown-header-whats-missing-from-this-document)
+1. [What's missing from this document](#whats-missing-from-this-document)
 
-1. [Notification updates](#markdown-header-notification-updates)
+1. [Notification updates](#notification-updates)
 
-1. [Notification types](#markdown-header-notification-types)
+1. [Notification types](#notification-types)
 
-1. [Closing and disabling notifications](#markdown-header-closing-and-disabling-notifications)
+1. [Closing and disabling notifications](#closing-and-disabling-notifications)
 
-1. [Links in notifications](#markdown-header-links-in-notifications)
+1. [Links in notifications](#links-in-notifications)
 
-1. [When multiple notifications are supposed to be shown](#markdown-header-when-multiple-notifications-are-supposed-to-be-shown)
+1. [When multiple notifications are supposed to be shown](#when-multiple-notifications-are-supposed-to-be-shown)
 
-1. [Notification repository format](#markdown-header-notification-repository-format)
+1. [Notification repository format](#notification-repository-format)
 
 ## What's missing from this document
 
@@ -67,7 +67,7 @@ There are four different types of notification. They all contain translatable te
 
 #### When they show up
 
-If the notification specifies [URL filters](#markdown-header-urls), it does not show up before one of those filters matches. Otherwise, it shows up immediately after the notification update.
+If the notification specifies [URL filters](#urls), it does not show up before one of those filters matches. Otherwise, it shows up immediately after the notification update.
 
 If the notification does not specify an _interval_, it shows up only once. Otherwise, it shows up each time it is triggered and the specified _interval_ has passed since the last time it was shown.
 
@@ -157,7 +157,7 @@ For *information* and *critical* notifications the corresponding ```<a>``` tag i
 
 ![](/res/abp/notifications/information-open-link.png)
 
-Clicking the link will open the [documentation links](/spec/adblockplus.org/documentation-link.md) in a new tab. The notification will remain active, see [closing and disabling notifications](#markdown-header-closing-and-disabling-notifications)
+Clicking the link will open the [documentation links](/spec/adblockplus.org/documentation-link.md) in a new tab. The notification will remain active, see [closing and disabling notifications](#closing-and-disabling-notifications)
 
 For *normal* notifications with one link and additional button will be added. The label of the button will contain the content of the corresponding `<a>` tag from the message. If the buton is clicked the link will be opened in a new tab.
 
