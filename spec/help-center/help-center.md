@@ -7,14 +7,14 @@ The Help Center goals are to:
 
 **Note:** The first release of the Help Center will be focussed just on Adblock Plus help topics. 
 
-1. [General navigation](#markdown-header-general-navigation)
-1. [Product help home](#markdown-header-product-help-home)
-1. [Article page](#markdown-header-article-page)
-1. [Search bar](#markdown-header-search-bar)
-1. [Search results page](#markdown-header-search-results-page)
-1. [Imprint](#markdown-header-imprint)
-1. [Articles table](#markdown-header-articles-table)
-1. [Assets](#markdown-header-assets)
+1. [General navigation](#general-navigation)
+1. [Product help home](#product-help-home)
+1. [Article page](#article-page)
+1. [Search bar](#search-bar)
+1. [Search results page](#search-results-page)
+1. [Imprint](#imprint)
+1. [Articles table](#articles-table)
+1. [Assets](#assets)
 
 ## General Requirements
 
@@ -34,25 +34,25 @@ Should implement the following WCAG 2.0 Guidelines:
 
 ![](/res/help-center/abp-help-navigation.jpg)
 
-1. [Logo](#markdown-header-logo)
-1. [Site search bar](#markdown-header-site-search-bar)
-1. [Product website link](#markdown-header-product-website-link)
-1. [Language selector](#markdown-header-language-selector)
-1. [Footer links](#markdown-header-foot-links)
+1. [Logo](#logo)
+1. [Site search bar](#site-search-bar)
+1. [Product website link](#product-website-link)
+1. [Language selector](#language-selector)
+1. [Footer links](#foot-links)
 
 #### Logo
 
 - The eyeo help logo in the top left corner of the header, links back to the help center homepage (help.eyeo.com). 
 - `eye/o help`
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Go to [Assets](#assets) for image assets.
 
 #### Site search bar
 
 - The site search bar will sit in the header of all pages. 
 - Allows users to search help topics within that product area only (i.e. as a user in the Adblock Plus help area - www.help.eyeo.com/adblockplus, you can only search help topics related to Adblock Plus).
 - The main homepage (www.help.eyeo.com) will be relesased once there is more than one product help center. The search bar on this page will allow the user to search help topics across all product help centers. 
-- See [Search bar](#markdown-header-search-bar) for more details.
-- Go to [Assets](#markdown-header-assets) for image assets.
+- See [Search bar](#search-bar) for more details.
+- Go to [Assets](#assets) for image assets.
 
 #### Product website link
 
@@ -89,7 +89,7 @@ Should implement the following WCAG 2.0 Guidelines:
 
 ### Footer links
 
-- `Legal` will open [Imprint](#markdown-header-imprint)
+- `Legal` will open [Imprint](#imprint)
 - `Privacy Policy` will open [Privacy Policy](https://adblockplus.org/privacy)
 - `[Adblock Plus](https://adblockplus.org) is a registered trademark of [eyeo GmbH](https://eyeo.com)`
 	
@@ -100,36 +100,36 @@ Should implement the following WCAG 2.0 Guidelines:
 - URL: www.help.eyeo.com/adblockplus
 - Title: `Adblock Plus Help Center`
 - Description: `Official Adblock Plus Help Center where you can find tips and tutorials on using Adblock Plus and other answers to frequently asked questions.`
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Go to [Assets](#assets) for image assets.
 
 ![](/res/help-center/abp-help-home.jpg)
 
-1. [ABP help headline](#markdown-header-abp-help-headline)
-1. [Popular topics](#markdown-header-popular-topics)
-1. [Help categories](#markdown-header-help-categories)
-1. [Contact section](#markdown-header-contact-section)
+1. [ABP help headline](#abp-help-headline)
+1. [Popular topics](#popular-topics)
+1. [Help categories](#help-categories)
+1. [Contact section](#contact-section)
 
 ### ABP help headline
 
 - `Adblock Plus Help Center`
-- Go to [Assets](#markdown-header-assets) for assets.
+- Go to [Assets](#assets) for assets.
 
 ### Popular topics
 
 - Section headline `Popular topics`
 - Float items across 2 columns. 
 - Show up to 6 popular topics. The 6 popular topics will be fixed and defined by us. 
-- Refer to [Articles Table](#markdown-header-articles-table) for article titles and text. 
+- Refer to [Articles Table](#articles-table) for article titles and text.
 
 ### Help categories
 
-- Refer to  [Articles Table](#markdown-header-articles-table) for article titles and text. 
-- All Adblock Plus help center articles are grouped into the following categories: 
+- Refer to  [Articles Table](#articles-table) for article titles and text.
+- All Adblock Plus help center articles are grouped into the following categories:
 	- `Customization & Settings`
 	- `Troubleshooting & reporting`
 	- `Installation`
 	- `Adblock Plus for mobile`
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Go to [Assets](#assets) for image assets.
 
 ### Contact section
 
@@ -144,7 +144,7 @@ Should implement the following WCAG 2.0 Guidelines:
 	- Title: `Looking for developers support?`
 	- Body: `Find source code, release notes, advanced documentation and more.`
 	- Opens in a new tab [Developer support](https://adblockplus.org/forum)
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Go to [Assets](#assets) for image assets.
 	
 ## Article page 
 
@@ -154,21 +154,21 @@ Should implement the following WCAG 2.0 Guidelines:
 
 ![](/res/help-center/abp-help-article.jpg)
 
-1. [Breadcrumb](#markdown-header-breadcrumb)
-1. [Article title](#markdown-header-article-title)
-1. [Browser detection](#markdown-header-browser-detection)
-1. [Article](#markdown-header-article)
-1. [Accordion menu](#markdown-header-accordion-menu)
+1. [Breadcrumb](#breadcrumb)
+1. [Article title](#article-title)
+1. [Browser detection](#browser-detection)
+1. [Article](#article)
+1. [Accordion menu](#accordion-menu)
 
 ### Breadcrumb
 
 - `<PRODUCT> Help [1]` - `<Article title>`
-- [1] [Product help home](#markdown-header-product-help-home) 
+- [1] [Product help home](#product-help-home)
 	
 ### Article title
 
-- Refer to  [Articles Table](#markdown-header-articles-table) for article titles and text. 
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Refer to  [Articles Table](#articles-table) for article titles and text.
+- Go to [Assets](#assets) for image assets.
 
 ### Browser detection
 
@@ -178,8 +178,8 @@ Should implement the following WCAG 2.0 Guidelines:
 
 ### Article
 
-- Refer to  [Articles Table](#markdown-header-articles-table) for article titles and text. 
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Refer to  [Articles Table](#articles-table) for article titles and text.
+- Go to [Assets](#assets) for image assets.
 
 ### Accordion menu
 
@@ -191,7 +191,7 @@ Should implement the following WCAG 2.0 Guidelines:
 - All product articles are listed in the accordion menu and grouped by categories replicating the groups on the homepage.
 - The active category is expanded, and all other sections collapsed.
 - Selecting to expand a different section, will automatically collapse other sections. 
-- Go to [Assets](#markdown-header-assets) for image assets.
+- Go to [Assets](#assets) for image assets.
 
 ## Search bar
 
@@ -209,9 +209,9 @@ Should implement the following WCAG 2.0 Guidelines:
 
 ![](/res/help-center/abp-help-search-results.jpg)
 
-1. [Search results header](#markdown-header-search-results-header)
-1. [Number of results](#markdown-header-number-of-results)
-1. [Results](#markdown-header-results)
+1. [Search results header](#search-results-header)
+1. [Number of results](#number-of-results)
+1. [Results](#results)
 
 ### Search results header
 

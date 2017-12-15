@@ -6,12 +6,12 @@ The options page is used to change various options of the ABP Firefox mobile ext
 
 ### Index
 
-1. [General requirements](#markdown-header-general-requirements)
-1. [Firefox menu](#markdown-header-firefox-menu)
-1. [Homescreen](#markdown-header-homescreen)
-1. [Adding filter lists](#markdown-header-adding-filter-lists)
-1. [Filter lists](#markdown-header-filter-lists)
-1. [Assets](#markdown-header-assets)
+1. [General requirements](#general-requirements)
+1. [Firefox menu](#firefox-menu)
+1. [Homescreen](#homescreen)
+1. [Adding filter lists](#adding-filter-lists)
+1. [Filter lists](#filter-lists)
+1. [Assets](#assets)
 
 ### General requirements 
 #### Bidirectionality
@@ -67,7 +67,7 @@ Switching it to "on" will
 `Enable Adblock Plus on <website URL>`
 
 #### Filter subscriptions
-See [Filter subscriptions](#markdown-header-filter-subscriptions) for more details.
+See [Filter subscriptions](#filter-subscriptions) for more details.
 
 #### Enabling/ Disabling Acceptable Ads
 Toggle to allow/ disallow Acceptable Ads
@@ -79,7 +79,7 @@ Toggle subscribes/ unsubscribes the user from the Acceptable Ads filter list.
 ##### Toggle text
 `Allow some nonintrusive advertising. [Learn more][1]`
 
-[1]: Opens [Documentation link](/spec/abp/prefs.md#markdown-header-documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
+[1]: Opens [Documentation link](/spec/abp/prefs.md#documentation-link): `%LINK%=acceptable_ads_criteria` in a new tab.
 
 #### Filter subscriptions
 ![](/res/abp/firefox-mobile-options-page/firefox-mob-options-page.jpg)
@@ -91,16 +91,16 @@ Toggle subscribes/ unsubscribes the user from the Acceptable Ads filter list.
 ##### Filter subscriptions list 
 Lists all language filter subscriptions.
 
-Display `Subscription title` in the list, as specified in the [Filter lists ](#markdown-header-filter-lists).
+Display `Subscription title` in the list, as specified in the [Filter lists ](#filter-lists).
 
 ##### Bin icon 
 Removes the filter list from the extension.
 
 ##### Button 
-`+ ADD A FILTER LIST` button triggers the [Filter subscriptions layover](#markdown-header-filter-subscriptions-layover).
+`+ ADD A FILTER LIST` button triggers the [Filter subscriptions layover](#filter-subscriptions-layover).
 
 ### Adding filter lists
-Adding a filter list through an ABP auto-subscribe link from an external site will trigger the [Custom filter form](#markdown-header-custom-filter-form). 
+Adding a filter list through an ABP auto-subscribe link from an external site will trigger the [Custom filter form](#custom-filter-form).
 
 The fields should auto-populate with the filter subscription title and URL link. 
 
@@ -108,7 +108,7 @@ The fields should auto-populate with the filter subscription title and URL link.
 ![](/res/abp/firefox-mobile-options-page/firefox-mob-options-page-filter-subscriptions.jpg)
 
 ##### Overview
-List items are specified in [Filter lists](#markdown-header-filter-lists).
+List items are specified in [Filter lists](#filter-lists).
 
 ##### Behaviour
 Scrollable area is fixed relative to the height of the screen size of the device. 
@@ -122,7 +122,7 @@ Tapping anywhere outside of the modal dialog will close it.
 ##### Button
 `+ ADD A CUSTOM FILTER LIST` button is fixed to the bottom of the layover. 
 
-Selecting the button triggers the [Custom filter form](#markdown-header-custom-filter-form) in a modal window.
+Selecting the button triggers the [Custom filter form](#custom-filter-form) in a modal window.
 
 ### Filter lists
 Include only the language filter lists in the layover.
@@ -147,7 +147,7 @@ Refer to [Filter lists](/spec/abp/filter-lists.md) document for list of language
 - When a field is active or contains data, the label text floats above the input area.
 
 ##### Adding a filter list
-`ADD FILTER LIST` subscribes to and enables the corresponding filter list, closes the form and adds the filter subscription to the bottom of the [Filter subscriptions ](#markdown-header-filter-subscriptions) list. 
+`ADD FILTER LIST` subscribes to and enables the corresponding filter list, closes the form and adds the filter subscription to the bottom of the [Filter subscriptions ](#filter-subscriptions) list.
 
 ##### Cancel
 `CANCEL` button ignores all entries and closes the form. 
@@ -156,7 +156,7 @@ Refer to [Filter lists](/spec/abp/filter-lists.md) document for list of language
 - On larger screens, the modal dialog should maintain its fixed height and extend to a maximum width of 25em.
 - On smaller screens, the modal dialog should have a minimum width based on the width of the input fields (220px).  
 
-See also [Filter subscriptions validation](#markdown-header-filter-subscriptions-validation)
+See also [Filter subscriptions validation](#filter-subscriptions-validation)
 
 #### Filter subscriptions validation
 

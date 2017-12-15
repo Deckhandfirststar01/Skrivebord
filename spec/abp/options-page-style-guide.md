@@ -3,18 +3,18 @@
 This this the style guide for Adblock Plus desktop and mobile browser extension.
 
 ## Index
-1. [Typography](#markdown-header-typography)
-1. [Colour](#markdown-header-colour)
-1. [Navigation](#markdown-header-navigation)
-1. [Section style](#markdown-header-section-style)
-1. [Checkbox](#markdown-header-checkbox)
-1. [Radio buttons](#markdown-header-radio-buttons)
-1. [Buttons](#markdown-header-buttons)
-1. [Popups](#markdown-header-popups)
-1. [Dropdown](#markdown-header-dropdown)
-1. [Modal overlays](#markdown-header-modal-overlays)
-1. [Tables](#markdown-header-tables)
-1. [Text box](#markdown-header-text-box)
+1. [Typography](#typography)
+1. [Colour](#colour)
+1. [Navigation](#navigation)
+1. [Section style](#section-style)
+1. [Checkbox](#checkbox)
+1. [Radio buttons](#radio-buttons)
+1. [Buttons](#buttons)
+1. [Popups](#popups)
+1. [Dropdown](#dropdown)
+1. [Modal overlays](#modal-overlays)
+1. [Tables](#tables)
+1. [Text box](#text-box)
 
 ## Typography
 ### Desktop
@@ -106,7 +106,7 @@ For wider screens increase the width of the section area (second column) and cen
 |------|------|
 | Rest state (one language) | ![](/res/abp/options-page/style-guide/language-1-rest.jpg) |
 | Hover-over state | ![](/res/abp/options-page/style-guide/language-2-hover.jpg) |
-| Language overlay | [See Dropdown overlay](#markdown-header-dropdown-overlay) |
+| Language overlay | [See Dropdown overlay](#dropdown-overlay) |
 | New language added | ![](/res/abp/options-page/style-guide/language-4-two-languages.jpg) [1] |
 
 [1] Border highlight disappears after there has been a new interaction on the page.
@@ -121,7 +121,7 @@ For wider screens increase the width of the section area (second column) and cen
 #### Mobile dropdown
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-filter-subscriptions.jpg)
 
- See also [Mobile style guide](#markdown-header-mobile-style-guide)
+ See also [Mobile style guide](#mobile-style-guide)
  
 ### Informational overlay
 ![](/res/abp/options-page/style-guide/about-overlay.jpg)
@@ -139,7 +139,7 @@ For wider screens increase the width of the section area (second column) and cen
 ##### Mobile form overlay
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-url-filter.jpg)
 
-See also [Mobile style guide](#markdown-header-mobile-style-guide)
+See also [Mobile style guide](#mobile-style-guide)
 
 ## Tables
 ### Default
@@ -166,7 +166,7 @@ See also [Mobile style guide](#markdown-header-mobile-style-guide)
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page.jpg)
 
 ### Mobile modal screen
-See [Mobile form overlay](#markdown-header-mobile-form-overlay)
+See [Mobile form overlay](#mobile-form-overlay)
 
 ### Mobile modal dropdown
-See [Mobile dropdown](#markdown-header-mobile-dropdown)
+See [Mobile dropdown](#mobile-dropdown)

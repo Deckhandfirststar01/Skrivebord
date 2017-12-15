@@ -10,7 +10,7 @@
 
 ## Privacy Notice <small>(short version)</small>
 
-The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [Privacy Policy](#markdown-header-privacy-policy-long-version).
+The following privacy notice shall provide you with a general overview about the collection, processing and use (hereinafter together referred to as "processing") of your personal data. For more information regarding our processing activities, please view our complete [Privacy Policy](#privacy-policy-long-version).
 
 ### What kind of data do we process?
 
