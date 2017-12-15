@@ -3,6 +3,7 @@
 This this the style guide for Adblock Plus desktop and mobile browser extension.
 
 ## Index
+
 1. [Typography](#typography)
 1. [Colour](#colour)
 1. [Navigation](#navigation)
@@ -17,42 +18,45 @@ This this the style guide for Adblock Plus desktop and mobile browser extension.
 1. [Text box](#text-box)
 
 ## Typography
+
 ### Desktop
+
 Font: Source Sans Pro
 
-Line height: 1.5em
+Line height: 1.3em
 
 # H1: Main Heading - 300 (light), 3em, #4A4A4A
-## H2: Section header - 700 (bold), 1.375em, #4A4A4A
-### H3: Bold content within body or form labels - 700 (bold), 1.375em, #4A4A4A
 
-Body: Regular, 400 (regular), 1.25em, #4A4A4A
+## H2: Section header - 700 (bold), 1.125em, #4A4A4A
 
-**Body emphasized: 700 (bold), 1.25em #4A4A4A**
+### H3: Bold content within body or form labels - 700 (bold), 1em, #4A4A4A / #FFF
 
-Text link: 400 (regular), 1.25em #099CD0
+Body: Regular, 400 (regular), 1em, #4A4A4A
 
-Instruction text: Regular, 400 (regular), 1.125em, #4A4A4A
+**Body emphasized: 700 (bold), 1em #4A4A4A**
 
-**LABEL: BUTTON TEXT - 700 (bold), 1.125em, #099CD0/ #FFF**
+Text link: 400 (regular), 1em #077CA6 (underlined)
 
-List item: Line height: 2.5em
+**LABEL: BUTTON TEXT - 700 (bold), 1em, #077CA6 / #FFF**
 
 ### Mobile
+
 # H1: Main Heading - 400 (regular), 1.15em, #4A4A4A
+
 ## H2: Section header - 700 (bold), 1.1em, #4A4A4A
 
 Body: 400 (regular), 1em #4A4A4A
 
 **Body emphasized: 700 (bold), 1em #4A4A4A**
 
-Text link: 400 (regular), 1em #099CD0
+Text link: 400 (regular), 1em #077CA6
 
-**LABEL: BUTTON TEXT - 700 (bold), 1em, #099CD0/ #FFF**
+**LABEL: BUTTON TEXT - 700 (bold), 1em, #077CA6 / #FFF**
 
-List item: Line height: 2em
+Line height: 2em
 
 ## Color
+
 ![](/res/abp/options-page/style-guide/color-light-grey.jpg)
 ![](/res/abp/options-page/style-guide/color-grey.jpg)
 ![](/res/abp/options-page/style-guide/color-dark-grey.jpg)
@@ -64,14 +68,17 @@ List item: Line height: 2em
 ![](/res/abp/options-page/style-guide/color-red.jpg)
 
 ## Navigation
-![](/res/abp/options-page/style-guide/style-navigation-menu.jpg)
+
+![](/res/abp/options-page/style-guide/navigation-menu.jpg)
 
 For wider screens increase the width of the section area (second column) and center the entire options page.
 
 ## Section style 
+
 ![](/res/abp/options-page/style-guide/section-style.jpg) 
 
 ## Checkbox 
+
 | State | Image |
 |------|------|
 | Rest state | ![](/res/abp/options-page/style-guide/checkbox-1-rest-state.jpg) |
@@ -80,9 +87,11 @@ For wider screens increase the width of the section area (second column) and cen
 | Selected state | ![](/res/abp/options-page/style-guide/checkbox-4-selected-state.jpg) |
 
 ## Radio buttons
+
 ![](/res/abp/options-page/style-guide/radio-buttons.jpg)
 
 ## Buttons
+
 | State | Image |
 |------|------|
 | Primary button (active) | ![](/res/abp/options-page/style-guide/primary-button-1-active.jpg) |
@@ -92,81 +101,108 @@ For wider screens increase the width of the section area (second column) and cen
 | Secondary button (hover) | ![](/res/abp/options-page/style-guide/secondary-button-2-hover.jpg) |
 
 ## Popups
+
 ### Tooltips
+
 ![](/res/abp/options-page/style-guide/tooltip-style.jpg)
 
 ### Gear icon
+
 ![](/res/abp/options-page/style-guide/gear-popup.jpg)
 
 ### Banner notifications
+
 ![](/res/abp/options-page/style-guide/whitelisted-websites-notification.jpg)
 
 ## Dropdown
+
 | State | Image |
 |------|------|
 | Rest state (one language) | ![](/res/abp/options-page/style-guide/language-1-rest.jpg) |
 | Hover-over state | ![](/res/abp/options-page/style-guide/language-2-hover.jpg) |
 | Language overlay | [See Dropdown overlay](#dropdown-overlay) |
-| New language added | ![](/res/abp/options-page/style-guide/language-4-two-languages.jpg) [1] |
+| New language added | ![](/res/abp/options-page/style-guide/language-3-multiple.jpg) [1] |
 
 [1] Border highlight disappears after there has been a new interaction on the page.
 
 ## Modal overlays
+
 ### Action overlay
+
 ![](/res/abp/options-page/style-guide/modal-overlay.jpg)
 
 ### Dropdown overlay
-![](/res/abp/options-page/style-guide/language-3-overlay.jpg)
+
+![](/res/abp/options-page/style-guide/language-overlay.jpg)
 
 #### Mobile dropdown
+
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-filter-subscriptions.jpg)
 
  See also [Mobile style guide](#mobile-style-guide)
  
 ### Informational overlay
+
 ![](/res/abp/options-page/style-guide/about-overlay.jpg)
 
 ### Form overlay
+
 #### Form default
+
 ![](/res/abp/options-page/style-guide/modal-window-form-default.jpg)
 
 #### Form valid
+
 ![](/res/abp/options-page/style-guide/modal-window-form-valid.jpg)
 
 #### Form error
+
 ![](/res/abp/options-page/style-guide/modal-window-form-error.jpg)
 
 ##### Mobile form overlay
+
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page-url-filter.jpg)
 
 See also [Mobile style guide](#mobile-style-guide)
 
 ## Tables
+
 ### Default
+
 ![](/res/abp/options-page/style-guide/table-style.jpg)
 
 ### Complex table
+
 ![](/res/abp/options-page/style-guide/complex-table.jpg)
 
 ### Empty state
+
 ![](/res/abp/options-page/style-guide/empty-state.jpg)
 
 ## Text box
+
 ### Default state
+
 ![](/res/abp/options-page/style-guide/text-box.jpg)
 
 ### Active state
+
 ![](/res/abp/options-page/style-guide/text-box-hover.jpg)
 
 ### Error state
+
 ![](/res/abp/options-page/style-guide/text-box-error.jpg)
 
 ## Mobile style guide
+
 ### Mobile home screen
+
 ![](/res/abp/firefox-mobile-options-page/style-guide/style-firefox-mob-options-page.jpg)
 
 ### Mobile modal screen
+
 See [Mobile form overlay](#mobile-form-overlay)
 
 ### Mobile modal dropdown
+
 See [Mobile dropdown](#mobile-dropdown)
