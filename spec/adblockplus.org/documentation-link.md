@@ -82,6 +82,7 @@ The Documentation link page is used by the our adblocking products to redirect t
 |adblock_plus|IF APL|-|`https://adblockplus.org`|
 |eyeo|IF APL|-|`https://eyeo.com`|
 |developer|-|-|`https://adblockplus.org/forum/viewforum.php?f=4`|
+|help_center|-|-|`http://help.eyeo.com`|
 
 [1] ***Locale***: *-* ignore locale, `*` apply for all unspecified locales, `xy` apply only for specified locale, *IF APL* (If applicable) redirect to locale specific document if applicable
 
