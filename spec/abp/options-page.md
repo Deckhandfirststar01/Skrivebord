@@ -91,9 +91,10 @@ X closes the layover.
 
 1. [General tab headline](#general-tab-headline)
 1. [General tab description](#general-tab-description)
-1. [Privacy & Security section](#privacy--security-section)
+1. [Privacy & Security section](#privacy-security-section)
 1. [Acceptable Ads section](#acceptable-ads-section)
 1. [Language section](#language-section)
+1. [Anti-Circumvention section](#anti-circumvention-section)
 1. [More filters section](#more-filters-section)
 
 #### General tab headline
@@ -300,6 +301,19 @@ To remove a language from the table, select the bin icon in the language row.
 When alll language filter lists have been removed from the extension.
 
 Note: it is only possible to remove all language filter lists in [Remove filter list subscriptions](#remove-filter-list-subscriptions) in the Advanced tab.
+
+### Anti-Circumvention section
+
+Dedicated section with checkbox to:
+1. Install and enable the `ABP Anti-Circumvention Filter List` 
+1. Uninstall the `ABP Anti-Circumvention Filter List` 
+
+| Item | Text |
+| --- | --- |
+| Section title | `Anti-Circumvention` |
+| Filter list title | `ABP Anti-Circumvention Filter List` |
+| Label | `NEW` |
+| Tooltip | `This filter list works against circumvention (i.e. techniques to force ads on ad-blocking users). These filters address circumventing ads as well as related tracking.` |
 
 ### More filters section
 
