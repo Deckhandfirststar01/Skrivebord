@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "content": "10 20 30",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 17,
+      "endPos": 25
+    }
+  ],
+  [
+    {
+      "content": "28657 46368 75025",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 26,
+      "endPos": 43
+    }
+  ],
+  [
+    {
+      "content": "0 0 0",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 44,
+      "endPos": 49
+    }
+  ],
+  [
+    {
+      "content": "8235 49 8284",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 51,
+      "endPos": 63
+    }
+  ],
+  [
+    {
+      "content": "4 145 149",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 64,
+      "endPos": 73
+    }
+  ],
+  [
+    {
+      "content": "1917 27 1944",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 110,
+      "endPos": 122
+    }
+  ],
+  [
+    {
+      "content": "6858 8669 15527",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 137,
+      "endPos": 152
+    }
+  ],
+  [
+    {
+      "content": "2 765 767",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 202,
+      "endPos": 211
+    }
+  ],
+  [
+    {
+      "content": "267 8031 8298",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 212,
+      "endPos": 225
+    }
+  ],
+  [
+    {
+      "content": "38 7869 7907",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 240,
+      "endPos": 252
+    }
+  ],
+  [
+    {
+      "content": "71982 2346 74328",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 280,
+      "endPos": 296
+    }
+  ],
+  [
+    {
+      "content": "3 8117 8120",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 304,
+      "endPos": 315
+    }
+  ],
+  [
+    {
+      "content": "720 208 928",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 316,
+      "endPos": 327
+    }
+  ],
+  [
+    {
+      "content": "2268 53 2321",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 391,
+      "endPos": 403
+    }
+  ],
+  [
+    {
+      "content": "9 37717 37726",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 404,
+      "endPos": 417
+    }
+  ],
+  [
+    {
+      "content": "5 949 954",
+      "isParticipating": true,
+      "groupNum": 0,
+      "groupName": null,
+      "startPos": 418,
+      "endPos": 427
+    }
+  ]
+]

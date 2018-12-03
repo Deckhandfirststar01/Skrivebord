@@ -1,0 +1,27 @@
+FetchMock.flush = function() {
+	return Promise.all(this._holdingPromises);
+};
+FetchMock.fetchHandler = function(url, opts) {
+	const response = this.executeRouter(url, opts);
+
+	[...]
+
+	// this is used to power the .flush() method
+	let done;
+	this._holdingPromises.push(new this.config.Promise(res => (done = res)));
+
+	// wrapped in this promise to make sure we respect custom Promise
+	// constructors defined by the user
+	return new this.config.Promise((res, rej) => {
+		this.generateResponse(response, url, opts)
+			.then(res, rej)
+			.then(done, done);
+	});
+};
+/var/jenkins_home/secrets/initialAdminPassword
+
+https://functions-ggaley112.azurewebsites.net/api/GithubWebhookJS1?clientId=default
+
+tRsNiEG83sZaGQ8W8x79H9dizHj8ZdM4enRen0annFrT4VxdXzbGvA==
+
+To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code C5DKU34A8 to authenticate.
